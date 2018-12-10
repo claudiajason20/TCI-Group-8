@@ -1,6 +1,6 @@
 public class Books {
     public int numberOfData() {
-        int num = 0;
+        int num = 1;
         return num;
     }
 }
