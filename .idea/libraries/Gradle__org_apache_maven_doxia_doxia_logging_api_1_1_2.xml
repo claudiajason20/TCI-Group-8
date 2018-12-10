@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.doxia:doxia-logging-api:1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-logging-api/1.1.2/13b7385b902c62e0bf7d81b57115c09de92c7dfd/doxia-logging-api-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-logging-api/1.1.2/897767ffc035de0878b1eaea39731d6c122226d7/doxia-logging-api-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven:maven-settings:2.0.10">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.0.10/f092b75e2846e92880753ff60e5633554c308743/maven-settings-2.0.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-settings/2.0.10/54c09bdd3c1ca32c2913ec9c579d694d86ab52a0/maven-settings-2.0.10-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

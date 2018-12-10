@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.doxia:doxia-module-xhtml:1.1.2">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-module-xhtml/1.1.2/11566856aa0bd7780842de4be791d583df8ad8bf/doxia-module-xhtml-1.1.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-module-xhtml/1.1.2/a348d9d85ce5c6d061ae7822453bc5bfcee34268/doxia-module-xhtml-1.1.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

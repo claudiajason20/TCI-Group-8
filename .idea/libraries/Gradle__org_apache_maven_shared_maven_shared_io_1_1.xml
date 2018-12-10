@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.shared:maven-shared-io:1.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-shared-io/1.1/2e1d57be05ecac7dbe56a3c73b113e98f22240f/maven-shared-io-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.maven.shared/maven-shared-io/1.1/5bfe81efebea2e53767f1cfabf236c2acd899af0/maven-shared-io-1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
