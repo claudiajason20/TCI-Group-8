@@ -6,6 +6,6 @@ class Books {
 
     public String getTitle() {
         String cat = "meow";
-        return "something";
+        return cat;
     }
 }
