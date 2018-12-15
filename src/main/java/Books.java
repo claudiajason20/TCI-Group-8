@@ -12,6 +12,15 @@ class Books {
     public Books() {
     }
 
+    /**
+     * @param id
+     * @param format
+     * @param authors
+     * @param isbn
+     * @param publisher
+     * @param year
+     * @param genre
+     */
     public Books(int id, String format, ArrayList<String> authors, String isbn, String publisher, String year, String genre) {
         this.id = id;
         this.format = format;
@@ -81,6 +90,9 @@ class Books {
         return isbn;
     }
 
+    /**
+     * @param s
+     */
     public void setYear(String s) {
         year = s;
     }
