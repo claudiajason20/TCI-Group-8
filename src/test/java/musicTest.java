@@ -31,6 +31,11 @@ public class musicTest {
         Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
         //assert is handled by the exception
     }
+
+    /**
+     * This test have the intention to check whether the music came earlier from the date of recording history or nto
+     * @throws musicYearException
+     */
     @Test(expected=musicYearException.class)
     public void musicYearDoesNotComeFromBeyondRecordingTimeAssertion() throws musicYearException{
         //arrange
