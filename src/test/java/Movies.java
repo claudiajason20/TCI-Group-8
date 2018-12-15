@@ -1,4 +1,6 @@
+import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Calendar;
 
 /**
  * Movies class
@@ -26,7 +28,7 @@ public class Movies {
      * @param stars
      */
     public Movies(int id, String name, String genre, String format, String year, String director, ArrayList<String> writer, ArrayList<String> star) {
-    if(name==null || id==0)
+    if(name==null || id==0 || Integer.parseInt(year)<=1900)
     {
     throw new IllegalArgumentException();
     }
