@@ -40,6 +40,16 @@ public class BookTest {
         assertEquals("007-6092046981", book.getIsbn());
     }
 
+    @Test
+    public void yearIsNotOlderThan1970(){
+        //arrange
+        Books book = new Books();
+        //act
+        book.setYear("1971");
+        //assert
+        assertTrue(Integer.parseInt(book.getYear())>=1970);
+    }
+
 
 
 
