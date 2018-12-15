@@ -52,8 +52,24 @@ public class musicTest {
         //act
         Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
         //assert is handled by the exception
+    }
+    @Test(expected=musicParameterException.class)
+    public void parameterForMusicShouldNotBeNullException() throws musicYearException{
+        //arrange
 
+        int id=301;
+        String Title=null;
 
+        String Category=null;
+        String Genre=null;
+        String Format=null;
+        int Year=2012;
+        String Artist=null;
+
+        //act
+        Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
+        //assert is handled by the exception
     }
 
-  }
+
+}

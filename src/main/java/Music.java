@@ -9,7 +9,7 @@ public class Music {
     String mu_artist;
 
     int mu_year;
-
+    int historyDate=1877;
     public Music(int id,String title, String category, String genre, String format, int year, String artist) throws musicYearException {
         mu_id=id;
         mu_title = title;
@@ -17,7 +17,7 @@ public class Music {
         mu_genre = genre;
         mu_format = format;
         LocalDate localDate = LocalDate.now();
-        if(year<=localDate.getYear()&&year>=1877){
+        if(year<=localDate.getYear()&&year>=historyDate){
             mu_year = year;
         }
         else throw new musicYearException("Music Year is not valid!");
