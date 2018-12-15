@@ -1,2 +1,27 @@
+import java.time.LocalDate;
+
 public class Music {
+    int mu_id;
+    String mu_title;
+    String mu_category;
+    String mu_genre;
+    String mu_format;
+    String mu_artist;
+
+    int mu_year;
+
+    public Music(int id,String title, String category, String genre, String format, int year, String artist) throws musicYearException {
+        mu_id=id;
+        mu_title = title;
+        mu_category = category;
+        mu_genre = genre;
+        mu_format = format;
+        LocalDate localDate = LocalDate.now();
+        if(year<=localDate.getYear()){
+            mu_year = year;
+        }
+        else throw new musicYearException("Music are not supposed to come from the future!");
+        mu_artist = artist;
+    }
+
 }
