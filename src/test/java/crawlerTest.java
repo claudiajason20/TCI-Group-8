@@ -7,9 +7,12 @@ public class crawlerTest {
     @Test
     public void verifyThatUrlIsValidBeforeAddedToUrlQueue(){
         //arrange
-        String url="google.com/";
+        String url="https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
+        boolean validUrl;
         //act
-        crawler.addLink(url);
+        validUrl=crawler.verifyUrl(url);
         //assertion is done by the exception
+        assertTrue(validUrl);
+
     }
 }
