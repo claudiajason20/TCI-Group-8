@@ -53,6 +53,12 @@ public class musicTest {
         Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
         //assert is handled by the exception
     }
+
+    /**
+     * this test verifies that the parameter for the music class are not supposed to be null
+     * @throws musicYearException
+     * @throws musicParameterException
+     */
     @Test(expected=musicParameterException.class)
     public void parameterForMusicShouldNotBeNullException() throws musicYearException, musicParameterException {
         //arrange
