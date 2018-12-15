@@ -26,6 +26,7 @@ public class WCAControllerTest {
         //act
         int q=movies.getid();
         //arrange
+        Assert.assertEquals(1,q);
         verify(movies,times(1)).getid();
 
 
