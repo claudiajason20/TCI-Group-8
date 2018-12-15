@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BookTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -97,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+            <state relative-caret-position="228">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -115,8 +116,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            <state relative-caret-position="245">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
               <folding>
                 <element signature="e#204#205#0" expanded="true" />
                 <element signature="e#229#230#0" expanded="true" />
@@ -126,11 +127,13 @@
                 <element signature="e#350#351#0" expanded="true" />
                 <element signature="e#950#951#0" expanded="true" />
                 <element signature="e#978#979#0" expanded="true" />
-                <element signature="e#1421#1422#0" expanded="true" />
-                <element signature="e#1518#1519#0" expanded="true" />
-                <element signature="e#1612#1613#0" expanded="true" />
+                <element signature="e#1489#1490#0" expanded="true" />
+                <element signature="e#1586#1587#0" expanded="true" />
+                <element signature="e#1680#1681#0" expanded="true" />
                 <element signature="e#1491#1492#0" expanded="true" />
                 <element signature="e#1512#1513#0" expanded="true" />
+                <element signature="e#1743#1744#0" expanded="true" />
+                <element signature="e#1768#1769#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -161,8 +164,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Movies.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
+        <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
       </list>
     </option>
   </component>
@@ -214,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544889345556" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544889589791" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -235,26 +238,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BookTest.yearIsNotOlderThan1970">
-    <configuration name="TCI-Group-8 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JUnit.BookTest.titleIsNotNull">
     <configuration name="BookTest.BookIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -285,6 +269,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BookTest.titleIsNotNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BookTest" />
+      <option name="METHOD_NAME" value="titleIsNotNull" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookTest.yearIsNotOlderThan1970" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -296,19 +290,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.TCI-Group-8 [build]" />
       <item itemvalue="JUnit.BookTest.BookIsEmpty" />
       <item itemvalue="JUnit.BookTest.genreIsNotNull" />
       <item itemvalue="JUnit.BookTest.constructorIsNotNull" />
       <item itemvalue="JUnit.BookTest.yearIsNotOlderThan1970" />
+      <item itemvalue="JUnit.BookTest.titleIsNotNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BookTest.titleIsNotNull" />
         <item itemvalue="JUnit.BookTest.yearIsNotOlderThan1970" />
         <item itemvalue="JUnit.BookTest.constructorIsNotNull" />
         <item itemvalue="JUnit.BookTest.genreIsNotNull" />
         <item itemvalue="JUnit.BookTest.BookIsEmpty" />
-        <item itemvalue="Gradle.TCI-Group-8 [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +323,7 @@
       <workItem from="1544437518967" duration="430000" />
       <workItem from="1544438721527" duration="269000" />
       <workItem from="1544716038348" duration="1319000" />
-      <workItem from="1544877838012" duration="7530000" />
+      <workItem from="1544877838012" duration="7663000" />
     </task>
     <servers />
   </component>
@@ -366,7 +360,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17152000" />
+    <option name="totallyTimeSpent" value="17285000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -469,8 +463,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        <state relative-caret-position="245">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
           <folding>
             <element signature="e#204#205#0" expanded="true" />
             <element signature="e#229#230#0" expanded="true" />
@@ -480,19 +474,21 @@
             <element signature="e#350#351#0" expanded="true" />
             <element signature="e#950#951#0" expanded="true" />
             <element signature="e#978#979#0" expanded="true" />
-            <element signature="e#1421#1422#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1612#1613#0" expanded="true" />
+            <element signature="e#1489#1490#0" expanded="true" />
+            <element signature="e#1586#1587#0" expanded="true" />
+            <element signature="e#1680#1681#0" expanded="true" />
             <element signature="e#1491#1492#0" expanded="true" />
             <element signature="e#1512#1513#0" expanded="true" />
+            <element signature="e#1743#1744#0" expanded="true" />
+            <element signature="e#1768#1769#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="54" column="17" lean-forward="true" selection-start-line="54" selection-start-column="17" selection-end-line="54" selection-end-column="17" />
+        <state relative-caret-position="228">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>

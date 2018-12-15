@@ -29,7 +29,7 @@ public class BookTest {
         ArrayList<String> author = new ArrayList<>();
         author.add("Robert C. Martin");
         //act
-        Books book = new Books(1,"Audio",author,"007-6092046981","Prentice Hall","2011","Tech");
+        Books book = new Books(1,"Audio",author,"007-6092046981","Prentice Hall","2011","Tech","Clean Code: A Handbook of Agile Software Craftsmanship");
         //assert
         assertEquals(1,book.getId());
         assertEquals("Audio",book.getFormat());
@@ -56,6 +56,7 @@ public class BookTest {
         Books book = new Books();
         //act
         book.setTitle("Clean Code: A Handbook of Agile Software Craftsmanship");
+        //assert
         assertEquals("Clean Code: A Handbook of Agile Software Craftsmanship", book.getTitle());
     }
 

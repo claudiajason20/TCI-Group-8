@@ -8,6 +8,7 @@ class Books {
     private String publisher;
     private String year;
     private String genre;
+    private String title;
 
     public Books() {
     }
@@ -21,7 +22,7 @@ class Books {
      * @param year
      * @param genre
      */
-    public Books(int id, String format, ArrayList<String> authors, String isbn, String publisher, String year, String genre) {
+    public Books(int id, String format, ArrayList<String> authors, String isbn, String publisher, String year, String genre, String title) {
         this.id = id;
         this.format = format;
         this.authors = authors;
@@ -29,6 +30,7 @@ class Books {
         this.publisher = publisher;
         this.year = year;
         this.genre = genre;
+        this.title = title;
     }
 
     public int numberOfData() {
@@ -37,8 +39,7 @@ class Books {
     }
 
     public String getTitle() {
-        String cat = "meow";
-        return cat;
+        return title;
     }
 
     /**
@@ -95,5 +96,9 @@ class Books {
      */
     public void setYear(String s) {
         year = s;
+    }
+
+    public void setTitle(String s) {
+        title = s;
     }
 }
