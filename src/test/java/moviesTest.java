@@ -26,7 +26,22 @@ public class moviesTest {
         Assert.assertEquals(DIRECTOR,movies.getdirector());
         Assert.assertEquals(WRITER,movies.getwriter());
         Assert.assertEquals(STAR,movies.getstar());
+    }
 
+    @Test(expected = NullPointerException.class)
+    public void nameShouldNotBeNull(){
+        //arrange
+        int ID=1;
+        String NAME=null;
+        String GENRE="Drama";
+        String FORMAT="DVD";
+        String YEAR="1997";
+        String DIRECTOR="Jack";
+        String WRITER="Jok";
+        String STAR="star";
+        //act
+        Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,WRITER,STAR);
+        //exception
 
     }
 }
