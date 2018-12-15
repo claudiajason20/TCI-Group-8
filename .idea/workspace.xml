@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/musicTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/musicTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -82,13 +82,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="19" />
-          <entry key="java" value="965" />
+          <entry key="java" value="1413" />
+          <entry key="txt" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="19" />
-          <entry key="JAVA" value="965" />
+          <entry key="JAVA" value="1413" />
+          <entry key="PLAIN_TEXT" value="127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -159,8 +161,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="161">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -181,8 +183,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+            <state relative-caret-position="365">
+              <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -544,8 +546,8 @@
         <option value="$PROJECT_DIR$/src/main/java/crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/music.java" />
         <option value="$PROJECT_DIR$/src/main/java/musicYearException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
         <option value="$PROJECT_DIR$/src/test/java/musicTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
       </list>
     </option>
   </component>
@@ -616,7 +618,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544882250936" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544885649907" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -650,7 +652,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.musicTest.musicYearDoesNotComeFromFutureAssertion">
+  <component name="RunManager" selected="JUnit.musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion">
     <configuration name="TCI-Group-8 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -677,21 +679,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.BookIsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" value="BookIsEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BookTest.checkString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="BookTest" />
       <option name="METHOD_NAME" value="checkString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="musicTest" />
+      <option name="METHOD_NAME" value="musicYearDoesNotComeFromBeyondRecordingTimeAssertion" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -708,19 +710,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookTest.BookIsEmpty" />
       <item itemvalue="JUnit.BookTest.checkString" />
       <item itemvalue="JUnit.BookTest" />
       <item itemvalue="Gradle.TCI-Group-8 [build]" />
       <item itemvalue="JUnit.musicTest.musicYearDoesNotComeFromFutureAssertion" />
+      <item itemvalue="JUnit.musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion" />
         <item itemvalue="JUnit.musicTest.musicYearDoesNotComeFromFutureAssertion" />
         <item itemvalue="Gradle.TCI-Group-8 [build]" />
         <item itemvalue="JUnit.BookTest" />
         <item itemvalue="JUnit.BookTest.checkString" />
-        <item itemvalue="JUnit.BookTest.BookIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -742,15 +744,17 @@
       <workItem from="1544784415354" duration="1195000" />
       <workItem from="1544876840873" duration="1916000" />
     </task>
+    <task id="LOCAL-00001" summary="created test to check whether year of music released is from beyond recording time or not">
+      <created>1544882823619</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544882823619</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_BookIsEmpty - 2018.12.10 at 10h 30m 20s.xml">
-      <configuration name="BookTest.BookIsEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookTest_BookIsEmpty - 2018.12.10 at 10h 35m 55s.xml">
-      <configuration name="BookTest.BookIsEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookTest_checkString - 2018.12.10 at 10h 42m 29s.xml">
       <configuration name="BookTest.checkString" configurationId="JUnit" />
     </history-entry>
@@ -775,9 +779,15 @@
     <history-entry file="musicTest_musicYearDoesNotComeFromFutureAssertion - 2018.12.15 at 14h 43m 31s.xml">
       <configuration name="musicTest.musicYearDoesNotComeFromFutureAssertion" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="musicTest_musicYearDoesNotComeFromBeyondRecordingTimeAssertion - 2018.12.15 at 15h 05m 16s.xml">
+      <configuration name="musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="musicTest_musicYearDoesNotComeFromBeyondRecordingTimeAssertion - 2018.12.15 at 15h 08m 29s.xml">
+      <configuration name="musicTest.musicYearDoesNotComeFromBeyondRecordingTimeAssertion" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15127000" />
+    <option name="totallyTimeSpent" value="16563000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -802,14 +812,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32755905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32755905" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32913387" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32866043" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32755905" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32755905" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32755905" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32866043" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -866,6 +876,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created test to check whether year of music released is from beyond recording time" />
+    <MESSAGE value="created test to check whether year of music released is from beyond recording time or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="created test to check whether year of music released is from beyond recording time or not" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
@@ -904,6 +919,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/musicYearException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -915,24 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="44" lean-forward="true" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
+        <state relative-caret-position="365">
+          <caret line="53" column="3" lean-forward="true" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

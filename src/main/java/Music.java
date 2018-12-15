@@ -17,10 +17,10 @@ public class Music {
         mu_genre = genre;
         mu_format = format;
         LocalDate localDate = LocalDate.now();
-        if(year<=localDate.getYear()){
+        if(year<=localDate.getYear()&&year>=1877){
             mu_year = year;
         }
-        else throw new musicYearException("Music are not supposed to come from the future!");
+        else throw new musicYearException("Music Year is not valid!");
         mu_artist = artist;
     }
 
