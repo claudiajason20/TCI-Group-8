@@ -59,7 +59,7 @@ public class WCAControllerTest {
     }
 
     @Test
-    public void shouldBeAbleToAddBookClass(){
+    public void shouldBeAbleToAddBookClassTest(){
         //arrange
         Books books=mock(Books.class);
         WCAController wcaController=mock(WCAController.class);
@@ -69,6 +69,7 @@ public class WCAControllerTest {
         Books getbooks=wcaController.getbooks();
         //assert
         verify(wcaController,times(1)).insertbooks(books);
+
         Assert.assertEquals(books,getbooks);
 
     }
