@@ -25,6 +25,7 @@ public class crawlerTest {
         String url="https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
 
         Crawler spyCrawl= Mockito.spy(crawler);
+        spyCrawl.verifyUrl(url);
         verify(spyCrawl).verifyUrl(url);
     }
 }
