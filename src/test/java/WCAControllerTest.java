@@ -1,8 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.mockito.Mockito.mock;
-
+import static org.mockito.Mockito.*;
 
 public class WCAControllerTest {
     WCAController controller;
@@ -17,4 +16,20 @@ public class WCAControllerTest {
         //assert
         Assert.assertTrue(movies instanceof Movies);
     }
+
+
+    @Test
+    public void CanAccessMoviesData(){
+        //arrange
+        Movies movies=mock(Movies.class);
+//        when(movies.getid()).thenReturn(1);
+        //act
+        int q=movies.getid();
+        //arrange
+        verify(movies,times(1)).getid();
+
+
+    }
+
+
 }
