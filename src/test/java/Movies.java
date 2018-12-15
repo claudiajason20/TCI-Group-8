@@ -22,7 +22,7 @@ public class Movies {
      * @param name not NULL
      * @param genre
      * @param format
-     * @param year
+     * @param year not older than 1901
      * @param director
      * @param writers
      * @param stars
