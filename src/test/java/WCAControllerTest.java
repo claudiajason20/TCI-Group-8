@@ -7,9 +7,14 @@ import static org.mockito.Mockito.mock;
 public class WCAControllerTest {
     WCAController controller;
 
+
     @Test
     public void moviesClassCanBeMocked(){
-        Movies movies=mock(Movies.class);
+        //arrange
+        Movies movies;
+        //act
+        movies=mock(Movies.class);
+        //assert
         Assert.assertTrue(movies instanceof Movies);
     }
 }
