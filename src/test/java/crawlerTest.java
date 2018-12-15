@@ -20,6 +20,10 @@ public class crawlerTest {
         //assertion is done by the exception
         assertTrue(validUrl);
     }
+
+    /**
+     * Verification of direct input method calls
+     */
     @Test
     public void verifyThatVerifyUrlMethodRuns(){
         String url="https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
