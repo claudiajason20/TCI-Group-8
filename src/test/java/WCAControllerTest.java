@@ -19,7 +19,7 @@ public class WCAControllerTest {
 
 
     @Test
-    public void CanMocksMoviesData(){
+    public void CanMocksAccessMoviesData(){
         //arrange
         Movies movies=mock(Movies.class);
         when(movies.getid()).thenReturn(1);
@@ -28,6 +28,16 @@ public class WCAControllerTest {
         //arrange
         Assert.assertEquals(1,id);
 
+    }
+
+    @Test
+    public void CanMocksChangeMoviesData(){
+        //arrange
+        Movies movies=mock(Movies.class);
+        //act
+        movies.setid(2);
+        //arrange
+        verify(movies).setid(2);
 
     }
 
