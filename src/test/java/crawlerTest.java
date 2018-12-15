@@ -45,13 +45,17 @@ public class crawlerTest {
         spyCrawl.addPageToVisit(url);
         verify(spyCrawl).addPageToVisit(url);
     }
+
+    /**
+     * THis method verifies whether the method for getLink runs
+     * @throws IOException
+     */
     @Test
     public void verifyThatGetLinkMethodRuns() throws IOException {
         String url="https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
         Crawler spyCrawl=Mockito.spy(crawler);
         spyCrawl.getLink(url);
         verify(spyCrawl).getLink(url);
-
     }
 
 
