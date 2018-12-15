@@ -43,5 +43,14 @@ public class crawlerTest {
         spyCrawl.addPageToVisit(url);
         verify(spyCrawl).addPageToVisit(url);
     }
+    @Test
+    public void verifyThatGetLinkMethodRuns(){
+        String html="<!DOCTYPE html> <html> <title>meong</title> <body> <a href='google.com'>Link</a> <h1>My First Heading</h1> <p>My first paragraph.</p> </body> </html>";
+        Crawler spyCrawl=Mockito.spy(crawler);
+        spyCrawl.getLink(html);
+        verify(spyCrawl).getLink(html);
+
+    }
+
 
 }
