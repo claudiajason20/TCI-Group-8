@@ -14,7 +14,7 @@ public class Movies {
     /**
      * Movies constructor
      * @param id
-     * @param name
+     * @param name not NULL
      * @param genre
      * @param format
      * @param year
