@@ -28,7 +28,7 @@ public class moviesTest {
         Assert.assertEquals(STAR,movies.getstar());
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void nameShouldNotBeNull(){
         //arrange
         int ID=1;
