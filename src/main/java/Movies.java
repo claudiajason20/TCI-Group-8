@@ -6,7 +6,7 @@ import java.util.Calendar;
  * Movies class
  */
 public class Movies {
-    private final int id;
+    private int id;
     private final String name;
     private final String genre;
     private final String format;
@@ -97,5 +97,9 @@ public class Movies {
      */
     public ArrayList<String> getstar() {
         return stars;
+    }
+
+    public void setid(int i) {
+        this.id=id;
     }
 }
