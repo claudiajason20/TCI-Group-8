@@ -22,7 +22,7 @@ public class crawlerTest {
     }
 
     /**
-     * Verification of direct input method calls
+     * Verification of direct input method calls for verifyUrl
      */
     @Test
     public void verifyThatVerifyUrlMethodRuns(){
@@ -31,5 +31,12 @@ public class crawlerTest {
         Crawler spyCrawl= Mockito.spy(crawler);
         spyCrawl.verifyUrl(url);
         verify(spyCrawl).verifyUrl(url);
+    }
+    @Test
+    public void verifyThatAddPagesToVisitMethodRuns(){
+        String url="https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
+        Crawler spyCrawl=Mockito.spy(crawler);
+        spyCrawl.addPageToVisit(url);
+        verify(spyCrawl).addPageToVisit(url);
     }
 }

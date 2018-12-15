@@ -10,6 +10,10 @@ public class Crawler {
     private Set<String> visitedPages= new HashSet<String>();
     private List<String> pagesToVisit = new LinkedList<String>();
 
+    public static void main(String args[]){
+
+    }
+
     public boolean verifyUrl(String url){
         try {
             new URL(url).toURI();
@@ -19,5 +23,6 @@ public class Crawler {
             return false;
         }
     }
+
 
 }
