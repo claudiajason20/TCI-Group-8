@@ -73,6 +73,20 @@ public class WCAControllerTest {
         Assert.assertEquals(books,getbooks);
 
     }
+    @Test
+    public void shouldBeAbleToAddMusicClassTest(){
+        //arrange
+        Music music=mock(Music.class);
+        WCAController wcaController=mock(WCAController.class);
+//        when(wcaController.getmusics()).thenReturn(music);
+        //act
+        wcaController.insertmusic(music);
+        Music getmusic=wcaController.getmusics();
+        //assert
+//        verify(wcaController).insertmusics(music);
 
+        Assert.assertEquals(music,getmusic);
+
+    }
 
 }
