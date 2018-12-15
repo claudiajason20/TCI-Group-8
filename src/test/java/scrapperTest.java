@@ -1,14 +1,19 @@
 import org.junit.Test;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class scrapperTest {
     @Test
-    public void bookIsNotNull() {
+    public void bookIsNotEmpty() {
         //arrange
-        Books book = null;
+        Books book = mock(Books.class);
+        Scrapper scrapperData = new Scrapper();
         //act
+        when(book.getYear()).thenReturn("1987");
         //assert
-        assertTrue(book!=null);
+        scrapperData.decodeBook(book);
     }
 }
