@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 /**
  * Movies class
  */
@@ -8,7 +10,7 @@ public class Movies {
     private final String format;
     private final String year;
     private final String director;
-    private final String writer;
+    private ArrayList<String>writers = new ArrayList<String>();
     private final String star;
 
     /**
@@ -22,7 +24,7 @@ public class Movies {
      * @param writer
      * @param star
      */
-    public Movies(int id, String name, String genre, String format, String year, String director, String writer, String star) {
+    public Movies(int id, String name, String genre, String format, String year, String director, ArrayList<String> writer, String star) {
     if(name==null || id==0)
     {
     throw new IllegalArgumentException();
@@ -33,7 +35,7 @@ public class Movies {
     this.format=format;
     this.year=year;
     this.director=director;
-    this.writer=writer;
+    this.writers=writer;
     this.star=star;
     }
 
@@ -83,8 +85,8 @@ public class Movies {
     /**
      * @return writer
      */
-    public String getwriter() {
-        return writer;
+    public ArrayList<String> getwriter() {
+        return writers;
     }
 
     /**
