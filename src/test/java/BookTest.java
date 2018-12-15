@@ -50,6 +50,15 @@ public class BookTest {
         assertTrue(Integer.parseInt(book.getYear())>=1970);
     }
 
+    @Test
+    public void titleIsNotNull(){
+        //arrange
+        Books book = new Books();
+        //act
+        book.setTitle("Clean Code: A Handbook of Agile Software Craftsmanship");
+        assertEquals("Clean Code: A Handbook of Agile Software Craftsmanship", book.getTitle());
+    }
+
 
 
 
