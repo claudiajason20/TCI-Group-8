@@ -585,7 +585,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544884220383" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544884347894" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -611,7 +611,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.moviesTest.thereISMoreThanOneWriter">
+  <component name="RunManager" selected="JUnit.moviesTest">
     <configuration name="moviesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -669,8 +669,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.moviesTest.thereISMoreThanOneWriter" />
         <item itemvalue="JUnit.moviesTest" />
+        <item itemvalue="JUnit.moviesTest.thereISMoreThanOneWriter" />
         <item itemvalue="JUnit.moviesTest.idShouldNotBeNullOrZero" />
         <item itemvalue="JUnit.moviesTest.nameShouldNotBeNull" />
         <item itemvalue="JUnit.moviesTest.constructorSuccessful" />

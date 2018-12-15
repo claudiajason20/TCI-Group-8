@@ -83,7 +83,7 @@ public class Movies {
     }
 
     /**
-     * @return writer
+     * @return list of writers
      */
     public ArrayList<String> getwriter() {
         return writers;
