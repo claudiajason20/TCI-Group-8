@@ -32,30 +32,51 @@ class Books {
         return cat;
     }
 
+    /**
+     * @return id
+     */
     public int getId() {
         return id;
     }
 
+    /**
+     * @return format
+     */
     public String getFormat() {
         return format;
     }
 
+    /**
+     * @return year
+     */
     public String getYear() {
         return year;
     }
 
+    /**
+     * @return authors
+     */
     public ArrayList<String> getAuthors() {
        return authors;
     }
 
+    /**
+     * @return publisher
+     */
     public String getPublisher() {
         return publisher;
     }
 
+    /**
+     * @return genre
+     */
     public String getGenre() {
         return genre;
     }
 
+    /**
+     * @return isbn
+     */
     public String getIsbn() {
         return isbn;
     }

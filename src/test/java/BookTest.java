@@ -26,10 +26,10 @@ public class BookTest {
     @Test
     public void constructorIsNotNull(){
         //arrange
-        ArrayList<String> authorss = new ArrayList<>();
-        authorss.add("Robert C. Martin");
+        ArrayList<String> author = new ArrayList<>();
+        author.add("Robert C. Martin");
         //act
-        Books book = new Books(1,"Audio",authorss,"007-6092046981","Prentice Hall","2011","Tech");
+        Books book = new Books(1,"Audio",author,"007-6092046981","Prentice Hall","2011","Tech");
         //assert
         assertEquals(1,book.getId());
         assertEquals("Audio",book.getFormat());
