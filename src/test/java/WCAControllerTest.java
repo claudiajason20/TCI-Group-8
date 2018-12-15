@@ -46,11 +46,13 @@ public class WCAControllerTest {
         //arrange
         Movies movies=mock(Movies.class);
         WCAController wcaController=mock(WCAController.class);
+        when(wcaController.getmovies()).thenReturn(movies);
         //act
         wcaController.insertmovies(movies);
+        Movies getmovies=wcaController.getmovies();
         //assert
         verify(wcaController).insertmovies(movies);
-        Assert.assertEquals(movies,wcaController.getmovies());
+        Assert.assertEquals(movies,getmovies);
 
     }
 
