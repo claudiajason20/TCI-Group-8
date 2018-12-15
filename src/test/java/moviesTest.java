@@ -44,4 +44,20 @@ public class moviesTest {
         //exception
 
     }
+    @Test(expected = IllegalArgumentException.class)
+    public void idShouldNotBeNullOrZero(){
+        //arrange
+        int ID=0;
+        String NAME="Jack on the go";
+        String GENRE="Drama";
+        String FORMAT="DVD";
+        String YEAR="1997";
+        String DIRECTOR="Jack";
+        String WRITER="Jok";
+        String STAR="star";
+        //act
+        Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,WRITER,STAR);
+        //exception
+
+    }
 }

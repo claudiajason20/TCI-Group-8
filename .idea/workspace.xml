@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/moviesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/moviesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -106,13 +106,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="886" />
+          <entry key="java" value="927" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="886" />
+          <entry key="JAVA" value="927" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -141,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+            <state relative-caret-position="335">
+              <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -153,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding>
                 <element signature="e#906#907#0" expanded="true" />
                 <element signature="e#931#932#0" expanded="true" />
@@ -510,8 +510,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/moviesTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/Movies.java" />
+        <option value="$PROJECT_DIR$/src/test/java/moviesTest.java" />
       </list>
     </option>
   </component>
@@ -583,7 +583,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544882150424" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544882576983" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -609,7 +609,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.moviesTest.nameShouldNotBeNull">
+  <component name="RunManager" selected="JUnit.moviesTest.idShouldNotBeNullOrZero">
     <configuration name="TCI-Group-8 [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -636,21 +636,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BookTest.checkString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BookTest" />
-      <option name="METHOD_NAME" value="checkString" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="moviesTest.constructorSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="moviesTest" />
       <option name="METHOD_NAME" value="constructorSuccessful" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="moviesTest.idShouldNotBeNullOrZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moviesTest" />
+      <option name="METHOD_NAME" value="idShouldNotBeNullOrZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -667,19 +667,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BookTest.checkString" />
       <item itemvalue="JUnit.BookTest" />
       <item itemvalue="Gradle.TCI-Group-8 [build]" />
       <item itemvalue="JUnit.moviesTest.constructorSuccessful" />
       <item itemvalue="JUnit.moviesTest.nameShouldNotBeNull" />
+      <item itemvalue="JUnit.moviesTest.idShouldNotBeNullOrZero" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.moviesTest.idShouldNotBeNullOrZero" />
         <item itemvalue="JUnit.moviesTest.nameShouldNotBeNull" />
         <item itemvalue="JUnit.moviesTest.constructorSuccessful" />
         <item itemvalue="Gradle.TCI-Group-8 [build]" />
         <item itemvalue="JUnit.BookTest" />
-        <item itemvalue="JUnit.BookTest.checkString" />
       </list>
     </recent_temporary>
   </component>
@@ -702,9 +702,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest_BookIsEmpty - 2018.12.10 at 10h 35m 55s.xml">
-      <configuration name="BookTest.BookIsEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BookTest_checkString - 2018.12.10 at 10h 42m 29s.xml">
       <configuration name="BookTest.checkString" configurationId="JUnit" />
     </history-entry>
@@ -732,9 +729,21 @@
     <history-entry file="moviesTest_nameShouldNotBeNull - 2018.12.15 at 14h 55m 54s.xml">
       <configuration name="moviesTest.nameShouldNotBeNull" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="moviesTest_nameShouldNotBeNull - 2018.12.15 at 14h 59m 13s.xml">
+      <configuration name="moviesTest.nameShouldNotBeNull" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10412000" />
+    <option name="totallyTimeSpent" value="10636000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -852,17 +861,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
             <element signature="e#906#907#0" expanded="true" />
             <element signature="e#931#932#0" expanded="true" />
@@ -884,10 +886,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="43" lean-forward="true" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
+        <state relative-caret-position="335">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
