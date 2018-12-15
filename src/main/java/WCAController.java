@@ -7,4 +7,12 @@ public class WCAController {
     public Movies getmovies() {
         return null;
     }
+
+    public Books getbooks() {
+        return null;
+    }
+
+    public void insertbooks(Books books) {
+
+    }
 }

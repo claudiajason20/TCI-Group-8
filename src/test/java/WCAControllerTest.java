@@ -63,12 +63,12 @@ public class WCAControllerTest {
         //arrange
         Books books=mock(Books.class);
         WCAController wcaController=mock(WCAController.class);
-//        when(wcaController.getbooks()).thenReturn(books);
+        when(wcaController.getbooks()).thenReturn(books);
         //act
         wcaController.insertbooks(books);
         Books getbooks=wcaController.getbooks();
         //assert
-//        verify(wcaController,times(1)).insertbooks(books);
+        verify(wcaController,times(1)).insertbooks(books);
         Assert.assertEquals(books,getbooks);
 
     }
