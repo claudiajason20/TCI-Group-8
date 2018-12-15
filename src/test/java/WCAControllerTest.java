@@ -22,12 +22,11 @@ public class WCAControllerTest {
     public void CanAccessMoviesData(){
         //arrange
         Movies movies=mock(Movies.class);
-//        when(movies.getid()).thenReturn(1);
+        when(movies.getid()).thenReturn(1);
         //act
         int q=movies.getid();
         //arrange
         Assert.assertEquals(1,q);
-        verify(movies,times(1)).getid();
 
 
     }
