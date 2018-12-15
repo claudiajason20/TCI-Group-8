@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Movies.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/moviesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/moviesTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -107,13 +106,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="1240" />
+          <entry key="java" value="1257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="1240" />
+          <entry key="JAVA" value="1257" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -142,8 +141,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+            <state relative-caret-position="77">
+              <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+            <state relative-caret-position="331">
+              <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
               <folding>
                 <element signature="e#321#329#0" expanded="true" />
                 <element signature="e#906#907#0" expanded="true" />
@@ -585,7 +584,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544884347894" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544884401605" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -611,21 +610,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.moviesTest">
+  <component name="RunManager" selected="JUnit.moviesTest.thereISMoreThanOneStar">
     <configuration name="moviesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="moviesTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="moviesTest.constructorSuccessful" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="moviesTest" />
-      <option name="METHOD_NAME" value="constructorSuccessful" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -650,6 +639,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="moviesTest.thereISMoreThanOneStar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="moviesTest" />
+      <option name="METHOD_NAME" value="thereISMoreThanOneStar" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="moviesTest.thereISMoreThanOneWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -661,19 +660,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.moviesTest.constructorSuccessful" />
       <item itemvalue="JUnit.moviesTest.nameShouldNotBeNull" />
       <item itemvalue="JUnit.moviesTest.idShouldNotBeNullOrZero" />
       <item itemvalue="JUnit.moviesTest.thereISMoreThanOneWriter" />
       <item itemvalue="JUnit.moviesTest" />
+      <item itemvalue="JUnit.moviesTest.thereISMoreThanOneStar" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.moviesTest.thereISMoreThanOneStar" />
         <item itemvalue="JUnit.moviesTest" />
         <item itemvalue="JUnit.moviesTest.thereISMoreThanOneWriter" />
         <item itemvalue="JUnit.moviesTest.idShouldNotBeNullOrZero" />
         <item itemvalue="JUnit.moviesTest.nameShouldNotBeNull" />
-        <item itemvalue="JUnit.moviesTest.constructorSuccessful" />
       </list>
     </recent_temporary>
   </component>
@@ -696,15 +695,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BookTest - 2018.12.10 at 10h 57m 09s.xml">
-      <configuration name="BookTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BookTest - 2018.12.10 at 11h 07m 49s.xml">
-      <configuration name="BookTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="moviesTest_constructorSuccessful - 2018.12.15 at 14h 42m 19s.xml">
-      <configuration name="moviesTest.constructorSuccessful" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="moviesTest_constructorSuccessful - 2018.12.15 at 14h 43m 00s.xml">
       <configuration name="moviesTest.constructorSuccessful" configurationId="JUnit" />
     </history-entry>
@@ -726,9 +716,18 @@
     <history-entry file="moviesTest_idShouldNotBeNullOrZero - 2018.12.15 at 15h 07m 23s.xml">
       <configuration name="moviesTest.idShouldNotBeNullOrZero" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="moviesTest - 2018.12.15 at 15h 30m 24s.xml">
+      <configuration name="moviesTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="moviesTest_thereISMoreThanOneWriter - 2018.12.15 at 15h 31m 08s.xml">
+      <configuration name="moviesTest.thereISMoreThanOneWriter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="moviesTest - 2018.12.15 at 15h 32m 46s.xml">
+      <configuration name="moviesTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12277000" />
+    <option name="totallyTimeSpent" value="12462000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,7 +742,7 @@
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="top" x="-259" y="496" width="1490" height="245" id="Terminal" order="0" visible="true" weight="0.092797786" />
+      <window_info active="true" anchor="top" x="-259" y="496" width="1490" height="245" id="Terminal" order="0" visible="true" weight="0.092797786" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.27181208" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -754,7 +753,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23961219" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23961219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -764,7 +763,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32866043" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.32686982" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32686982" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -864,8 +863,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="88" column="23" lean-forward="true" selection-start-line="88" selection-start-column="23" selection-end-line="88" selection-end-column="23" />
+        <state relative-caret-position="331">
+          <caret line="87" column="38" selection-start-line="87" selection-start-column="38" selection-end-line="87" selection-end-column="38" />
           <folding>
             <element signature="e#321#329#0" expanded="true" />
             <element signature="e#906#907#0" expanded="true" />
@@ -890,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="60" column="72" selection-start-line="60" selection-start-column="72" selection-end-line="60" selection-end-column="72" />
+        <state relative-caret-position="77">
+          <caret line="88" column="39" selection-start-line="88" selection-start-column="39" selection-end-line="88" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
