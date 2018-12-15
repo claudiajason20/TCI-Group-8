@@ -51,7 +51,7 @@ public class WCAControllerTest {
         wcaController.insertmovies(movies);
         Movies getmovies=wcaController.getmovies();
         //assert
-        verify(wcaController).insertmovies(movies);
+        verify(wcaController,times(1)).insertmovies(movies);
         Assert.assertEquals(movies,getmovies);
 
     }
