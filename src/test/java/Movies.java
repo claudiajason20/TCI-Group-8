@@ -13,7 +13,7 @@ public class Movies {
 
     /**
      * Movies constructor
-     * @param id
+     * @param id not Zero
      * @param name not NULL
      * @param genre
      * @param format
