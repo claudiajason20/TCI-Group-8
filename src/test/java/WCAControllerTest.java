@@ -78,12 +78,12 @@ public class WCAControllerTest {
         //arrange
         Music music=mock(Music.class);
         WCAController wcaController=mock(WCAController.class);
-//        when(wcaController.getmusics()).thenReturn(music);
+        when(wcaController.getmusics()).thenReturn(music);
         //act
         wcaController.insertmusic(music);
         Music getmusic=wcaController.getmusics();
         //assert
-//        verify(wcaController).insertmusics(music);
+        verify(wcaController).insertmusic(music);
 
         Assert.assertEquals(music,getmusic);
 

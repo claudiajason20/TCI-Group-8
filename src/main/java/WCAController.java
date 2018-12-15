@@ -15,4 +15,12 @@ public class WCAController {
     public void insertbooks(Books books) {
 
     }
+
+    public Music getmusics() {
+        return null;
+    }
+
+    public void insertmusic(Music music) {
+
+    }
 }
