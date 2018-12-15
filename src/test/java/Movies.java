@@ -23,6 +23,10 @@ public class Movies {
      * @param star
      */
     public Movies(int id, String name, String genre, String format, String year, String director, String writer, String star) {
+    if(name==null)
+    {
+    throw new NullPointerException();
+    }
     this.id=id;
     this.name=name;
     this.genre=genre;
