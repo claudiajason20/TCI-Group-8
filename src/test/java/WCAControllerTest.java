@@ -41,5 +41,18 @@ public class WCAControllerTest {
 
     }
 
+    @Test
+    public void shouldBeAbleToAddMoviesClass(){
+        //arrange
+        Movies movies=mock(Movies.class);
+        WCAController wcaController=mock(WCAController.class);
+        //act
+        wcaController.insertmovies(movies);
+        //assert
+        verify(wcaController).insertmovies(movies);
+        Assert.assertEquals(movies,wcaController.getmovies());
+
+    }
+
 
 }
