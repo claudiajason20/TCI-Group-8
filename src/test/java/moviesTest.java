@@ -63,6 +63,10 @@ public class moviesTest {
 
     }
 
+/////////////////
+////////////////
+///////////////
+
     @Test
     public void thereISMoreThanOneWriter(){
         //arrange
@@ -108,6 +112,31 @@ public class moviesTest {
         Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,stars);
         //assert
         Assert.assertEquals(2,movies.getstar().size());
+
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void yearBiggerThan1900(){
+        //arrange
+        int ID=1;
+        String NAME="Jack on the go";
+        String GENRE="Drama";
+        String FORMAT="DVD";
+        String YEAR="1900";
+        String DIRECTOR="Jack";
+        String WRITER1="Jok";
+        String WRITER2="Joky";
+        String STAR1="star";
+        String STAR2="star2";
+        ArrayList<String> writers=new ArrayList<>();
+        writers.add(WRITER1);
+        writers.add(WRITER2);
+        ArrayList<String> stars=new ArrayList<>();
+        stars.add(WRITER1);
+        stars.add(WRITER2);
+        //act
+        Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,stars);
+        //exception
 
     }
 }
