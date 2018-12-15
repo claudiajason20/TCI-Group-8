@@ -81,4 +81,7 @@ class Books {
         return isbn;
     }
 
+    public void setYear(String s) {
+        year = s;
+    }
 }
