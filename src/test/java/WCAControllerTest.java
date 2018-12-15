@@ -37,7 +37,7 @@ public class WCAControllerTest {
         //act
         movies.setid(2);
         //arrange
-        verify(movies).setid(2);
+        verify(movies,times(1)).setid(2);
 
     }
 
