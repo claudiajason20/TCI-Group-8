@@ -38,6 +38,9 @@ class Books {
         return 0;
     }
 
+    /**
+     * @return title
+     */
     public String getTitle() {
         return title;
     }
