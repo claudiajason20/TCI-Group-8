@@ -91,7 +91,7 @@ public class Movies {
     }
 
     /**
-     * @return star
+     * @return list of stars
      */
     public ArrayList<String> getstar() {
         return stars;
