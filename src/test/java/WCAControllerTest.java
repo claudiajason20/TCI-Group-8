@@ -15,6 +15,7 @@ public class WCAControllerTest {
         movies=mock(Movies.class);
         //assert
         Assert.assertTrue(movies instanceof Movies);
+
     }
 
 
@@ -26,6 +27,7 @@ public class WCAControllerTest {
         //act
         int id=movies.getid();
         //arrange
+        verify(movies,times(1)).getid();
         Assert.assertEquals(1,id);
 
     }
