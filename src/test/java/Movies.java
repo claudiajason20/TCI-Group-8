@@ -11,7 +11,8 @@ public class Movies {
     private final String year;
     private final String director;
     private ArrayList<String>writers = new ArrayList<String>();
-    private final String star;
+    private ArrayList<String>stars = new ArrayList<String>();
+
 
     /**
      * Movies constructor
@@ -21,10 +22,10 @@ public class Movies {
      * @param format
      * @param year
      * @param director
-     * @param writer
-     * @param star
+     * @param writers
+     * @param stars
      */
-    public Movies(int id, String name, String genre, String format, String year, String director, ArrayList<String> writer, String star) {
+    public Movies(int id, String name, String genre, String format, String year, String director, ArrayList<String> writer, ArrayList<String> star) {
     if(name==null || id==0)
     {
     throw new IllegalArgumentException();
@@ -36,7 +37,7 @@ public class Movies {
     this.year=year;
     this.director=director;
     this.writers=writer;
-    this.star=star;
+    this.stars=star;
     }
 
     /**
@@ -92,7 +93,7 @@ public class Movies {
     /**
      * @return star
      */
-    public String getstar() {
-        return star;
+    public ArrayList<String> getstar() {
+        return stars;
     }
 }
