@@ -5,6 +5,7 @@ import java.util.Date;
 import static org.junit.Assert.*;
 
 /**
+ *This is the test unit for the music model
  *
  */
 public class musicTest {
@@ -30,4 +31,24 @@ public class musicTest {
         Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
         //assert is handled by the exception
     }
+    @Test(expected=musicYearException.class)
+    public void musicYearDoesNotComeFromBeyondRecordingTimeAssertion() throws musicYearException{
+        //arrange
+
+        int id=302;
+        String Title="Title";
+
+        String Category="Music";
+        String Genre="Classical";
+        String Format="CD";
+        int Year=1500;
+        String Artist="Harry Bieber";
+
+        //act
+        Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
+        //assert is handled by the exception
+
+
+    }
+
   }
