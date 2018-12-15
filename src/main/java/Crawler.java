@@ -23,6 +23,12 @@ public class Crawler {
             return false;
         }
     }
+    public void addPageToVisit(String url) {
+        if (verifyUrl(url)) {
+            pagesToVisit.add(url);
+        }
+        else System.out.println("URL is not valid");
+    }
 
 
 }
