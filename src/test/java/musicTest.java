@@ -16,7 +16,7 @@ public class musicTest {
      * @throws musicYearException
      */
     @Test(expected = musicYearException.class)
-    public void musicYearDoesNotComeFromFutureAssertion() throws musicYearException {
+    public void musicYearDoesNotComeFromFutureAssertion() throws musicYearException, musicParameterException {
         //arrange
         int id=302;
         String Title="Title";
@@ -37,7 +37,7 @@ public class musicTest {
      * @throws musicYearException
      */
     @Test(expected=musicYearException.class)
-    public void musicYearDoesNotComeFromBeyondRecordingTimeAssertion() throws musicYearException{
+    public void musicYearDoesNotComeFromBeyondRecordingTimeAssertion() throws musicYearException, musicParameterException {
         //arrange
 
         int id=302;
@@ -54,7 +54,7 @@ public class musicTest {
         //assert is handled by the exception
     }
     @Test(expected=musicParameterException.class)
-    public void parameterForMusicShouldNotBeNullException() throws musicYearException{
+    public void parameterForMusicShouldNotBeNullException() throws musicYearException, musicParameterException {
         //arrange
 
         int id=301;
