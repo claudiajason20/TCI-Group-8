@@ -83,7 +83,7 @@ public class WCAControllerTest {
         wcaController.insertmusic(music);
         Music getmusic=wcaController.getmusics();
         //assert
-        verify(wcaController).insertmusic(music);
+        verify(wcaController,times(1)).insertmusic(music);
 
         Assert.assertEquals(music,getmusic);
 
