@@ -106,4 +106,20 @@ public class WCAControllerTest {
         Assert.assertEquals(doc, getdoc);
     }
 
+    @Test
+    public void htmlIsNotEmpty(){
+        //arrange
+        String html = any(String.class);
+        WCAController wcaController=mock(WCAController.class);
+        when(wcaController.getHtml()).thenReturn(html);
+
+        //act
+        wcaController.setHtml(html);
+        String gethtml= wcaController.getHtml();
+        //
+        verify(wcaController,times(1)).setHtml(html);
+
+        Assert.assertEquals(html, gethtml);
+    }
+
 }
