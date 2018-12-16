@@ -14,18 +14,18 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void linkIsVisitedTwice(){
+    public void linkNotVisitedTwice(){
         //arrange
         Node node = mock(Node.class);
         Scrapper sc = mock(Scrapper.class);
-        when(sc.hasVisited(node)).thenReturn(false);
+        when(sc.hasVisited(node)).thenReturn(true);
 
         //act
         Boolean test = sc.hasVisited(node);
 
         //assert
         verify(sc).hasVisited(node);
-        assertFalse(test);
+        assertTrue(test);
     }
 
 }
