@@ -40,6 +40,10 @@ public class WCAController {
         return null;
     }
 
+    /**
+     * @param html
+     * html is the code, not the link. It will be used for scrapping with jsoup.
+     */
     public void setHtml(String html) {
     }
 }
