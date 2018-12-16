@@ -35,4 +35,11 @@ public class WCAController {
 
     public void setDocument(Document doc) {
     }
+
+    public String getHtml() {
+        return null;
+    }
+
+    public void setHtml(String html) {
+    }
 }
