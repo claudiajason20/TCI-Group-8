@@ -1,3 +1,5 @@
+import org.jsoup.nodes.Document;
+
 public class WCAController {
 
     public void insertmovies(Movies movies) {
@@ -23,4 +25,5 @@ public class WCAController {
     public void insertmusic(Music music) {
 
     }
+
 }

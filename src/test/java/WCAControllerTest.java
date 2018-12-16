@@ -1,3 +1,4 @@
+import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -87,6 +88,22 @@ public class WCAControllerTest {
 
         Assert.assertEquals(music,getmusic);
 
+    }
+
+    @Test
+    public void documentIsNotEmpty(){
+        //arrange
+        Document doc = mock(Document.class);
+        WCAController wcaController=mock(WCAController.class);
+        when(wcaController.getDocument()).thenReturn(doc);
+
+        //act
+        wcaController.setDocument(doc);
+        Document getdoc= wcaController.getDocument();
+        //
+        verify(wcaController,times(1)).setDocument(doc);
+
+        Assert.assertEquals(doc, getdoc);
     }
 
 }
