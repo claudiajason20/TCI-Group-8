@@ -8,14 +8,13 @@ import org.mockito.junit.MockitoJUnitRunner;
 
 import java.net.URL;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void linkNotVisitedTwice(){
+    public void linkIsVisitedTwice(){
         //arrange
         Node node = mock(Node.class);
         Scrapper sc = mock(Scrapper.class);
@@ -26,7 +25,7 @@ public class scrapperTest {
 
         //assert
         verify(sc).hasVisited(node);
-
+        assertFalse(test);
     }
 
 }

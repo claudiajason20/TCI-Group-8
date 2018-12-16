@@ -1,4 +1,5 @@
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Node;
 
 public class Scrapper {
     private static Document docu;
@@ -14,5 +15,9 @@ public class Scrapper {
 
     public String getBodyText() {
         return docu.body().text();
+    }
+
+    public Boolean hasVisited(Node node) {
+        return null;
     }
 }
