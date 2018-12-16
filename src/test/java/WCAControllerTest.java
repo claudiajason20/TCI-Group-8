@@ -116,12 +116,11 @@ public class WCAControllerTest {
         //act
         wcaController.setHtml(html);
         String gethtml= wcaController.getHtml();
-        //
-        verify(wcaController,times(1)).setHtml(html);
 
+        //assert
+        verify(wcaController,times(1)).setHtml(html);
         Assert.assertEquals(html, gethtml);
     }
-
 
 
 }

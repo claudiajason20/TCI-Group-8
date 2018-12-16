@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrapperTest.java" afterDir="false" />
     </list>
@@ -108,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
-              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            <state relative-caret-position="160">
+              <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -123,11 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="313">
-              <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
               <folding>
                 <element signature="e#431#432#0" expanded="true" />
                 <element signature="e#457#458#0" expanded="true" />
@@ -159,11 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="330">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -217,9 +216,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
       </list>
     </option>
   </component>
@@ -271,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544987795496" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544988801242" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -297,22 +296,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WCAControllerTest.documentIsNotEmpty">
+  <component name="RunManager" selected="JUnit.scrapperTest.linkNotVisitedTwice">
     <configuration name="WCAControllerTest.documentIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
       <option name="METHOD_NAME" value="documentIsNotEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="scrapperTest.bookIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <option name="METHOD_NAME" value="bookIsNotEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -338,6 +327,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="scrapperTest.linkNotVisitedTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
+      <option name="METHOD_NAME" value="linkNotVisitedTwice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="scrapperTest.mediaIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -349,19 +348,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.scrapperTest.bookIsNotEmpty" />
       <item itemvalue="JUnit.scrapperTest.mediaIsNotEmpty" />
       <item itemvalue="JUnit.scrapperTest.bookTitleCanBeUsed" />
       <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
       <item itemvalue="JUnit.WCAControllerTest.documentIsNotEmpty" />
+      <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
         <item itemvalue="JUnit.WCAControllerTest.documentIsNotEmpty" />
         <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
         <item itemvalue="JUnit.scrapperTest.bookTitleCanBeUsed" />
         <item itemvalue="JUnit.scrapperTest.mediaIsNotEmpty" />
-        <item itemvalue="JUnit.scrapperTest.bookIsNotEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +382,7 @@
       <workItem from="1544438721527" duration="269000" />
       <workItem from="1544716038348" duration="1319000" />
       <workItem from="1544877838012" duration="20133000" />
-      <workItem from="1544985970929" duration="2141000" />
+      <workItem from="1544985970929" duration="2863000" />
     </task>
     <servers />
   </component>
@@ -420,7 +419,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31896000" />
+    <option name="totallyTimeSpent" value="32618000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -569,13 +568,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -583,32 +575,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="123" selection-start-line="123" selection-end-line="123" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="313">
-          <caret line="46" column="39" lean-forward="true" selection-start-line="46" selection-start-column="39" selection-end-line="46" selection-end-column="39" />
+          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
           <folding>
             <element signature="e#431#432#0" expanded="true" />
             <element signature="e#457#458#0" expanded="true" />
             <element signature="e#586#587#0" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="120" column="53" selection-start-line="120" selection-start-column="53" selection-end-line="120" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
