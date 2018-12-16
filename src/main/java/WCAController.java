@@ -26,4 +26,13 @@ public class WCAController {
 
     }
 
+    /**
+     * @return Jsoup Document
+     */
+    public Document getDocument() {
+        return null;
+    }
+
+    public void setDocument(Document doc) {
+    }
 }

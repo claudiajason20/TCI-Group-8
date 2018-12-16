@@ -15,17 +15,7 @@ import static org.mockito.Mockito.*;
 public class scrapperTest {
     @Test
     public void documentIsNotEmpty() {
-        //arrange
-        Jsoup jsoup = mock(Jsoup.class);
-        String html = "Hello World";
-        Document doc = mock(Document.class);
-        Scrapper scrapperData = new Scrapper();
 
-        //act
-        when(jsoup.).thenReturn("Hello World");
-        Scrapper.setDoc(jsoup.parse(html));
-        //assert
-        verify(scrapperData).getBodyText();
     }
 
 }
