@@ -67,6 +67,11 @@ public class crawlerTest {
         verify(spyCrawl).getLink(url);
     }
 
+    /**
+     * This test has the function to test whether the parser is able to receive the link from the given url, if the condition is true
+     * then the link for addPages to visit size must be larger than 0
+     * @throws IOException
+     */
     @Test
     public void assertThatCrawlerAbleToReceiveLink() throws IOException {
         //arrange
@@ -74,7 +79,6 @@ public class crawlerTest {
         //act
         crawler.parseLinks(url);
         //assert
-
         assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
 
     }
