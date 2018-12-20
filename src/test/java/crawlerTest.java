@@ -68,21 +68,14 @@ public class crawlerTest {
     }
 
     @Test
-    public void assertThatReceivedLinkIsCorrect(){
+    public void assertThatCrawlerAbleToReceiveLink() throws IOException {
         //arrange
-        String html="<!DOCTYPE html>\n" +
-                "<html>\n" +
-                "<body>\n" +
-                "\n" +
-                "<h2>HTML Links</h2>\n" +
-                "<p><a href=\"https://www.w3schools.com/html/\">Visit our HTML tutorial</a></p>\n" +
-                "\n" +
-                "</body>\n" +
-                "</html>\n";
+        String url = "https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
         //act
-        crawler.parseLinks(html);
+        crawler.parseLinks(url);
         //assert
-        assertEquals("https://www.w3schools.com/html/",crawler.getLink());
+
+        assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
     }
 
 

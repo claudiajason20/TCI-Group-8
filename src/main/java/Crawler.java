@@ -15,14 +15,14 @@ import java.util.Set;
 import static org.jsoup.Jsoup.connect;
 
 public class Crawler {
-    private Set<String> visitedPages= new HashSet<String>();
+    private Set<String> visitedPages = new HashSet<String>();
     private List<String> pagesToVisit = new LinkedList<String>();
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
     }
 
-    public boolean verifyUrl(String url){
+    public boolean verifyUrl(String url) {
         try {
             new URL(url).toURI();
             return true;
@@ -31,19 +31,16 @@ public class Crawler {
             return false;
         }
     }
+
     public void addPageToVisit(String url) {
         if (verifyUrl(url)) {
             pagesToVisit.add(url);
-        }
-        else System.out.println("URL is not valid");
+        } else System.out.println("URL is not valid");
     }
 
     public void getLink(String url) throws IOException {
-        if(verifyUrl(url))
-        {
-            Document newDoc=Jsoup.connect(url).get();
-            Elements link=newDoc.select("a");
-            String linkHref = link.attr("href"); // "http://example.com/"
-        }
+
     }
+
+
 }
