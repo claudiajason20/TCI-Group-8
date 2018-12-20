@@ -76,6 +76,7 @@ public class crawlerTest {
         //assert
 
         assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
+
     }
 
 

@@ -42,5 +42,18 @@ public class Crawler {
 
     }
 
+    public void parseLinks(String url) throws IOException {
+        Document doc = Jsoup.connect(url).get();
+        Elements links = doc.select("a[href]");
+        for (int i = 0; i < links.size(); i++) {
+            String link = links.get(i).attr("href").toString();
+            addPageToVisit(link);
+        }
+    }
+
+    public int getPagesToVisitSize() {
+        return pagesToVisit.size();
+    }
+
 
 }
