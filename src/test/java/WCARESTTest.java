@@ -21,12 +21,15 @@ public class WCARESTTest {
 
     @Test
     public void  canReceiveMessage(){
-
+//        Test whether the receive function works or not
+//Arrange
     WCAREST wcarest;
     wcarest=mock(WCAREST.class);
     when(wcarest.receive()).thenReturn("OK");
-    Assert.assertEquals("OK",wcarest.receive());
-
+//    Act
+    String a=wcarest.receive();
+//    Assert
+    Assert.assertEquals(a,wcarest.receive());
 
     }
 }
