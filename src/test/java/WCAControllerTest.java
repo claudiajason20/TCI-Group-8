@@ -9,6 +9,7 @@ public class WCAControllerTest {
 
     @Test
     public void moviesClassCanBeMocked(){
+//        dummy
         //arrange
         Movies movies;
         //act
@@ -21,6 +22,7 @@ public class WCAControllerTest {
 
     @Test
     public void CanMocksAccessMoviesData(){
+// indirect output,verification of direct output
         //arrange
         Movies movies=mock(Movies.class);
         when(movies.getid()).thenReturn(1);
@@ -28,23 +30,26 @@ public class WCAControllerTest {
         int id=movies.getid();
         //arrange
         verify(movies,times(1)).getid();
-        Assert.assertEquals(1,id);
+//        Assert.assertEquals(1,id);
 
     }
 
     @Test
     public void CanMocksChangeMoviesData(){
+// verification of direct input,indirect input
         //arrange
         Movies movies=mock(Movies.class);
+        int id=2;
         //act
-        movies.setid(2);
+        movies.setid(id);
         //arrange
-        verify(movies,times(1)).setid(2);
+        verify(movies,times(1)).setid(id);
 
     }
 
     @Test
     public void shouldBeAbleToAddMoviesClass(){
+//      Ver dir out/in,indirect in/out
         //arrange
         Movies movies=mock(Movies.class);
         WCAController wcaController=mock(WCAController.class);
@@ -54,12 +59,14 @@ public class WCAControllerTest {
         Movies getmovies=wcaController.getmovies();
         //assert
         verify(wcaController,times(1)).insertmovies(movies);
-        Assert.assertEquals(movies,getmovies);
+//        Assert.assertEquals(movies,getmovies);
 
     }
 
     @Test
     public void shouldBeAbleToAddBookClassTest(){
+//      Ver dir out/in,indirect in/out
+
         //arrange
         Books books=mock(Books.class);
         WCAController wcaController=mock(WCAController.class);
@@ -75,6 +82,8 @@ public class WCAControllerTest {
     }
     @Test
     public void shouldBeAbleToAddMusicClassTest(){
+//      Ver dir out/in,indirect in/out
+
         //arrange
         Music music=mock(Music.class);
         WCAController wcaController=mock(WCAController.class);
