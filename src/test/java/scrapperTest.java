@@ -22,10 +22,10 @@ public class scrapperTest {
         Scrapper scrapperData = new Scrapper();
 
         //act
-        when(jsoup.).thenReturn("Hello World");
-        Scrapper.setDoc(jsoup.parse(html));
-        //assert
-        verify(scrapperData).getBodyText();
+//        when(jsoup.).thenReturn("Hello World");
+//        Scrapper.setDoc(jsoup.parse(html));
+//        //assert
+//        verify(scrapperData).getBodyText();
     }
 
 }
