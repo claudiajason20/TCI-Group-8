@@ -8,8 +8,12 @@ public class WCARESTTest {
 
     @Test
     public void CanMockWCAController(){
+//        Check whether the WCAController can be mocked here
+//        Arrange
         WCAController wcaController;
+//        Act
         wcaController=mock(WCAController.class);
+//        Assert
         Assert.assertTrue(wcaController instanceof WCAController);
 
     }
