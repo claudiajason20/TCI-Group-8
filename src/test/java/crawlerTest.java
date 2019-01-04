@@ -1,5 +1,6 @@
 import org.jsoup.nodes.Document;
 import org.junit.Test;
+import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import java.io.IOException;
@@ -59,14 +60,15 @@ public class crawlerTest {
      * @throws IOException
      */
     @Test
-    public void verifyThatGetLinkMethodRuns() throws IOException {
+    public void VerifyThatGetLinksMethodRuns() throws IOException {
         //arrange
-        String url = "https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
+//        String url = "https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
+        Document doc= Mockito.mock(Document.class);
         //act
-        Crawler spyCrawl = Mockito.spy(crawler);
-        spyCrawl.getLink(url);
+
+        crawler.getLinks(doc);
         //assert
-        verify(spyCrawl).getLink(url);
+        verify(crawler).getLinks(doc);
     }
 
     /**
@@ -75,17 +77,15 @@ public class crawlerTest {
      * @throws IOException
      */
     @Test
-    public void assertThatCrawlerAbleToReceiveLink() throws IOException {
+    public void assertThatCrawlerAbleToReturnDocument() throws IOException {
         //arrange
         String url = "https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
         Document jsoupDoc=Mockito.mock(Document.class);
+        Crawler spyCrawl = Mockito.spy(crawler);
         //act
-//       when(crawler.loadUrl(url)).then (jsiupdoc)
-        when(crawler.parseLinks(url)).thenReturn(jsoupDoc);
-        assertEquals(jsoupDoc,crawler.parseLinks(url));
-        //assertuRL
-      //  verify crawler has called loaad
-        verify
+        when(spyCrawl.getDocument(url)).thenReturn(jsoupDoc);
+        // assert crawler has called load
+        assertEquals(jsoupDoc,spyCrawl.getDocument(url));
 //        assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
     }
     @Test

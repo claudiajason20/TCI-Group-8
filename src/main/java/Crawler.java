@@ -38,18 +38,13 @@ public class Crawler {
         } else System.out.println("URL is not valid");
     }
 
-    public String getLink(int index) throws IOException {
+    public Document getDocument(String url) throws IOException {
+        Document doc=Jsoup.connect(url).get();
+        return doc;
+      }
 
-    }
-
-    public void parseLinks(String url) throws IOException {
-        Document doc = Jsoup.connect(url).get();
-        Elements links = doc.select("a[href]");
-        for (int i = 0; i < links.size(); i++) {
-            String link = links.get(i).attr("href").toString();
-            addPageToVisit(link);
-        }
-    }
+    public void getLinks(Document doc) throws IOException {
+      }
 
     public int getPagesToVisitSize() {
         return pagesToVisit.size();
