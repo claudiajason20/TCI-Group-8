@@ -1,3 +1,4 @@
+import org.jsoup.nodes.Document;
 import org.junit.Test;
 import org.mockito.Mockito;
 
@@ -5,6 +6,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 public class crawlerTest {
     Crawler crawler = new Crawler();
@@ -76,10 +78,19 @@ public class crawlerTest {
     public void assertThatCrawlerAbleToReceiveLink() throws IOException {
         //arrange
         String url = "https://www.geeksforgeeks.org/check-if-url-is-valid-or-not-in-java/";
+        Document jsoupDoc=Mockito.mock(Document.class);
         //act
-        crawler.parseLinks(url);
-        //assert
-        assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
+//       when(crawler.loadUrl(url)).then (jsiupdoc)
+        when(crawler.parseLinks(url)).thenReturn(jsoupDoc);
+        assertEquals(jsoupDoc,crawler.parseLinks(url));
+        //assertuRL
+      //  verify crawler has called loaad
+        verify
+//        assertTrue("Crawler able to receive link correctly!",crawler.getPagesToVisitSize()>0);
+    }
+    @Test
+    public void assertThatReturnedLinkIsInOrder(){
+
 
     }
 

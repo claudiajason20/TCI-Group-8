@@ -38,7 +38,7 @@ public class Crawler {
         } else System.out.println("URL is not valid");
     }
 
-    public void getLink(String url) throws IOException {
+    public String getLink(int index) throws IOException {
 
     }
 
