@@ -44,6 +44,7 @@ public class Crawler {
       }
 
     public void getLinks(Document doc) throws IOException {
+
       }
 
     public int getPagesToVisitSize() {
