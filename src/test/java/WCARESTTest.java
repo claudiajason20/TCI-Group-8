@@ -3,6 +3,7 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class WCARESTTest {
 
@@ -15,6 +16,17 @@ public class WCARESTTest {
         wcaController=mock(WCAController.class);
 //        Assert
         Assert.assertTrue(wcaController instanceof WCAController);
+
+    }
+
+    @Test
+    public void  canReceiveMessage(){
+
+    WCAREST wcarest;
+    wcarest=mock(WCAREST.class);
+    when(wcarest.receive()).thenReturn("OK");
+    Assert.assertEquals("OK",wcarest.receive());
+
 
     }
 }
