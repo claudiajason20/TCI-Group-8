@@ -20,4 +20,8 @@ public class Scrapper {
     public Boolean hasVisited(Node node) {
         return null;
     }
+
+    public Boolean checkDoc(Document doc) {
+        return null;
+    }
 }
