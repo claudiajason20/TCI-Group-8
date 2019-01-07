@@ -24,8 +24,21 @@ public class scrapperTest {
         Boolean test = sc.hasVisited(node);
 
         //assert
-        verify(sc).hasVisited(node);
         assertTrue(test);
     }
 
+    @Test
+    public void documentIsNotEmpty(){
+        //arrange
+        Document doc = mock(Document.class);
+        Scrapper sc = mock(Scrapper.class);
+        when(sc.checkDoc(doc)).thenReturn(true);
+
+        //act
+        Boolean test = sc.checkDoc(doc);
+
+        //assert
+        assertTrue(test);
+
+    }
 }
