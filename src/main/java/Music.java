@@ -1,5 +1,8 @@
 import java.time.LocalDate;
 
+/**
+ *
+ */
 public class Music {
     int mu_id;
     String mu_title;
@@ -10,6 +13,18 @@ public class Music {
 
     int mu_year;
     int historyDate=1877;
+
+    /**
+     * @param id
+     * @param title
+     * @param category
+     * @param genre
+     * @param format
+     * @param year
+     * @param artist
+     * @throws musicYearException
+     * @throws musicParameterException
+     */
     public Music(int id,String title, String category, String genre, String format, int year, String artist) throws musicYearException, musicParameterException {
         mu_id=id;
         if(title!=null &&category!=null&&genre!=null&&format!=null&&artist!=null) {
