@@ -41,4 +41,20 @@ public class scrapperTest {
         assertTrue(test);
 
     }
+
+
+    @Test
+    public void allowsGetDatabyId(){
+        //arrange
+        Scrapper sc = mock(Scrapper.class);
+        String a = "Music,Books,Movies";
+        when(sc.getDataById(1)).thenReturn(a);
+
+
+        //act
+        verify(sc).getDataById(1);
+
+        //assert
+        assertEquals(a,sc.getDataById(1));
+    }
 }

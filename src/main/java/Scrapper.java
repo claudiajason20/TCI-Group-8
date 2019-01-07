@@ -30,4 +30,8 @@ public class Scrapper {
         else
             return true;
     }
+
+    public String getDataById(int i) {
+        return  null;
+    }
 }
