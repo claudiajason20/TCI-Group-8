@@ -52,7 +52,7 @@ public class scrapperTest {
 
 
         //act
-        verify(sc).getDataById(1);
+        verify(sc,times(0)).getDataById(1);
 
         //assert
         assertEquals(a,sc.getDataById(1));
