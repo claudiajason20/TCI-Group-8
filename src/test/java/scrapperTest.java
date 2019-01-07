@@ -1,31 +1,44 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.nodes.Node;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
 import java.net.URL;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void documentIsNotEmpty() {
+    public void linkNotVisitedTwice(){
         //arrange
-        Jsoup jsoup = mock(Jsoup.class);
-        String html = "Hello World";
-        Document doc = mock(Document.class);
-        Scrapper scrapperData = new Scrapper();
+        Node node = mock(Node.class);
+        Scrapper sc = mock(Scrapper.class);
+        when(sc.hasVisited(node)).thenReturn(true);
 
         //act
-        when(jsoup.).thenReturn("Hello World");
-        Scrapper.setDoc(jsoup.parse(html));
+        Boolean test = sc.hasVisited(node);
+
         //assert
-        verify(scrapperData).getBodyText();
+        assertTrue(test);
     }
 
+    @Test
+    public void documentIsNotEmpty(){
+        //arrange
+        Document doc = mock(Document.class);
+        Scrapper sc = mock(Scrapper.class);
+        when(sc.checkDoc(doc)).thenReturn(true);
+
+        //act
+        Boolean test = sc.checkDoc(doc);
+
+        //assert
+        assertTrue(test);
+
+    }
 }
