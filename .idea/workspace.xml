@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class">
-      <change beforePath="$PROJECT_DIR$/.idea/modules/project.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/project.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/project.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/project.test.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -156,11 +152,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="109">
+              <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -177,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="211">
+              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="e#419#420#0" expanded="true" />
                 <element signature="e#446#447#0" expanded="true" />
@@ -218,9 +214,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
       </list>
     </option>
   </component>
@@ -285,7 +281,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546849082974" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546849426836" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -400,14 +396,11 @@
       <workItem from="1544985970929" duration="3697000" />
       <workItem from="1545292376427" duration="3628000" />
       <workItem from="1546608995585" duration="4309000" />
-      <workItem from="1546848555146" duration="467000" />
+      <workItem from="1546848555146" duration="799000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 34m 07s.xml">
-      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 34m 23s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
@@ -435,9 +428,12 @@
     <history-entry file="scrapperTest_linkNotVisitedTwice - 2018.12.16 at 20h 40m 27s.xml">
       <configuration name="scrapperTest.linkNotVisitedTwice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.07 at 09h 20m 10s.xml">
+      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41856000" />
+    <option name="totallyTimeSpent" value="42188000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -608,23 +604,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="109">
+          <caret line="34" column="12" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
           <folding>
-            <element signature="e#419#420#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state relative-caret-position="211">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
           </folding>
         </state>
       </provider>

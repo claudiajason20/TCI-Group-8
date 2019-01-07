@@ -1,5 +1,6 @@
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
+import org.jsoup.select.Elements;
 
 public class Scrapper {
     private static Document docu;
@@ -22,6 +23,11 @@ public class Scrapper {
     }
 
     public Boolean checkDoc(Document doc) {
-        return null;
+        String title = doc.title();
+        if (title.isEmpty()){
+            return false;
+        }
+        else
+            return true;
     }
 }
