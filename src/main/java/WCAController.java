@@ -33,4 +33,8 @@ public class WCAController {
     public String getSpecific(String baseaddress, String parameter) {
         return null;
     }
+
+    public String getCrawlData(String baseaddress, String parameter) {
+        return null;
+    }
 }
