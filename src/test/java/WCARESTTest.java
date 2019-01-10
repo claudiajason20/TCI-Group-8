@@ -45,5 +45,16 @@ public class WCARESTTest {
         Assert.assertEquals("getAll",output);
     }
 
-
+    @Test
+    public void canDoGetSpecificFunction(){
+//        Test whether the WCACOntroller can do getspecific request
+        WCAController wcaController=mock(WCAController.class);
+        WCAREST wcarest=new WCAREST();
+        String baseaddress="baseAddress";
+        String parameter="specific";
+        when(wcaController.getSpecific(baseaddress,parameter)).thenReturn("getSpecific");
+        String output=wcarest.receive(1,baseaddress,parameter,wcaController);
+        verify(wcaController,times(1)).getSpecific(baseaddress,parameter);
+        Assert.assertEquals("getSpecific",output);
+    }
 }
