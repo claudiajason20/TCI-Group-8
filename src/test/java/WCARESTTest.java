@@ -1,9 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Mockito;
 
-import static org.junit.Assert.*;
-import static org.mockito.Mockito.mock;
-import static org.mockito.Mockito.when;
+import static org.mockito.Mockito.*;
 
 public class WCARESTTest {
 
@@ -29,7 +28,20 @@ public class WCARESTTest {
 //    Act
     String a=wcarest.receive();
 //    Assert
-    Assert.assertEquals(a,wcarest.receive());
-
+    Assert.assertEquals("OK",a);
     }
+
+    @Test
+    public void canDoGetAllFunction(){
+//        Test whether the WCACOntroller can do getall request
+        WCAController wcaController=mock(WCAController.class);
+        WCAREST wcarest=new WCAREST();
+        when(wcaController.getAll()).thenReturn("getAll");
+        String baseaddress="baseAddress";
+        String output=wcarest.receive(1,baseaddress,"",wcaController);
+        verify(wcaController,times(1)).getAll(baseaddress);
+        Assert.assertEquals("getAll",output);
+    }
+
+
 }
