@@ -29,4 +29,8 @@ public class WCAController {
 
         return null;
     }
+
+    public String getSpecific(String baseaddress, String parameter) {
+        return null;
+    }
 }

@@ -53,7 +53,7 @@ public class WCARESTTest {
         String baseaddress="baseAddress";
         String parameter="specific";
         when(wcaController.getSpecific(baseaddress,parameter)).thenReturn("getSpecific");
-        String output=wcarest.receive(1,baseaddress,parameter,wcaController);
+        String output=wcarest.receive(2,baseaddress,parameter,wcaController);
         verify(wcaController,times(1)).getSpecific(baseaddress,parameter);
         Assert.assertEquals("getSpecific",output);
     }
