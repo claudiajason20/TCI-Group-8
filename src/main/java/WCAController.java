@@ -25,4 +25,8 @@ public class WCAController {
     }
 
 
+    public String getAll(String baseaddress) {
+
+        return null;
+    }
 }

@@ -1,6 +1,5 @@
 import org.junit.Assert;
 import org.junit.Test;
-import org.mockito.Mockito;
 
 import static org.mockito.Mockito.*;
 
@@ -36,8 +35,8 @@ public class WCARESTTest {
 //        Test whether the WCACOntroller can do getall request
         WCAController wcaController=mock(WCAController.class);
         WCAREST wcarest=new WCAREST();
-        when(wcaController.getAll()).thenReturn("getAll");
         String baseaddress="baseAddress";
+        when(wcaController.getAll(baseaddress)).thenReturn("getAll");
         String output=wcarest.receive(1,baseaddress,"",wcaController);
         verify(wcaController,times(1)).getAll(baseaddress);
         Assert.assertEquals("getAll",output);
