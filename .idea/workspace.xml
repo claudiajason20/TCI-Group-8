@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/WCAREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAREST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCARESTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCARESTTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -86,12 +84,12 @@
     <session id="1381991304">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1015" />
+          <entry key="java" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1015" />
+          <entry key="JAVA" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -115,11 +113,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
+            <state relative-caret-position="199">
+              <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,7 +125,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAREST.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="124">
@@ -204,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WCARESTTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAREST.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WCARESTTest.java" />
       </list>
     </option>
   </component>
@@ -276,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547112667279" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547114630779" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -389,14 +387,11 @@
       <workItem from="1544716038348" duration="1319000" />
       <workItem from="1544877838012" duration="20133000" />
       <workItem from="1544985970929" duration="1010000" />
-      <workItem from="1547108852687" duration="3807000" />
+      <workItem from="1547108852687" duration="5818000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 35m 28s.xml">
-      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 35m 39s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
@@ -424,9 +419,12 @@
     <history-entry file="WCARESTTest_canDoGetSpecificFunction - 2019.01.10 at 10h 27m 25s.xml">
       <configuration name="WCARESTTest.canDoGetSpecificFunction" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCARESTTest_canDoGetSpecificFunction - 2019.01.10 at 10h 31m 16s.xml">
+      <configuration name="WCARESTTest.canDoGetSpecificFunction" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41106000" />
+    <option name="totallyTimeSpent" value="43117000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -443,7 +441,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32409972" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32409972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -453,7 +451,7 @@
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.333795" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.333795" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -621,16 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="55" column="40" selection-start-line="55" selection-start-column="40" selection-end-line="55" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAREST.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -638,6 +626,16 @@
           <folding>
             <element signature="e#51#52#0" expanded="true" />
             <element signature="e#78#79#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="76" column="40" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

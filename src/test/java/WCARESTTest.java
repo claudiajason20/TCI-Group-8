@@ -48,13 +48,32 @@ public class WCARESTTest {
     @Test
     public void canDoGetSpecificFunction(){
 //        Test whether the WCACOntroller can do getspecific request
+//      Arrange
         WCAController wcaController=mock(WCAController.class);
         WCAREST wcarest=new WCAREST();
         String baseaddress="baseAddress";
         String parameter="specific";
         when(wcaController.getSpecific(baseaddress,parameter)).thenReturn("getSpecific");
+//        Act
         String output=wcarest.receive(2,baseaddress,parameter,wcaController);
+//        Assert
         verify(wcaController,times(1)).getSpecific(baseaddress,parameter);
         Assert.assertEquals("getSpecific",output);
+    }
+
+    @Test
+    public void canDoGetCrawlDataFunction(){
+//        Test whether the WCACOntroller can do getcrawlData request
+//      Arrange
+        WCAController wcaController=mock(WCAController.class);
+        WCAREST wcarest=new WCAREST();
+        String baseaddress="baseAddress";
+        String parameter="3";
+        when(wcaController.getCrawlData(baseaddress,parameter)).thenReturn("getCrawlData");
+//        Act
+        String output=wcarest.receive(3,baseaddress,parameter,wcaController);
+//        Assert
+        verify(wcaController,times(1)).getCrawlData(baseaddress,parameter);
+        Assert.assertEquals("getCrawl",output);
     }
 }
