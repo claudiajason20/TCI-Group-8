@@ -33,11 +33,14 @@ public class WCARESTTest {
     @Test
     public void canDoGetAllFunction(){
 //        Test whether the WCACOntroller can do getall request
+//      Arrange
         WCAController wcaController=mock(WCAController.class);
         WCAREST wcarest=new WCAREST();
         String baseaddress="baseAddress";
         when(wcaController.getAll(baseaddress)).thenReturn("getAll");
+//      Act
         String output=wcarest.receive(1,baseaddress,"",wcaController);
+//      Assert
         verify(wcaController,times(1)).getAll(baseaddress);
         Assert.assertEquals("getAll",output);
     }
