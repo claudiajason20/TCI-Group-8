@@ -64,12 +64,15 @@ public class WCARESTTest {
     @Test
     public void canDoGetCrawlDataFunction(){
 //        Test whether the WCACOntroller can do getcrawlData request
+//        Arrange
         WCAController wcaController=mock(WCAController.class);
         WCAREST wcarest=new WCAREST();
         String baseaddress="baseAddress";
         String parameter="3";
         when(wcaController.getCrawlData(baseaddress,parameter)).thenReturn("getCrawlData");
+//        Act
         String output=wcarest.receive(3,baseaddress,parameter,wcaController);
+//        Assert
         verify(wcaController,times(1)).getCrawlData(baseaddress,parameter);
         Assert.assertEquals("getCrawlData",output);
     }
