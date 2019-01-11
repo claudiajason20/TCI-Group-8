@@ -1,3 +1,4 @@
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
@@ -22,6 +23,9 @@ public class Scrapper {
         return null;
     }
 
+    /*
+     * to check the document that was sent is not empty.
+     */
     public Boolean checkDoc(Document doc) {
         String title = doc.title();
         if (title.isEmpty()){
@@ -31,7 +35,14 @@ public class Scrapper {
             return true;
     }
 
+    /*
+     * Will return String of the data based on the Id
+     */
     public String getDataById(int i) {
+
         return  null;
     }
+
+
+
 }

@@ -57,4 +57,19 @@ public class scrapperTest {
         //assert
         assertEquals(a,sc.getDataById(1));
     }
+
+    @Test
+    public void allowsGetSpecificData(){
+        //arrange
+        Scrapper sc = mock(Scrapper.class);
+        String a = "Music,Books,Movies";
+        when(sc.getSpecific(1,1)).thenReturn(a);
+
+
+        //act
+        verify(sc,times(0)).getSpecific(1,1);
+
+        //assert
+        assertEquals(a,sc.getDataById(1));
+    }
 }
