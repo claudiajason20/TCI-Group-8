@@ -8,18 +8,7 @@ public class WCARESTTest {
 
 
 
-    @Test
-    public void  canReceiveMessage(){
-//        indirect output, direct output
-//        Test whether the receive function works or not
-//Arrange
-    wcarest=mock(WCAREST.class);
-    when(wcarest.receive()).thenReturn("OK");
-//    Act
-    String a=wcarest.receive();
-//    Assert
-    Assert.assertEquals("OK",a);
-    }
+
 
     @Test
     public void canDoGetAllFunction(){
