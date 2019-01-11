@@ -32,17 +32,25 @@ public class WCARESTTest {
 
     @Test
     public void canDoGetSpecificFunction(){
-//        Test whether the WCACOntroller can do getspecific request
+//      Test whether the WCAController can do getspecific request
 //      Arrange
         WCAController wcaController=mock(WCAController.class);
         wcarest=new WCAREST(wcaController);
         String baseaddress="baseAddress";
         String parameter="specific";
-        when(wcaController.getSpecific(baseaddress,parameter)).thenReturn("getSpecific");
-//        Act
+        String combined="combined";
+
+//      Act
+        when(wcaController.combine(baseaddress,parameter)).thenReturn(combined);
+        when(wcaController.getSpecific(combined)).thenReturn("getSpecific");
+//        indirect in/out
         String output=wcarest.receive(2,baseaddress,parameter);
-//        Assert
-        verify(wcaController,times(1)).getSpecific(baseaddress,parameter);
+
+//      Assert
+
+//              ver param call
+        verify(wcaController,times(1)).getSpecific(combined);
+//              ver dir out
         Assert.assertEquals("getSpecific",output);
     }
 

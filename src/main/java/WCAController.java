@@ -30,7 +30,7 @@ public class WCAController {
         return null;
     }
 
-    public String getSpecific(String baseaddress, String parameter) {
+    public String getSpecific(String baseaddress) {
         return null;
     }
 
