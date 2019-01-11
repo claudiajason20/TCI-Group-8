@@ -168,6 +168,9 @@ public class moviesTest {
 
     @Test
     public void shouldBeAbleToChangeAndGetGenre(){
+// Direct input and output
+        //Able to change genre
+        //        Arrange
         int ID=1;
         String NAME="Jack on the go";
         String GENRE="Dramas";
@@ -185,9 +188,10 @@ public class moviesTest {
         stars.add(WRITER1);
         stars.add(WRITER2);
         Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,stars);
+//        Act
         movies.setgenre("Action");
         String genre=movies.getgenre();
-
+//Assert
         Assert.assertEquals("Action",genre);
 
 
