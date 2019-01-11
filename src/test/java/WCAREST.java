@@ -1,15 +1,20 @@
 public class WCAREST {
-    public String receive() {
-        return null;
+WCAController wcaController;
+
+    public WCAREST(WCAController wcaController) {
+        this.wcaController =wcaController;
     }
 
-    public String receive(int i, String baseaddress, String s, WCAController wcaController) {
+    public String receive(int i, String baseaddress, String parameter) {
         if(i==1)
-        return wcaController.getAll(baseaddress);
+        {
+            String base=wcaController.combine(baseaddress,parameter);
+            return wcaController.getAll(base);
+        }
         else if(i==2)
-            return wcaController.getSpecific(baseaddress,s);
+            return wcaController.getSpecific(baseaddress,parameter);
         else if(i==3)
-            return wcaController.getCrawlData(baseaddress,s);
+            return wcaController.getCrawlData(baseaddress,parameter);
     return null;
     }
 }

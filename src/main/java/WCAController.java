@@ -37,4 +37,8 @@ public class WCAController {
     public String getCrawlData(String baseaddress, String parameter) {
         return null;
     }
+
+    public String combine(String baseaddress, String parameter) {
+        return null;
+    }
 }
