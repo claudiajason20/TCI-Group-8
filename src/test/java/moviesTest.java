@@ -8,6 +8,10 @@ public class moviesTest {
 
     @Test
     public void constructorSuccessful(){
+//        Direct input/output with its verification
+
+//      Movies can be initialized
+
         //arrange
         int ID=1;
         String NAME="Hi BEN";
@@ -32,6 +36,10 @@ public class moviesTest {
 
     @Test(expected = IllegalArgumentException.class)
     public void nameShouldNotBeNull(){
+//        Direct input/output with its verification
+//
+//        Name should not be null
+
         //arrange
         int ID=1;
         String NAME=null;
@@ -46,9 +54,14 @@ public class moviesTest {
         //exception
 
     }
+
     @Test(expected = IllegalArgumentException.class)
     public void idShouldNotBeNullOrZero(){
-        //arrange
+//        Direct input/output with its verification
+
+//        ID should not be null or zero
+//        arrange
+
         int ID=0;
         String NAME="Jack on the go";
         String GENRE="Drama";
@@ -63,12 +76,13 @@ public class moviesTest {
 
     }
 
-/////////////////
-////////////////
-///////////////
 
     @Test
     public void thereISMoreThanOneWriter(){
+//      Direct input/output with its verification
+
+//        More than one writer
+
         //arrange
         int ID=1;
         String NAME="Jack on the go";
@@ -84,13 +98,20 @@ public class moviesTest {
         writers.add(WRITER2);
         //act
         Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,null);
+        int size=movies.getwriter().size();
         //assert
-        Assert.assertEquals(2,movies.getwriter().size());
+        Assert.assertEquals(2,size);
+
+
 
     }
 
     @Test
     public void thereISMoreThanOneStar(){
+        //Direct input/output with its verification
+
+//        More than one star
+
         //arrange
         int ID=1;
         String NAME="Jack on the go";
@@ -110,13 +131,18 @@ public class moviesTest {
         stars.add(WRITER2);
         //act
         Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,stars);
+        int size=movies.getstar().size();
         //assert
-        Assert.assertEquals(2,movies.getstar().size());
+        Assert.assertEquals(2,size);
 
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void yearBiggerThan1900(){
+        //      Direct input/output with its verification
+
+//        Year bigger than 1900
+
         //arrange
         int ID=1;
         String NAME="Jack on the go";

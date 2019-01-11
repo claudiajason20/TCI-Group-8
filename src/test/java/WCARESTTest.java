@@ -4,9 +4,11 @@ import org.junit.Test;
 import static org.mockito.Mockito.*;
 
 public class WCARESTTest {
+    WCAREST wcarest;
 
     @Test
     public void CanMockWCAController(){
+//        dummy
 //        Check whether the WCAController can be mocked here
 //        Arrange
         WCAController wcaController;
@@ -19,9 +21,9 @@ public class WCARESTTest {
 
     @Test
     public void  canReceiveMessage(){
+//        indirect output, direct output
 //        Test whether the receive function works or not
 //Arrange
-    WCAREST wcarest;
     wcarest=mock(WCAREST.class);
     when(wcarest.receive()).thenReturn("OK");
 //    Act
@@ -32,10 +34,13 @@ public class WCARESTTest {
 
     @Test
     public void canDoGetAllFunction(){
+//        indirect out/in ,verification of direct out/in and also with param
+
 //        Test whether the WCACOntroller can do getall request
-//      Arrange
+//
+// Arrange
         WCAController wcaController=mock(WCAController.class);
-        WCAREST wcarest=new WCAREST();
+        wcarest=new WCAREST();
         String baseaddress="baseAddress";
         when(wcaController.getAll(baseaddress)).thenReturn("getAll");
 //      Act
@@ -50,7 +55,7 @@ public class WCARESTTest {
 //        Test whether the WCACOntroller can do getspecific request
 //      Arrange
         WCAController wcaController=mock(WCAController.class);
-        WCAREST wcarest=new WCAREST();
+        wcarest=new WCAREST();
         String baseaddress="baseAddress";
         String parameter="specific";
         when(wcaController.getSpecific(baseaddress,parameter)).thenReturn("getSpecific");
@@ -66,7 +71,7 @@ public class WCARESTTest {
 //        Test whether the WCACOntroller can do getcrawlData request
 //        Arrange
         WCAController wcaController=mock(WCAController.class);
-        WCAREST wcarest=new WCAREST();
+        wcarest=new WCAREST();
         String baseaddress="baseAddress";
         String parameter="3";
         when(wcaController.getCrawlData(baseaddress,parameter)).thenReturn("getCrawlData");

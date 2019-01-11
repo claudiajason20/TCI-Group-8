@@ -1,17 +1,18 @@
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Mock;
 
 import static org.mockito.Mockito.*;
 
 public class WCAControllerTest {
-    WCAController controller;
-
+Movies movies;
+Books books;
+Music music;
 
     @Test
     public void moviesClassCanBeMocked(){
 //        dummy
         //arrange
-        Movies movies;
         //act
         movies=mock(Movies.class);
         //assert
@@ -24,7 +25,7 @@ public class WCAControllerTest {
     public void CanMocksAccessMoviesData(){
 // indirect output,verification of direct output
         //arrange
-        Movies movies=mock(Movies.class);
+        movies=mock(Movies.class);
         when(movies.getid()).thenReturn(1);
         //act
         int id=movies.getid();
@@ -38,7 +39,7 @@ public class WCAControllerTest {
     public void CanMocksChangeMoviesData(){
 // verification of direct input,indirect input
         //arrange
-        Movies movies=mock(Movies.class);
+        movies=mock(Movies.class);
         int id=2;
         //act
         movies.setid(id);
@@ -51,7 +52,7 @@ public class WCAControllerTest {
     public void shouldBeAbleToAddMoviesClass(){
 //      Ver dir out/in,indirect in/out
         //arrange
-        Movies movies=mock(Movies.class);
+        movies=mock(Movies.class);
         WCAController wcaController=mock(WCAController.class);
         when(wcaController.getmovies()).thenReturn(movies);
         //act
@@ -68,7 +69,7 @@ public class WCAControllerTest {
 //      Ver dir out/in,indirect in/out
 
         //arrange
-        Books books=mock(Books.class);
+        books=mock(Books.class);
         WCAController wcaController=mock(WCAController.class);
         when(wcaController.getbooks()).thenReturn(books);
         //act
@@ -85,7 +86,7 @@ public class WCAControllerTest {
 //      Ver dir out/in,indirect in/out
 
         //arrange
-        Music music=mock(Music.class);
+        music=mock(Music.class);
         WCAController wcaController=mock(WCAController.class);
         when(wcaController.getmusics()).thenReturn(music);
         //act
