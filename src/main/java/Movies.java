@@ -106,4 +106,8 @@ public class Movies {
     public void setgenre(String genre) {
         this.genre=genre;
     }
+
+    public void setformat(String format) {
+        this.format=format;
+    }
 }
