@@ -84,12 +84,12 @@
     <session id="1381991304">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1862" />
+          <entry key="java" value="1898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1862" />
+          <entry key="JAVA" value="1898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -138,15 +138,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="201" selection-start-line="201" selection-end-line="201" />
+            <state relative-caret-position="51">
+              <caret line="202" column="31" selection-start-line="202" selection-start-column="31" selection-end-line="202" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#nameShouldNotBeNull#0;class#moviesTest#0" />
                 <element signature="method#idShouldNotBeNullOrZero#0;class#moviesTest#0" />
                 <element signature="method#thereISMoreThanOneWriter#0;class#moviesTest#0" />
                 <element signature="method#thereISMoreThanOneStar#0;class#moviesTest#0" />
-                <element signature="method#shouldBeAbleToChangeAndGetGenre#0;class#moviesTest#0" />
               </folding>
             </state>
           </provider>
@@ -155,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-976">
-              <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+            <state relative-caret-position="177">
+              <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#358#366#0" expanded="true" />
@@ -181,6 +180,8 @@
                 <element signature="e#1990#1991#0" expanded="true" />
                 <element signature="e#2032#2033#0" expanded="true" />
                 <element signature="e#2051#2052#0" expanded="true" />
+                <element signature="e#2078#2079#0" expanded="true" />
+                <element signature="e#2097#2098#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -305,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547220204719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547220224309" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -424,9 +425,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCARESTTest_canReceiveMessage - 2019.01.04 at 14h 40m 12s.xml">
-      <configuration name="WCARESTTest.canReceiveMessage" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.10 at 10h 03m 44s.xml">
       <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
     </history-entry>
@@ -454,9 +452,12 @@
     <history-entry file="moviesTest_shouldBeAbleToChangeAndGetGenre - 2019.01.11 at 16h 17m 25s.xml">
       <configuration name="moviesTest.shouldBeAbleToChangeAndGetGenre" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="moviesTest_shouldBeAbleToChangeAndGetFormat - 2019.01.11 at 16h 23m 29s.xml">
+      <configuration name="moviesTest.shouldBeAbleToChangeAndGetFormat" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52214000" />
+    <option name="totallyTimeSpent" value="52468000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -669,8 +670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-976">
-          <caret line="25" column="22" lean-forward="true" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        <state relative-caret-position="177">
+          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#358#366#0" expanded="true" />
@@ -695,21 +696,22 @@
             <element signature="e#1990#1991#0" expanded="true" />
             <element signature="e#2032#2033#0" expanded="true" />
             <element signature="e#2051#2052#0" expanded="true" />
+            <element signature="e#2078#2079#0" expanded="true" />
+            <element signature="e#2097#2098#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="201" selection-start-line="201" selection-end-line="201" />
+        <state relative-caret-position="51">
+          <caret line="202" column="31" selection-start-line="202" selection-start-column="31" selection-end-line="202" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#nameShouldNotBeNull#0;class#moviesTest#0" />
             <element signature="method#idShouldNotBeNullOrZero#0;class#moviesTest#0" />
             <element signature="method#thereISMoreThanOneWriter#0;class#moviesTest#0" />
             <element signature="method#thereISMoreThanOneStar#0;class#moviesTest#0" />
-            <element signature="method#shouldBeAbleToChangeAndGetGenre#0;class#moviesTest#0" />
           </folding>
         </state>
       </provider>

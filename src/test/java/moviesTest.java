@@ -199,6 +199,9 @@ public class moviesTest {
 
     @Test
     public void shouldBeAbleToChangeAndGetFormat(){
+        // Direct input and output
+        //Able to change format
+        //        Arrange
         int ID=1;
         String NAME="Jack on the go to the Beach";
         String GENRE="Dramas";
@@ -216,8 +219,10 @@ public class moviesTest {
         stars.add(WRITER1);
         stars.add(WRITER2);
         Movies movies=new Movies(ID,NAME,GENRE,FORMAT,YEAR,DIRECTOR,writers,stars);
+//        Act
         movies.setformat("CD");
         String format=movies.getformat();
+//        Assert
         Assert.assertEquals("CD",format);
 
 
