@@ -6,18 +6,7 @@ import static org.mockito.Mockito.*;
 public class WCARESTTest {
     WCAREST wcarest;
 
-    @Test
-    public void CanMockWCAController(){
-//        dummy
-//        Check whether the WCAController can be mocked here
-//        Arrange
-        WCAController wcaController;
-//        Act
-        wcaController=mock(WCAController.class);
-//        Assert
-        Assert.assertTrue(wcaController instanceof WCAController);
 
-    }
 
     @Test
     public void  canReceiveMessage(){
