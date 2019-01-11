@@ -15,8 +15,10 @@ WCAController wcaController;
             String base=wcaController.combine(baseaddress,parameter);
             return wcaController.getSpecific(base);
         }
-        else if(i==3)
-            return wcaController.getCrawlData(baseaddress,parameter);
+        else if(i==3) {
+            String base=wcaController.combine(baseaddress,parameter);
+            return wcaController.getCrawlData(base);
+        }
     return null;
     }
 }

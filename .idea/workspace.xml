@@ -86,12 +86,12 @@
     <session id="1381991304">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2334" />
+          <entry key="java" value="2415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2334" />
+          <entry key="JAVA" value="2415" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -121,7 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+              <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +132,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAREST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+            <state relative-caret-position="101">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
               <folding>
                 <element signature="e#101#102#0" expanded="true" />
                 <element signature="e#150#151#0" expanded="true" />
@@ -145,8 +145,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+            <state relative-caret-position="202">
+              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="e#172#173#0" expanded="true" />
                 <element signature="e#199#200#0" expanded="true" />
@@ -282,7 +282,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547229492465" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547229935904" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -308,7 +308,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WCARESTTest.canDoGetSpecificFunction">
+  <component name="RunManager" selected="JUnit.WCARESTTest.canDoGetCrawlDataFunction">
     <configuration name="WCARESTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -322,6 +322,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WCARESTTest" />
       <option name="METHOD_NAME" value="canDoGetAllFunction" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WCARESTTest.canDoGetCrawlDataFunction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WCARESTTest" />
+      <option name="METHOD_NAME" value="canDoGetCrawlDataFunction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -347,30 +357,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="moviesTest.shouldBeAbleToChangeAndGetGenre" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="moviesTest" />
-      <option name="METHOD_NAME" value="shouldBeAbleToChangeAndGetGenre" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.WCARESTTest.canDoGetAllFunction" />
-      <item itemvalue="JUnit.moviesTest.shouldBeAbleToChangeAndGetGenre" />
       <item itemvalue="JUnit.moviesTest.shouldBeAbleToChangeAndGetFormat" />
       <item itemvalue="JUnit.WCARESTTest" />
       <item itemvalue="JUnit.WCARESTTest.canDoGetSpecificFunction" />
+      <item itemvalue="JUnit.WCARESTTest.canDoGetCrawlDataFunction" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WCARESTTest.canDoGetCrawlDataFunction" />
         <item itemvalue="JUnit.WCARESTTest.canDoGetSpecificFunction" />
         <item itemvalue="JUnit.WCARESTTest.canDoGetAllFunction" />
         <item itemvalue="JUnit.WCARESTTest" />
         <item itemvalue="JUnit.moviesTest.shouldBeAbleToChangeAndGetFormat" />
-        <item itemvalue="JUnit.moviesTest.shouldBeAbleToChangeAndGetGenre" />
       </list>
     </recent_temporary>
   </component>
@@ -395,14 +395,11 @@
       <workItem from="1544985970929" duration="1010000" />
       <workItem from="1547108852687" duration="10006000" />
       <workItem from="1547209784483" duration="4237000" />
-      <workItem from="1547226108482" duration="3545000" />
+      <workItem from="1547226108482" duration="3814000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 20m 36s.xml">
-      <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 20m 51s.xml">
       <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
     </history-entry>
@@ -430,14 +427,18 @@
     <history-entry file="WCARESTTest_canDoGetSpecificFunction - 2019.01.11 at 18h 53m 29s.xml">
       <configuration name="WCARESTTest.canDoGetSpecificFunction" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCARESTTest_canDoGetCrawlDataFunction - 2019.01.11 at 19h 04m 23s.xml">
+      <configuration name="WCARESTTest.canDoGetCrawlDataFunction" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58051000" />
+    <option name="totallyTimeSpent" value="58320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" anchor="top" id="Terminal" order="0" sideWeight="0.49924356" visible="true" weight="0.20083103" />
+      <window_info anchor="top" id="Terminal" order="0" sideWeight="0.49924356" visible="true" weight="0.20083103" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.19798657" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -448,7 +449,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32409972" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32409972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -638,8 +639,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="32" column="48" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+        <state relative-caret-position="202">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
           <folding>
             <element signature="e#172#173#0" expanded="true" />
             <element signature="e#199#200#0" expanded="true" />
@@ -657,8 +658,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAREST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" column="69" selection-start-line="14" selection-start-column="69" selection-end-line="14" selection-end-column="69" />
+        <state relative-caret-position="101">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
           <folding>
             <element signature="e#101#102#0" expanded="true" />
             <element signature="e#150#151#0" expanded="true" />
@@ -669,7 +670,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
+          <caret line="52" column="25" lean-forward="true" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
