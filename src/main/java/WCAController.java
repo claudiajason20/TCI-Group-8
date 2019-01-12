@@ -1,5 +1,7 @@
-public class WCAController {
+import java.util.ArrayList;
 
+public class WCAController {
+ArrayList<Movies> movies=new ArrayList<>();
 
     public String getAll(String baseaddress) {
 
@@ -18,4 +20,11 @@ public class WCAController {
         return null;
     }
 
+    public void insertMovie(Movies movie) {
+        movies.add(movie);
+    }
+
+    public ArrayList<Movies> getMovies() {
+        return this.movies;
+    }
 }

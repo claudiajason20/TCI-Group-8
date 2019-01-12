@@ -13,8 +13,10 @@ public class WCAControllerTest {
     WCAController wcaController=new WCAController();
     Movies movie=mock(Movies.class);
     wcaController.insertMovie(movie);
-    ArrayList<Movies> result=wcaController.getMovies();
-    Assert.assertEquals(result,movies);
+    ArrayList<Movies> resultList=wcaController.getMovies();
+    Movies result= resultList.get(0);
+    Assert.assertEquals(result,movie);
+
 }
 
 
