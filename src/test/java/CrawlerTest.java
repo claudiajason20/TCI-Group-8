@@ -1,5 +1,7 @@
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
 
@@ -33,8 +35,8 @@ public class CrawlerTest {
         //Assert
         assertTrue("Url came from the same website!",status);
     }
-    @Test
-    public void checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl(){
+    @Test(expected = RuntimeException.class)
+    public void checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl() throws IOException {
         //Arrange
         String url="falseWeb.com";
         Crawler a=new Crawler();
