@@ -35,6 +35,11 @@ public class CrawlerTest {
         //Assert
         assertTrue("Url came from the same website!",status);
     }
+
+    /**
+     * This test is to verify that the function only runs when the baseUrl received is correct
+     * @throws IOException
+     */
     @Test(expected = RuntimeException.class)
     public void checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl() throws IOException {
         //Arrange
@@ -44,4 +49,5 @@ public class CrawlerTest {
         a.crawl(url);
         //Assertion is handled by runtime exception
     }
+
 }
