@@ -121,5 +121,9 @@ public class WCAControllerTest {
         verify(wcaController,times(1)).setHtml(html);
         Assert.assertEquals(html, gethtml);
     }
+    public boolean verifyWebsiteOnly(String url) {
+        if (url.contains("localhost")) return true;
+        else return false;
+    }
 
 }

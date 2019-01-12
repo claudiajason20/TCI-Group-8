@@ -1,6 +1,7 @@
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import static org.mockito.Mockito.mock;
 
 public class CrawlerTest {
     /**
@@ -31,5 +32,14 @@ public class CrawlerTest {
         status=a.verifyWebsiteOnly(url);
         //Assert
         assertTrue("Url came from the same website!",status);
+    }
+    @Test
+    public void checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl(){
+        //Arrange
+        String url="falseWeb.com";
+        Crawler a=new Crawler();
+        //Act
+        a.crawl(url);
+        //Assertion is handled by runtime exception
     }
 }
