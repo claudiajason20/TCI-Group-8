@@ -17,4 +17,15 @@ public class CrawlerTest {
         //Assert
         assertTrue("Url is valid!",status);
     }
+    @Test
+    public void assertThatUrlCameFromTheSameWebsite(){
+        //Arrange
+        String url = "http://localhost/sample_sit/";
+        Crawler a=new Crawler();
+        boolean status;
+        //Act
+        status=a.verifyWebsiteOnly(url);
+        //Assert
+        assertTrue("Url came from the same website!",status);
+    }
 }
