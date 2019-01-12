@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26e33692-8fa4-4edf-b84f-5187ae9c948c" name="Default Changelist" comment="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class">
-      <change beforePath="$PROJECT_DIR$/src/test/java/WCAREST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAREST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/WCARESTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCARESTTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -78,12 +78,12 @@
     <session id="1381991304">
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3095" />
+          <entry key="java" value="3149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3095" />
+          <entry key="JAVA" value="3149" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -150,8 +150,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+            <state relative-caret-position="152">
+              <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -594,7 +594,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547323786053" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547323789966" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -712,20 +712,11 @@
       <workItem from="1547226108482" duration="4058000" />
       <workItem from="1547244179925" duration="367000" />
       <workItem from="1547285833076" duration="2180000" />
-      <workItem from="1547321294233" duration="2270000" />
+      <workItem from="1547321294233" duration="2413000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 21m 56s.xml">
-      <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 22m 52s.xml">
-      <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 25m 56s.xml">
-      <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCARESTTest_canDoGetAllFunction - 2019.01.11 at 18h 27m 10s.xml">
       <configuration name="WCARESTTest.canDoGetAllFunction" configurationId="JUnit" />
     </history-entry>
@@ -747,15 +738,24 @@
     <history-entry file="WCAControllerTest_canInsertAndAccessMovies - 2019.01.12 at 11h 00m 29s.xml">
       <configuration name="WCAControllerTest.canInsertAndAccessMovies" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCARESTTest_intChoiceShouldBeBetweenOneandThree - 2019.01.12 at 21h 06m 03s.xml">
+      <configuration name="WCARESTTest.intChoiceShouldBeBetweenOneandThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCARESTTest_intChoiceShouldBeBetweenOneandThree - 2019.01.12 at 21h 07m 32s.xml">
+      <configuration name="WCARESTTest.intChoiceShouldBeBetweenOneandThree" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCARESTTest_intChoiceShouldBeBetweenOneandThree - 2019.01.12 at 21h 09m 54s.xml">
+      <configuration name="WCARESTTest.intChoiceShouldBeBetweenOneandThree" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63511000" />
+    <option name="totallyTimeSpent" value="63654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="top" id="Terminal" order="0" sideWeight="0.49924356" weight="0.32825485" />
+      <window_info active="true" anchor="top" id="Terminal" order="0" sideWeight="0.49924356" visible="true" weight="0.32825485" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
@@ -766,7 +766,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32409972" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32409972" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39889196" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -979,8 +979,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCARESTTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        <state relative-caret-position="152">
+          <caret line="97" column="18" selection-start-line="97" selection-start-column="18" selection-end-line="97" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

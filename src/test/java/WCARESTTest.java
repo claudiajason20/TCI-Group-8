@@ -90,9 +90,12 @@ public class WCARESTTest {
     @Test(expected = IllegalArgumentException.class)
     @Parameters(method = "getParam")
     public void intChoiceShouldBeBetweenOneandThree(int parameter){
+//        Parameterized Test
+//        Arrange
         WCAREST wcarest=new WCAREST();
+//        Act
         wcarest.receive(parameter,"dummy","");
-
+//Expect exception
 
 
 
