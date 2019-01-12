@@ -12,5 +12,9 @@ public class Crawler {
             return false;
         }
     }
+    public boolean verifyWebsiteOnly(String url) {
+        if (url.contains("localhost")) return true;
+        else return false;
+    }
 
 }
