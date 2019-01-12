@@ -14,7 +14,7 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void parseAllHasRun() throws IOException, musicParameterException, musicYearException {
+    public void parseAllHasRun() throws IOException {
         //arrange
         Scrapper sc = new Scrapper();
         Document doc = mock(Document.class);
@@ -26,6 +26,19 @@ public class scrapperTest {
 
         //assert
         assertEquals(ele,doc.getElementsByClass("media-details"));
+    }
+
+    @Test
+    public void parseSpecificReturnTrue() throws IOException{
+        //arrange
+        Scrapper sc = new Scrapper();
+        Document doc = mock(Document.class);
+        Elements ele = mock(Elements.class);
+
+        //act
+        when(doc.getElementsByClass("media-details")).thenReturn(ele);
+        sc.parseSpecific("this.com","music");
+
     }
 
 }
