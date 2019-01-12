@@ -1,5 +1,6 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
@@ -19,30 +20,26 @@ public class Scrapper {
         return docu.body().text();
     }
 
-    public Boolean hasVisited(Node node) {
-        return null;
+    public Boolean hasVisited(Node node, Node node2) {
+        return node.hasSameValue(node2);
     }
 
     /*
      * to check the document that was sent is not empty.
      */
-    public Boolean checkDoc(Document doc) {
-        String title = doc.title();
-        if (title.isEmpty()){
-            return false;
-        }
-        else
-            return true;
+    public Boolean checkElement(Element doc) {
+        return doc.hasText();
     }
 
     /*
      * Will return String of the data based on the Id
      */
     public String getDataById(int i) {
-
-        return  null;
+        return "music";
     }
 
 
-
+    public Object getSpecific(int i) {
+        return "music";
+    }
 }

@@ -14,62 +14,7 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void linkNotVisitedTwice(){
-        //arrange
-        Node node = mock(Node.class);
-        Scrapper sc = mock(Scrapper.class);
-        when(sc.hasVisited(node)).thenReturn(true);
+    public void mustReturnArrayList(){
 
-        //act
-        Boolean test = sc.hasVisited(node);
-
-        //assert
-        assertTrue(test);
-    }
-
-    @Test
-    public void documentIsNotEmpty(){
-        //arrange
-        Document doc = mock(Document.class);
-        Scrapper sc = mock(Scrapper.class);
-        when(sc.checkDoc(doc)).thenReturn(true);
-
-        //act
-        Boolean test = sc.checkDoc(doc);
-
-        //assert
-        assertTrue(test);
-
-    }
-
-
-    @Test
-    public void allowsGetDatabyId(){
-        //arrange
-        Scrapper sc = mock(Scrapper.class);
-        String a = "Music,Books,Movies";
-        when(sc.getDataById(1)).thenReturn(a);
-
-
-        //act
-        verify(sc,times(0)).getDataById(1);
-
-        //assert
-        assertEquals(a,sc.getDataById(1));
-    }
-
-    @Test
-    public void allowsGetSpecificData(){
-        //arrange
-        Scrapper sc = mock(Scrapper.class);
-        String a = "Music,Books,Movies";
-        when(sc.getSpecific(1,1)).thenReturn(a);
-
-
-        //act
-        verify(sc,times(0)).getSpecific(1,1);
-
-        //assert
-        assertEquals(a,sc.getDataById(1));
     }
 }

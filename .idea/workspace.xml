@@ -4,6 +4,7 @@
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bookTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -85,36 +86,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/crawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1037">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="748">
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,10 +98,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+            <state relative-caret-position="935">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,8 +121,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="612">
-              <caret line="45" selection-start-line="45" selection-end-line="45" />
+            <state relative-caret-position="425">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+              <folding>
+                <element signature="e#833#834#0" expanded="true" />
+                <element signature="e#863#864#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -167,12 +158,13 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/bookTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
         <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="676" />
     <option name="width" value="697" />
     <option name="height" value="735" />
@@ -183,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -226,14 +219,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546852438815" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547221432989" />
+    <property name="last_opened_file_path" value="D:/notest" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -258,12 +250,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.scrapperTest.allowsetDatabyId">
-    <configuration name="scrapperTest.allowsGetDatabyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.scrapperTest.documentIsNotEmpty">
+    <configuration name="scrapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <option name="METHOD_NAME" value="allowsGetDatabyId" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrapperTest.allowsGetSpecificData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
+      <option name="METHOD_NAME" value="allowsGetSpecificData" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,16 +279,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scrapperTest.bookTitleCanBeUsed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <option name="METHOD_NAME" value="bookTitleCanBeUsed" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="scrapperTest.documentIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -299,30 +289,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scrapperTest.getDatabyId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="scrapperTest.linkNotVisitedTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <option name="METHOD_NAME" value="getDatabyId" />
+      <option name="METHOD_NAME" value="linkNotVisitedTwice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.scrapperTest.bookTitleCanBeUsed" />
       <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
-      <item itemvalue="JUnit.scrapperTest.getDatabyId" />
-      <item itemvalue="JUnit.scrapperTest.allowsGetDatabyId" />
       <item itemvalue="JUnit.scrapperTest.allowsetDatabyId" />
+      <item itemvalue="JUnit.scrapperTest.allowsGetSpecificData" />
+      <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
+      <item itemvalue="JUnit.scrapperTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.scrapperTest.allowsetDatabyId" />
-        <item itemvalue="JUnit.scrapperTest.allowsGetDatabyId" />
-        <item itemvalue="JUnit.scrapperTest.getDatabyId" />
         <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
-        <item itemvalue="JUnit.scrapperTest.bookTitleCanBeUsed" />
+        <item itemvalue="JUnit.scrapperTest" />
+        <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
+        <item itemvalue="JUnit.scrapperTest.allowsGetSpecificData" />
+        <item itemvalue="JUnit.scrapperTest.allowsetDatabyId" />
       </list>
     </recent_temporary>
   </component>
@@ -346,50 +336,50 @@
       <workItem from="1544877838012" duration="20133000" />
       <workItem from="1544985970929" duration="1010000" />
       <workItem from="1546850842296" duration="1979000" />
-      <workItem from="1547211804242" duration="429000" />
+      <workItem from="1547211804242" duration="7337000" />
+      <workItem from="1547303715943" duration="1193000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 32m 27s.xml">
+    <history-entry file="scrapperTest_linkNotVisitedTwice - 2019.01.11 at 15h 16m 57s.xml">
+      <configuration name="scrapperTest.linkNotVisitedTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_linkNotVisitedTwice - 2019.01.11 at 15h 17m 52s.xml">
+      <configuration name="scrapperTest.linkNotVisitedTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_linkNotVisitedTwice - 2019.01.11 at 15h 18m 20s.xml">
+      <configuration name="scrapperTest.linkNotVisitedTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_linkNotVisitedTwice - 2019.01.11 at 15h 20m 47s.xml">
+      <configuration name="scrapperTest.linkNotVisitedTwice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.11 at 15h 22m 30s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 34m 07s.xml">
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.11 at 15h 23m 11s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 34m 23s.xml">
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.11 at 15h 24m 12s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 34m 41s.xml">
+    <history-entry file="scrapperTest - 2019.01.11 at 15h 24m 25s.xml">
+      <configuration name="scrapperTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.11 at 15h 25m 37s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 35m 28s.xml">
+    <history-entry file="scrapperTest_documentIsNotEmpty - 2019.01.11 at 15h 27m 45s.xml">
       <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 35m 39s.xml">
-      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 35m 49s.xml">
-      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_documentIsNotEmpty - 2018.12.15 at 20h 36m 51s.xml">
-      <configuration name="scrapperTest.documentIsNotEmpty" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_allowsGetDatabyId - 2019.01.07 at 10h 02m 45s.xml">
-      <configuration name="scrapperTest.allowsGetDatabyId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_allowsetDatabyId - 2019.01.07 at 10h 03m 33s.xml">
-      <configuration name="scrapperTest.allowsetDatabyId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33281000" />
+    <option name="totallyTimeSpent" value="41382000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="676" y="0" width="697" height="735" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.22617246" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.47566718" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -406,7 +396,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32405892" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32405892" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -424,38 +414,6 @@
       <window_info anchor="right" id="Maven Projects" order="10" />
       <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.3289689" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -465,8 +423,27 @@
     <MESSAGE value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/scrapperTest.java</url>
+          <line>16</line>
+          <properties class="scrapperTest" method="linkNotVisitedTwice">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/scrapperTest.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java" />
     <entry file="file://$PROJECT_DIR$/out/test/classes/BookTest.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -488,13 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/classes/Books.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -502,44 +472,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/crawlerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1037">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="432">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="330">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/bookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/crawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="935">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -548,15 +549,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="425">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#833#834#0" expanded="true" />
+            <element signature="e#863#864#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="71" column="16" lean-forward="true" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="16" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
