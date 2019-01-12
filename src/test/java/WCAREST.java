@@ -5,6 +5,10 @@ WCAController wcaController;
         this.wcaController =wcaController;
     }
 
+    public WCAREST() {
+
+    }
+
     public String receive(int i, String baseaddress, String parameter) {
         if(i==1)
         {
@@ -19,6 +23,6 @@ WCAController wcaController;
             String base=wcaController.combine(baseaddress,parameter);
             return wcaController.getCrawlData(base);
         }
-    return null;
+    else throw new IllegalArgumentException();
     }
 }

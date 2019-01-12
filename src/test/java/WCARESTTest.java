@@ -82,8 +82,8 @@ public class WCARESTTest {
         Assert.assertEquals("getCrawlData",output);
     }
 
-    private static final int[] getParam() {
-        return new int[]{-1, 0, 4};
+    private static final Object[] getParam() {
+        return new Object[]{-1, 0, 4};
 
     }
 
