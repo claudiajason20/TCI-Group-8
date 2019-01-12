@@ -1,8 +1,12 @@
+import junitparams.JUnitParamsRunner;
+import junitparams.Parameters;
 import org.junit.Assert;
 import org.junit.Test;
-
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 import static org.mockito.Mockito.*;
 
+@RunWith(JUnitParamsRunner.class)
 public class WCARESTTest {
     WCAREST wcarest;
 
@@ -76,5 +80,21 @@ public class WCARESTTest {
         verify(wcaController).getCrawlData(combined);
 //      ver dir out
         Assert.assertEquals("getCrawlData",output);
+    }
+
+    private static final int[] getParam() {
+        return new int[]{-1, 0, 4};
+
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    @Parameters(method = "getParam")
+    public void intChoiceShouldBeBetweenOneandThree(int parameter){
+        WCAREST wcarest=new WCAREST();
+        wcarest.receive(parameter,"dummy","");
+
+
+
+
     }
 }
