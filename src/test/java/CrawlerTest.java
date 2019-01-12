@@ -7,9 +7,10 @@ public class CrawlerTest {
     public void AssertThatReceivedStringUrlIsValid(){
         //Arrange
         String url = "http://localhost/sample_sit/";
+        Crawler a=new Crawler();
         boolean status;
         //Act
-        status=verifyUrl(url);
+        status=a.verifyUrl(url);
         //Assert
         assertTrue("Url is valid!",status);
     }
