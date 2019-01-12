@@ -17,6 +17,10 @@ public class CrawlerTest {
         //Assert
         assertTrue("Url is valid!",status);
     }
+
+    /**
+     * This test verifies that the url came from the same website which is the local development website
+     */
     @Test
     public void assertThatUrlCameFromTheSameWebsite(){
         //Arrange
