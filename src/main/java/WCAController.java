@@ -17,4 +17,5 @@ public class WCAController {
     public String combine(String baseaddress, String parameter) {
         return null;
     }
+
 }
