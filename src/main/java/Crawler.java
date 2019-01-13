@@ -11,6 +11,9 @@ import java.util.*;
 
 public class Crawler {
     private Set<String> visitedPages = new HashSet<String>();
+    int pagesExplored = 0;
+    int max_depth;
+    int currentDepth = -1;
 
     public boolean verifyUrl(String url) {
         try {
@@ -60,6 +63,22 @@ public class Crawler {
         }
     }
 
+    public void crawlWithDepth(String url, int depth) throws IOException {
+        if (!visitedPages.contains(url) && verifyWebsiteOnly(url) && depth < max_depth) {
+            visitedPages.add(url);
+            Elements links = getLinks(url);
+            System.out.println("Depth level " + depth + " On site : " + url);
+            depth++;
+            if (depth > currentDepth) currentDepth = depth;
+            for (Element link : links) {
+                pagesExplored++;
+                String pageLink = link.attr("abs:href").toLowerCase();
+                crawlWithDepth(pageLink, depth);
+            }
+        }
+    }
+
+
     public Elements getLinks(String url) throws IOException {
         Document html = Jsoup.connect(url).get();
         return html.select("a[href]");
@@ -68,4 +87,14 @@ public class Crawler {
     public Set<String> getVisitedPages() {
         return visitedPages;
     }
+
+    public int getCurrentDepth() {
+        return currentDepth;
+    }
+
+    public void setMax_depth(int max_depth) {
+        this.max_depth = max_depth;
+    }
+
+
 }

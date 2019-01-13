@@ -97,15 +97,17 @@ public class CrawlerTest {
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
     }
     @Test
-    public void assertThatCrawlWithDepthReachesSpecifiedDepth(){
+    public void assertThatCrawlWithDepthReachesSpecifiedDepth() throws IOException {
         //Arrange
         Crawler a=new Crawler();
-        int depth=3;
+        int depth=0;
+        int max_depth=5;
         String url = "http://localhost/sample_sit/";
         //Act
+        a.setMax_depth(5);
         a.crawlWithDepth(url,depth);
         //Assert
-        assertEquals(depth,a.getCurrentDepth());
+        assertEquals(max_depth,a.getCurrentDepth());
     }
 
 
