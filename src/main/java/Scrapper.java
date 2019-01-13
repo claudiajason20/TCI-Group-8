@@ -32,4 +32,6 @@ public class Scrapper {
     }
 
 
+    public void parseAll(String url) {
+    }
 }

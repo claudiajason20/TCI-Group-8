@@ -87,6 +87,9 @@ public class Crawler {
     public Set<String> getVisitedPages() {
         return visitedPages;
     }
+    public int getVisitedPagesSize() {
+        return visitedPages.size();
+    }
 
     public int getCurrentDepth() {
         return currentDepth;
@@ -97,5 +100,8 @@ public class Crawler {
     }
 
 
+    public String getUrl(int index) {
+        return visitedPages.toArray()[index].toString();
+    }
 
 }

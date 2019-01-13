@@ -1,5 +1,10 @@
 import org.jsoup.nodes.Document;
 
+import java.io.IOException;
+import java.time.Duration;
+import java.time.Instant;
+import java.util.ArrayList;
+
 public class WCAController {
 
     public void insertmovies(Movies movies) {
@@ -41,11 +46,26 @@ public class WCAController {
     }
 
     /**
-     * @param html
-     * html is the code, not the link. It will be used for scrapping with jsoup.
+     * @param html html is the code, not the link. It will be used for scrapping with jsoup.
      */
     public void setHtml(String html) {
     }
 
 
+    public static void getAll(Crawler webCrawl,Scrapper extractor,String url) throws IOException, musicParameterException, musicYearException {
+        ArrayList<Music> musicList = new ArrayList<>();
+        ArrayList<Movies> movieList = new ArrayList<>();
+        ArrayList<Books> bookList = new ArrayList<>();
+        Instant start = Instant.now();
+        webCrawl.recursiveCrawl(url);
+        int size=webCrawl.getVisitedPagesSize();
+        System.out.println("Size"+size);
+        for (int i = 0; i < size; i++) {//indirect input
+            System.out.println("in");
+            extractor.parseAll(webCrawl.getUrl(i));//input output
+        }
+        Instant end = Instant.now();
+        int timeElapsed = Duration.between(start, end).getNano();
+        System.out.println(timeElapsed);
+    }
 }

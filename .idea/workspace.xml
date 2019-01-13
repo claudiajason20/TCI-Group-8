@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Crawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
@@ -19,6 +20,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/project$TCI_Group_8__build_.ic" NAME="TCI-Group-8 [build] Coverage Results" MODIFIED="1544437978910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest_BookIsEmpty.ic" NAME="BookTest.BookIsEmpty Coverage Results" MODIFIED="1544434528943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$CrawlerTest.ic" NAME="CrawlerTest Coverage Results" MODIFIED="1547409792851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$WCAControllerTest_verifyThatExtractorParseAllMethodWorks.ic" NAME="WCAControllerTest.verifyThatExtractorParseAllMethodWorks Coverage Results" MODIFIED="1547409195546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest.ic" NAME="BookTest Coverage Results" MODIFIED="1544436436847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest_checkString.ic" NAME="BookTest.checkString Coverage Results" MODIFIED="1544435736818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
@@ -26,8 +29,9 @@
     <option name="myAddOrReplace" value="1" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myAutoScrollFromSource" value="true" />
-    <option name="myElementSize" value="194" />
+    <option name="myFlattenPackages" value="true" />
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myElementSize" value="192" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -98,12 +102,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3366" />
+          <entry key="java" value="3585" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3366" />
+          <entry key="JAVA" value="3585" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -123,12 +127,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="99" selection-start-line="99" selection-end-line="99" />
+            <state relative-caret-position="183">
+              <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1234#1235#0" expanded="true" />
                 <element signature="e#1268#1269#0" expanded="true" />
+                <element signature="e#3102#3103#0" expanded="true" />
+                <element signature="e#3137#3138#0" expanded="true" />
+                <element signature="e#3259#3260#0" expanded="true" />
+                <element signature="e#3322#3323#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,8 +145,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="167">
+              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -146,8 +157,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="132" column="42" lean-forward="true" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+            <state relative-caret-position="102">
+              <caret line="133" column="47" lean-forward="true" selection-start-line="133" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -155,8 +166,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+            <state relative-caret-position="272">
+              <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -164,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="109" column="51" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="51" />
+            <state relative-caret-position="286">
+              <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -513,8 +524,8 @@
         <option value="$PROJECT_DIR$/src/test/java/crawlerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
       </list>
     </option>
@@ -532,7 +543,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1588" />
+    <option name="x" value="-12" />
     <option name="width" value="1625" />
     <option name="height" value="1722" />
   </component>
@@ -592,7 +603,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547406013985" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547411528748" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -627,6 +638,14 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks">
+    <configuration name="CrawlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -657,43 +676,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CrawlerTest.assertThatCrawlerAbleToReceiveLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
-      <option name="METHOD_NAME" value="assertThatCrawlerAbleToReceiveLinks" />
+      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
+      <option name="METHOD_NAME" value="verifyThatExtractorParseAllMethodWorks" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatExtractorParseAllMethodWorks" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
       <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
       <item itemvalue="JUnit.CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" />
       <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
+      <item itemvalue="JUnit.CrawlerTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
+        <item itemvalue="JUnit.CrawlerTest" />
         <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
         <item itemvalue="JUnit.CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" />
         <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
-        <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
       </list>
     </recent_temporary>
   </component>
@@ -723,47 +732,47 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="13179000" />
+      <workItem from="1547385286196" duration="16930000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_assertThatCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 08m 48s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 11m 24s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 10m 24s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 16m 01s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatBFSCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 27m 21s.xml">
-      <configuration name="CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 21m 14s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.13 at 18h 54m 31s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 21m 30s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.13 at 18h 55m 36s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 22m 27s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.13 at 18h 56m 06s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 23m 47s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatBFSCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 57m 09s.xml">
-      <configuration name="CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 24m 16s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatBFSCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 57m 32s.xml">
-      <configuration name="CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 26m 13s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.13 at 18h 58m 33s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 26m 32s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.13 at 19h 02m 48s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 28m 24s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63917000" />
+    <option name="totallyTimeSpent" value="67668000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="0" width="722" height="765" extended-state="0" />
+    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.6381381" />
@@ -776,7 +785,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32440946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32087228" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -787,7 +796,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32398754" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -802,36 +811,40 @@
       <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.6381381" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3289689" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="12" weight="0.3289689" />
-      <window_info anchor="right" id="Maven" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Gradle" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="right" id="Database" order="9" />
+      <window_info id="Favorites" order="6" sideWeight="0.50242716" side_tool="true" weight="0.2753404" />
+      <window_info id="Learn" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32087228" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32440946" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
+      <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32398754" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32994923" />
+      <window_info anchor="right" id="Maven Projects" order="10" weight="0.32882884" />
+      <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -844,6 +857,18 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class" />
     <MESSAGE value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/WCAController.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java" />
@@ -917,46 +942,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="109" column="51" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        <state relative-caret-position="183">
+          <caret line="88" column="5" lean-forward="true" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1234#1235#0" expanded="true" />
             <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#3259#3260#0" expanded="true" />
+            <element signature="e#3322#3323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="119" column="1" lean-forward="true" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        <state relative-caret-position="272">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="132" column="42" lean-forward="true" selection-start-line="132" selection-start-column="42" selection-end-line="132" selection-end-column="42" />
+        <state relative-caret-position="102">
+          <caret line="133" column="47" lean-forward="true" selection-start-line="133" selection-end-line="134" />
         </state>
       </provider>
     </entry>
