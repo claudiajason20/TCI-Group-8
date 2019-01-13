@@ -57,9 +57,10 @@ public class WCAController {
         ArrayList<Movies> movieList = new ArrayList<>();
         ArrayList<Books> bookList = new ArrayList<>();
         Instant start = Instant.now();
-        webCrawl.recursiveCrawl(url);
-        int size=webCrawl.getVisitedPagesSize();
-        System.out.println("Size"+size);
+        if (type == 1) webCrawl.recursiveCrawl(url);
+        else webCrawl.crawl(url);
+        int size = webCrawl.getVisitedPagesSize();
+        System.out.println("Size" + size);
         for (int i = 0; i < size; i++) {//indirect input
             System.out.println("in");
             extractor.parseAll(webCrawl.getUrl(i));//input output
