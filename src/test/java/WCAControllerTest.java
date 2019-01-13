@@ -141,12 +141,17 @@ public class WCAControllerTest {
         String url = "http://localhost/sample_sit/";
         //Act
         controller.getAll(webCrawl,parser,url, 2);
-        when(webCrawl.getVisitedPagesSize()).thenReturn(size);
-        when(webCrawl.getUrl(0)).thenReturn(url);
+
         //Assert
         verify(webCrawl).recursiveCrawl(url);
         verify(parser).parseAll(webCrawl.getUrl(0));
     }
+
+    /**
+     * @throws IOException
+     * @throws musicParameterException
+     * @throws musicYearException
+     */
     @Test
     public void verifyThatBFSCrawlMethodRuns() throws IOException, musicParameterException, musicYearException {
         //Arrange
@@ -157,8 +162,6 @@ public class WCAControllerTest {
         String url = "http://localhost/sample_sit/";
         //Act
         controller.getAll(webCrawl,parser,url,2);
-        when(webCrawl.getVisitedPagesSize()).thenReturn(size);
-        when(webCrawl.getUrl(0)).thenReturn(url);
         //Assert
         verify(webCrawl).crawl(url);
 
