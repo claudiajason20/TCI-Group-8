@@ -1,3 +1,4 @@
+import org.jsoup.select.Elements;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -49,5 +50,27 @@ public class CrawlerTest {
         a.crawl(url);
         //Assertion is handled by runtime exception
     }
+    @Test
+    public void assertThatUrlIsIterableAndAbleToReceiveLinks(){
+        //Arrange
+
+        //Act
+
+        //Assert
+    }
+    @Test
+    public void assertThatCrawlerAbleToReceiveLinks(){
+        //Arrange
+        Crawler a=new Crawler();
+        String url=mock(String.class);
+        Elements elements=mock(Elements.class);
+        //Act
+        Elements links=a.getLinks();
+        when(a.getLinks()).thenReturn(elements);
+        //Assert
+        assertEquals(elements,links);
+    }
+
+
 
 }
