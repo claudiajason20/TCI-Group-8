@@ -82,7 +82,7 @@ public class CrawlerTest {
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
     }
     @Test
-    public void assertThatBFSCrawlMethodAbleToParseUniqueLinks(){
+    public void assertThatBFSCrawlMethodAbleToParseUniqueLinks() throws IOException {
         //Arrange
         Crawler a=new Crawler();
         String url = "http://localhost/sample_sit/";

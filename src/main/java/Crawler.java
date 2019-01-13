@@ -21,15 +21,17 @@ public class Crawler {
             return false;
         }
     }
+
     public boolean verifyWebsiteOnly(String url) {
         if (url.contains("localhost")) return true;
         else return false;
     }
+
     public void crawl(String url) throws IOException {
         List<String> pagesToVisit = new LinkedList<String>();
         if (verifyUrl(url) && verifyWebsiteOnly(url)) {
             pagesToVisit.add(url);
-        }else throw new RuntimeException("BASE URL IS NOT VALID");
+        } else throw new RuntimeException("BASE URL IS NOT VALID");
         int i = 0;
         while (pagesToVisit.size() > 0) {
             String nextUrl = ((LinkedList<String>) pagesToVisit).pop();
@@ -46,6 +48,18 @@ public class Crawler {
             }
         }
     }
+
+    public void recursiveCrawl(String url) throws IOException {
+        visitedPages.add(url);
+        Elements links = getLinks(url);
+        for (Element link : links) {
+            String pageLink = link.attr("abs:href").toLowerCase();
+            if (!visitedPages.contains(pageLink) && verifyWebsiteOnly(pageLink)) {
+                recursiveCrawl(pageLink);
+            }
+        }
+    }
+
     public Elements getLinks(String url) throws IOException {
         Document html = Jsoup.connect(url).get();
         return html.select("a[href]");
