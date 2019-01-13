@@ -44,4 +44,19 @@ public class scrapperTest {
         //act
     }
 
+    @Test
+    public void getAttributeReturnString(){
+        Scrapper sc = new Scrapper();
+        Element content = mock(Element.class);
+        Element ele = mock(Element.class);
+        String attribute = "genre";
+
+        when(content.select("tr:contains(" + attribute + ")").get(0)).thenReturn(ele);
+        when(ele.select("td").get(0).text()).thenReturn("Pop");
+
+        String text = sc.getAttribute(attribute,content);
+
+        assertEquals(text,"pop");
+    }
+
 }

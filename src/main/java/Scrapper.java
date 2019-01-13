@@ -16,6 +16,7 @@ public class Scrapper {
             Element category = content.select("tr:contains(category)").get(0);
             String cat = category.select("td").get(0).text().toLowerCase();
             String title = content.select("h1").get(0).text();
+            int id = getId(pageLink);
         }
         System.out.println(pageLink + " :Parsing finished");
     }

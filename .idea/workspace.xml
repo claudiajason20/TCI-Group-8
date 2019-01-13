@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/scrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,8 +85,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+            <state relative-caret-position="161">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -104,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+            <state relative-caret-position="104">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -206,7 +205,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547403169079" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547403282058" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -320,17 +319,11 @@
       <workItem from="1546850842296" duration="1979000" />
       <workItem from="1547211804242" duration="7337000" />
       <workItem from="1547303715943" duration="11298000" />
-      <workItem from="1547402710013" duration="432000" />
+      <workItem from="1547402710013" duration="534000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 46m 51s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 47m 47s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 50m 34s.xml">
       <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
     </history-entry>
@@ -355,9 +348,15 @@
     <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 20h 20m 20s.xml">
       <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="scrapperTest_getIdReturnId - 2019.01.13 at 19h 13m 04s.xml">
+      <configuration name="scrapperTest.getIdReturnId" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_getIdReturnInt - 2019.01.13 at 19h 13m 49s.xml">
+      <configuration name="scrapperTest.getIdReturnInt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51919000" />
+    <option name="totallyTimeSpent" value="52021000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,8 +518,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="29" lean-forward="true" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        <state relative-caret-position="104">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -529,8 +528,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="23" column="34" lean-forward="true" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+        <state relative-caret-position="161">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
         </state>
       </provider>
     </entry>
