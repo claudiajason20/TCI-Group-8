@@ -128,7 +128,7 @@ public class WCAControllerTest {
     }
 
     /**
-     * This test verifies whether the getAllMethod called in the controller handles the indirect input and output correctly
+     * This test verifies whether the parse all method from the crawler works
      * @throws IOException
      * @throws musicParameterException
      * @throws musicYearException
@@ -151,5 +151,7 @@ public class WCAControllerTest {
         verify(webCrawl).recursiveCrawl(url);
         verify(parser).parseAll(webCrawl.getUrl(0));
     }
+    @Test
+
 
 }
