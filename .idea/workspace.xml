@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Crawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -96,12 +95,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2348" />
+          <entry key="java" value="2514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2348" />
+          <entry key="JAVA" value="2514" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -135,8 +134,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+            <state relative-caret-position="197">
+              <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -481,8 +480,8 @@
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/crawlerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
       </list>
     </option>
   </component>
@@ -553,7 +552,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547399379102" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547400025503" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -587,12 +586,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks">
-    <configuration name="CrawlerTest.AssertThatReceivedStringUrlIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks">
+    <configuration name="CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
-      <option name="METHOD_NAME" value="AssertThatReceivedStringUrlIsValid" />
+      <option name="METHOD_NAME" value="assertThatBFSCrawlMethodAbleToParseUniqueLinks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -642,19 +641,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CrawlerTest.AssertThatReceivedStringUrlIsValid" />
       <item itemvalue="JUnit.CrawlerTest.assertThatUrlCameFromTheSameWebsite" />
       <item itemvalue="JUnit.CrawlerTest.checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl" />
       <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
       <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
+      <item itemvalue="JUnit.CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrawlerTest.assertThatBFSCrawlMethodAbleToParseUniqueLinks" />
         <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
         <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
         <item itemvalue="JUnit.CrawlerTest.checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl" />
         <item itemvalue="JUnit.CrawlerTest.assertThatUrlCameFromTheSameWebsite" />
-        <item itemvalue="JUnit.CrawlerTest.AssertThatReceivedStringUrlIsValid" />
       </list>
     </recent_temporary>
   </component>
@@ -684,14 +683,11 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="6558000" />
+      <workItem from="1547385286196" duration="7163000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_assertThatCrawlerAbleToReceiveLinks - 2019.01.13 at 17h 40m 27s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlerAbleToReceiveLinks" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CrawlerTest_assertThatCrawlerAbleToReceiveLinks - 2019.01.13 at 17h 40m 52s.xml">
       <configuration name="CrawlerTest.assertThatCrawlerAbleToReceiveLinks" configurationId="JUnit" />
     </history-entry>
@@ -719,9 +715,12 @@
     <history-entry file="CrawlerTest_assertThatCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 08m 48s.xml">
       <configuration name="CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrawlerTest_assertThatCrawlMethodAbleToParseUniqueLinks - 2019.01.13 at 18h 10m 24s.xml">
+      <configuration name="CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57296000" />
+    <option name="totallyTimeSpent" value="57901000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="706" y="0" width="722" height="765" extended-state="0" />
@@ -805,26 +804,6 @@
     <MESSAGE value="Merge branch 'master' of https://github.com/claudiajason20/TCI-Group-5 into claudia&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;out/test/classes/BookTest.class" />
     <MESSAGE value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
     <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'andy'&#10;&#10;# Conflicts:&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.bin&#10;#&#9;.gradle/4.10/fileHashes/fileHashes.lock&#10;#&#9;src/main/java/WCAController.java&#10;#&#9;src/test/java/WCAControllerTest.java" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/CrawlerTest.java</url>
-          <line>78</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/CrawlerTest.java</url>
-          <line>77</line>
-          <properties class="CrawlerTest" method="assertThatCrawlMethodAbleToParseUniqueLinks">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java" />
@@ -933,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="74" column="29" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
+        <state relative-caret-position="197">
+          <caret line="84" column="29" selection-start-line="84" selection-start-column="29" selection-end-line="84" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
