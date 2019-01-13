@@ -1,3 +1,4 @@
+import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -7,7 +8,13 @@ import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;
 
+/**
+ * Test function for WCA Controller
+ */
 public class WCAControllerTest {
+    /**
+     * WCA Controller should be able to insert and also access movies data
+     */
 @Test
     public void canInsertAndAccessMovies(){
 //    dummy
@@ -23,7 +30,5 @@ public class WCAControllerTest {
     Assert.assertEquals(result,movie);
 
 }
-
-
 
 }
