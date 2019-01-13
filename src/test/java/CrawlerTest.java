@@ -51,21 +51,13 @@ public class CrawlerTest {
         a.crawl(url);
         //Assertion is handled by runtime exception
     }
-    @Test
-    public void assertThatUrlIsIterableAndAbleToReceiveLinks(){
-        //Arrange
-
-        //Act
-
-        //Assert
-    }
 
     /**
      * This test will check whether the element links has items inside or not. it gives a success if it has more
      * @throws IOException
      */
     @Test
-    public void assertThatCrawlerAbleToReceiveLinks() throws IOException {
+    public void assertThatDFSCrawlerAbleToReceiveLinks() throws IOException {
         //Arrange
         Crawler a=new Crawler();
         String url = "http://localhost/sample_sit/";
@@ -74,8 +66,13 @@ public class CrawlerTest {
         //Assert
         assertTrue("Links is  empty",links.size()>0);
     }
+
+    /**
+     * If visited pages is not empty, then links are able to be able to be added to the
+     * @throws IOException
+     */
     @Test
-    public void assertThatCrawlMethodAbleToParseUniqueLinks() throws IOException {
+    public void assertThatDFSCrawlMethodAbleToParseUniqueLinks() throws IOException {
         //Arrange
         Crawler a=new Crawler();
         String url = "http://localhost/sample_sit/";
@@ -83,8 +80,9 @@ public class CrawlerTest {
         a.crawl(url);
         //Assert
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
-
     }
+    @Test
+    public void as
 
 
 
