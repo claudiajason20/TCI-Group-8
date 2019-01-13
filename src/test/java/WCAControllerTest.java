@@ -1,3 +1,4 @@
+import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
 import org.mockito.Mock;
@@ -25,5 +26,37 @@ public class WCAControllerTest {
 }
 
 
+
+    @Test
+    public void documentIsNotEmpty(){
+        //arrange
+        Document doc = mock(Document.class);
+        WCAController wcaController=mock(WCAController.class);
+        when(wcaController.getDocument()).thenReturn(doc);
+
+        //act
+        wcaController.setDocument(doc);
+        Document getdoc= wcaController.getDocument();
+        //
+        verify(wcaController,times(1)).setDocument(doc);
+
+        Assert.assertEquals(doc, getdoc);
+    }
+
+    @Test
+    public void htmlIsNotEmpty(){
+        //arrange
+        String html = any(String.class);
+        WCAController wcaController=mock(WCAController.class);
+        when(wcaController.getHtml()).thenReturn(html);
+
+        //act
+        wcaController.setHtml(html);
+        String gethtml= wcaController.getHtml();
+
+        //assert
+        verify(wcaController,times(1)).setHtml(html);
+        Assert.assertEquals(html, gethtml);
+    }
 
 }

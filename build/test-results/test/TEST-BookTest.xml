@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-10T10:32:28" hostname="DESKTOP-K64BB4K" time="0.04">
+<testsuite name="BookTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-12-17T09:31:18" hostname="DESKTOP-K64BB4K" time="0.044">
   <properties/>
-  <testcase name="BookIsEmpty" classname="BookTest" time="0.04"/>
+  <testcase name="BookIsEmpty" classname="BookTest" time="0.044"/>
   <testcase name="checkString" classname="BookTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
