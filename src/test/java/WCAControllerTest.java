@@ -2,6 +2,8 @@ import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.io.IOException;
+
 import static org.mockito.Mockito.*;
 
 public class WCAControllerTest {
@@ -121,9 +123,21 @@ public class WCAControllerTest {
         verify(wcaController,times(1)).setHtml(html);
         Assert.assertEquals(html, gethtml);
     }
-    public boolean verifyWebsiteOnly(String url) {
-        if (url.contains("localhost")) return true;
-        else return false;
+
+    @Test
+    public void verifyThatExtractorParseAllMethodWorks() throws IOException {
+        //Arrange
+        Crawler webCrawl=mock(Crawler.class);
+        Scrapper parser=mock(Scrapper.class);
+        WCAController controller=new WCAController();
+        String url="http://localhost/sample_sit/";
+        //Act
+        controller.getAll();
+        when(webCrawl.getVisitedPages().size()).thenReturn(5);
+        when(webCrawl.getUrl(0)).thenReturn(url);
+        //Assert
+        verify(webCrawl).recursiveCrawl(url);
+        verify(parser).parseAll(webCrawl.getUrl(0));
     }
 
 }
