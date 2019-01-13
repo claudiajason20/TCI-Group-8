@@ -81,6 +81,11 @@ public class CrawlerTest {
         //Assert
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
     }
+
+    /**
+     *
+     * @throws IOException
+     */
     @Test
     public void assertThatBFSCrawlMethodAbleToParseUniqueLinks() throws IOException {
         //Arrange
@@ -90,7 +95,17 @@ public class CrawlerTest {
         a.recursiveCrawl(url);
         //Assert
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
-
+    }
+    @Test
+    public void assertThatCrawlWithDepthReachesSpecifiedDepth(){
+        //Arrange
+        Crawler a=new Crawler();
+        int depth=3;
+        String url = "http://localhost/sample_sit/";
+        //Act
+        a.crawlWithDepth(url,depth);
+        //Assert
+        assertEquals(depth,a.getCurrentDepth());
     }
 
 
