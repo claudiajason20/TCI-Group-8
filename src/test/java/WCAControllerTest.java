@@ -137,7 +137,6 @@ public class WCAControllerTest {
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
-        int size=4;
         String url = "http://localhost/sample_sit/";
         //Act
         controller.getAll(webCrawl,parser,url, 1);
@@ -159,12 +158,23 @@ public class WCAControllerTest {
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
-        int size=4;
         String url = "http://localhost/sample_sit/";
         //Act
         controller.getAll(webCrawl,parser,url,2);
         //Assert
         verify(webCrawl).crawl(url);
+    }
+    @Test
+    public void verifyThatCrawlWithDepthMethodRuns() throws IOException {
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        //Act
+        controller.crawlWithDepth();
+        //Assert
+        verify(webCrawl).crawlWithDepth(url,5);
 
     }
 
