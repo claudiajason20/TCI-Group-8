@@ -164,17 +164,24 @@ public class WCAControllerTest {
         //Assert
         verify(webCrawl).crawl(url);
     }
+
+    /**
+     * This test verifies that crawlWithDepthMethod is running
+     * @throws IOException
+     */
     @Test
     public void verifyThatCrawlWithDepthMethodRuns() throws IOException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
+        int starting_depth=0;
+        int max_depth=0;
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.crawlWithDepth(webCrawl,parser,url,5);
+        controller.crawlWithDepth(webCrawl,parser,url,max_depth);
         //Assert
-        verify(webCrawl).crawlWithDepth(url,0);
+        verify(webCrawl).crawlWithDepth(url,starting_depth);
 
     }
 
