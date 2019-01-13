@@ -29,7 +29,7 @@ public class scrapperTest {
     }
 
     @Test
-    public void getIdReturnId(){
+    public void getIdReturnInt(){
         //arangge
         Scrapper sc = new Scrapper();
         String url = "x=100";

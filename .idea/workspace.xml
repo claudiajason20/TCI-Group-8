@@ -206,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547403159017" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547403169079" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -232,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.scrapperTest.getIdReturnId">
+  <component name="RunManager" selected="JUnit.scrapperTest.getIdReturnInt">
     <configuration name="scrapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -261,11 +261,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="scrapperTest.linkNotVisitedTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="scrapperTest.getIdReturnInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <option name="METHOD_NAME" value="linkNotVisitedTwice" />
+      <option name="METHOD_NAME" value="getIdReturnInt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,18 +283,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
-      <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
       <item itemvalue="JUnit.scrapperTest" />
       <item itemvalue="JUnit.scrapperTest.parseAllHasRun" />
       <item itemvalue="JUnit.scrapperTest.getIdReturnId" />
+      <item itemvalue="JUnit.scrapperTest.getIdReturnInt" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.scrapperTest.getIdReturnInt" />
         <item itemvalue="JUnit.scrapperTest.getIdReturnId" />
         <item itemvalue="JUnit.scrapperTest.parseAllHasRun" />
         <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
         <item itemvalue="JUnit.scrapperTest" />
-        <item itemvalue="JUnit.scrapperTest.linkNotVisitedTwice" />
       </list>
     </recent_temporary>
   </component>
