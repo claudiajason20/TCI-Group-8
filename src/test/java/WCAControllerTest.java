@@ -184,7 +184,7 @@ public class WCAControllerTest {
         verify(webCrawl).crawlWithDepth(url,starting_depth);
     }
     @Test
-    public void verifyThatParseSpecificMethodRuns(){
+    public void verifyThatParseSpecificMethodRuns() throws IOException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
@@ -192,6 +192,7 @@ public class WCAControllerTest {
         String url = "http://localhost/sample_sit/";
         //Act
         controller.getSpecific(webCrawl,parser,url,"Beethoven",1);
+        when(parser.parseSpecific(url,"Beethoven")).thenReturn(true);
         //Assert
         verify(parser).parseSpecific(url,"Beethoven");
 

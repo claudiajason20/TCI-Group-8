@@ -34,4 +34,8 @@ public class Scrapper {
 
     public void parseAll(String url) {
     }
+
+    public boolean parseSpecific(String url, String query) {
+    return true;
+    }
 }

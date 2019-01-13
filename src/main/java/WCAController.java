@@ -82,4 +82,19 @@ public class WCAController {
         Instant end=Instant.now();
         System.out.println(Duration.between(start,end));
     }
+
+    public void getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type) throws IOException {
+        Instant start = Instant.now();
+//        a.crawl(url);
+        if (type == 1) webCrawl.recursiveCrawl(url);
+        else webCrawl.crawl(url);
+        for (int i = 0; i < webCrawl.getVisitedPages().size(); i++) {
+            boolean out = false;
+            out = extractor.parseSpecific(webCrawl.getUrl(i), query);//indirect input and output
+            if (out) break;
+        }
+        Instant end = Instant.now();
+        int timeElapsed = Duration.between(start, end).getNano();
+//
+    }
 }
