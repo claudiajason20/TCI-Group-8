@@ -140,7 +140,7 @@ public class WCAControllerTest {
         int size=4;
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.getAll(webCrawl,parser,url, 2);
+        controller.getAll(webCrawl,parser,url, 1);
 
         //Assert
         verify(webCrawl).recursiveCrawl(url);
@@ -148,6 +148,7 @@ public class WCAControllerTest {
     }
 
     /**
+     *      * This test verifies whether the BFSCrawl method from the crawler works
      * @throws IOException
      * @throws musicParameterException
      * @throws musicYearException

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,13 +98,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3938" />
+          <entry key="java" value="3970" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3938" />
+          <entry key="JAVA" value="3970" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -145,8 +143,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+            <state relative-caret-position="44">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -157,8 +155,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="163" selection-start-line="163" selection-end-line="163" />
+            <state relative-caret-position="238">
+              <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -603,7 +601,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547412807295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547413068143" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -735,23 +733,11 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="18236000" />
+      <workItem from="1547385286196" duration="18492000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 21m 14s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 21m 30s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 22m 27s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 23m 47s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 24m 16s.xml">
       <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
@@ -770,9 +756,21 @@
     <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 32m 57s.xml">
       <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 53m 08s.xml">
+      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 53m 30s.xml">
+      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 55m 04s.xml">
+      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 56m 42s.xml">
+      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68974000" />
+    <option name="totallyTimeSpent" value="69230000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="722" height="765" extended-state="0" />
@@ -788,14 +786,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32440946" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32440946" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -968,8 +966,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="60" column="48" lean-forward="true" selection-start-line="60" selection-start-column="48" selection-end-line="60" selection-end-column="48" />
+        <state relative-caret-position="44">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -978,8 +976,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        <state relative-caret-position="238">
+          <caret line="142" column="48" selection-start-line="142" selection-start-column="48" selection-end-line="142" selection-end-column="48" />
         </state>
       </provider>
     </entry>
