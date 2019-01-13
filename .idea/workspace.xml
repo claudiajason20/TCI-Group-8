@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Movies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Movies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Music.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Music.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/scrapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scrapperTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -82,11 +86,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="136">
+              <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -103,8 +125,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="17">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,13 +157,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Movies.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/bookTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Movies.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scrapperTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Music.java" />
       </list>
     </option>
   </component>
@@ -205,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547403282058" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547414004012" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,20 +254,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.scrapperTest.getIdReturnInt">
-    <configuration name="scrapperTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.scrapperTest.getAttributeReturnString">
     <configuration name="scrapperTest.documentIsNotEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="scrapperTest" />
       <option name="METHOD_NAME" value="documentIsNotEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="scrapperTest.getAttributeReturnString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="scrapperTest" />
+      <option name="METHOD_NAME" value="getAttributeReturnString" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -282,18 +307,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
-      <item itemvalue="JUnit.scrapperTest" />
       <item itemvalue="JUnit.scrapperTest.parseAllHasRun" />
       <item itemvalue="JUnit.scrapperTest.getIdReturnId" />
       <item itemvalue="JUnit.scrapperTest.getIdReturnInt" />
+      <item itemvalue="JUnit.scrapperTest.getAttributeReturnString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.scrapperTest.getAttributeReturnString" />
+        <item itemvalue="JUnit.scrapperTest.parseAllHasRun" />
         <item itemvalue="JUnit.scrapperTest.getIdReturnInt" />
         <item itemvalue="JUnit.scrapperTest.getIdReturnId" />
-        <item itemvalue="JUnit.scrapperTest.parseAllHasRun" />
         <item itemvalue="JUnit.scrapperTest.documentIsNotEmpty" />
-        <item itemvalue="JUnit.scrapperTest" />
       </list>
     </recent_temporary>
   </component>
@@ -319,44 +344,44 @@
       <workItem from="1546850842296" duration="1979000" />
       <workItem from="1547211804242" duration="7337000" />
       <workItem from="1547303715943" duration="11298000" />
-      <workItem from="1547402710013" duration="534000" />
+      <workItem from="1547402710013" duration="4384000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 50m 34s.xml">
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 19h 25m 53s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 19h 26m 25s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.13 at 19h 28m 38s.xml">
       <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 52m 35s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 20h 58m 45s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 52m 59s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 00m 07s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 16h 53m 20s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 01m 30s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 17h 35m 47s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 03m 09s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 17h 36m 44s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 03m 43s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 20h 18m 34s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 04m 24s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="scrapperTest_parseAllHasRun - 2019.01.12 at 20h 20m 20s.xml">
-      <configuration name="scrapperTest.parseAllHasRun" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_getIdReturnId - 2019.01.13 at 19h 13m 04s.xml">
-      <configuration name="scrapperTest.getIdReturnId" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="scrapperTest_getIdReturnInt - 2019.01.13 at 19h 13m 49s.xml">
-      <configuration name="scrapperTest.getIdReturnInt" configurationId="JUnit" />
+    <history-entry file="scrapperTest_getAttributeReturnString - 2019.01.13 at 21h 04m 49s.xml">
+      <configuration name="scrapperTest.getAttributeReturnString" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52021000" />
+    <option name="totallyTimeSpent" value="55871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -371,7 +396,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.1482602" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975728" visible="true" weight="0.1482602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -381,14 +406,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32569557" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3207856" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32405892" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32890365" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -404,7 +429,7 @@
       <window_info anchor="right" id="Maven" order="8" />
       <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32994923" />
       <window_info anchor="right" id="Maven Projects" order="10" />
-      <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
+      <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32967034" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,20 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/moviesTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -516,10 +527,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Movies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scrapperTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="17">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -528,8 +546,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        <state relative-caret-position="136">
+          <caret line="60" column="42" lean-forward="true" selection-start-line="60" selection-start-column="42" selection-end-line="60" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Music.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
         </state>
       </provider>
     </entry>

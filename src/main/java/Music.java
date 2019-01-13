@@ -25,7 +25,7 @@ public class Music {
      * @throws musicYearException
      * @throws musicParameterException
      */
-    public Music(int id,String title, String category, String genre, String format, int year, String artist) throws musicYearException, musicParameterException {
+    public Music(int id, String title, String category, String genre, String format, String year, String artist) throws musicYearException, musicParameterException {
         mu_id=id;
         if(title!=null &&category!=null&&genre!=null&&format!=null&&artist!=null) {
             mu_title = title;
@@ -33,8 +33,8 @@ public class Music {
             mu_genre = genre;
             mu_format = format;
             LocalDate localDate = LocalDate.now();
-            if (year <= localDate.getYear() && year >= historyDate) {
-                mu_year = year;
+            if (Integer.parseInt(year) <= localDate.getYear() && Integer.parseInt(year) >= historyDate) {
+                mu_year = Integer.parseInt(year);
             } else throw new musicYearException("Music Year is not valid!");
             mu_artist = artist;
         } else throw new musicParameterException("Parameters should not be null!");

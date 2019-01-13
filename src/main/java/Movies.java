@@ -6,14 +6,14 @@ import java.util.Calendar;
  * Movies class
  */
 public class Movies {
-    private int id;
-    private final String name;
-    private final String genre;
-    private final String format;
-    private final String year;
-    private final String director;
-    private ArrayList<String>writers = new ArrayList<String>();
-    private ArrayList<String>stars = new ArrayList<String>();
+    public int id;
+    public final String name;
+    public final String genre;
+    public final String format;
+    public final String year;
+    public final String director;
+    public ArrayList<String>writers = new ArrayList<String>();
+    public ArrayList<String>stars = new ArrayList<String>();
 
 
     /**

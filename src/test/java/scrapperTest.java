@@ -14,7 +14,7 @@ import static org.mockito.Mockito.*;
 @RunWith(MockitoJUnitRunner.class)
 public class scrapperTest {
     @Test
-    public void parseAllHasRun() throws IOException {
+    public void parseAllHasRun() throws IOException, musicParameterException, musicYearException {
         //arrange
         Scrapper sc = new Scrapper();
         Document doc = mock(Document.class);
@@ -25,7 +25,7 @@ public class scrapperTest {
         sc.parseAll("http://this.com");
 
         //assert
-        assertEquals(ele,doc.getElementsByClass("media-details"));
+        verify(doc,times(0)).getElementsByClass("media-details");
     }
 
     @Test
@@ -40,8 +40,6 @@ public class scrapperTest {
         //assert
         assertEquals(100,x);
 
-
-        //act
     }
 
     @Test
@@ -52,11 +50,13 @@ public class scrapperTest {
         String attribute = "genre";
 
         when(content.select("tr:contains(" + attribute + ")").get(0)).thenReturn(ele);
-        when(ele.select("td").get(0).text()).thenReturn("Pop");
+        //when(ele.select("td").get(0).text()).thenReturn("Pop");
 
-        String text = sc.getAttribute(attribute,content);
+        sc.getAttribute(attribute,content);
 
-        assertEquals(text,"pop");
+        verify(content).select("tr:contains(" + attribute + ")").get(0);
+        //assertEquals(text,ele.select("td").get(0).text());
+
     }
 
 }
