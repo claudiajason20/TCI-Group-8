@@ -52,7 +52,7 @@ public class WCAController {
     }
 
 
-    public static void getAll(Crawler webCrawl,Scrapper extractor,String url) throws IOException, musicParameterException, musicYearException {
+    public static void getAll(Crawler webCrawl, Scrapper extractor, String url, int type) throws IOException, musicParameterException, musicYearException {
         ArrayList<Music> musicList = new ArrayList<>();
         ArrayList<Movies> movieList = new ArrayList<>();
         ArrayList<Books> bookList = new ArrayList<>();
