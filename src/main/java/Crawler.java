@@ -34,4 +34,5 @@ public class Crawler {
         Document html = Jsoup.connect(url).get();
         return html.select("a[href]");
     }
+
 }

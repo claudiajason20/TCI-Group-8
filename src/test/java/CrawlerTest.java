@@ -59,6 +59,11 @@ public class CrawlerTest {
 
         //Assert
     }
+
+    /**
+     * This test will check whether the element links has items inside or not. it gives a success if it has more
+     * @throws IOException
+     */
     @Test
     public void assertThatCrawlerAbleToReceiveLinks() throws IOException {
         //Arrange
@@ -68,6 +73,17 @@ public class CrawlerTest {
         Elements links=a.getLinks(url);
         //Assert
         assertTrue("Links is not empty",links.size()>0);
+    }
+    @Test
+    public void assertThatCrawlMethodAbleToParseUniqueLinks() throws IOException {
+        //Arrange
+        Crawler a=new Crawler();
+        String url = "http://localhost/sample_sit/";
+        //Act
+        a.crawl(url);
+        //Assert
+        assertTrue("Visited Pages is not empty",a.getVisitedPages().size());
+
     }
 
 

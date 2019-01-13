@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Crawler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -95,12 +96,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1938" />
+          <entry key="java" value="2342" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1938" />
+          <entry key="JAVA" value="2342" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -120,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="262">
+              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,8 +133,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+            <state relative-caret-position="228">
+              <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -550,7 +551,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547398547973" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547398631816" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -584,19 +585,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks">
-    <configuration name="Crawler" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Crawler" />
-      <module name="project.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks">
     <configuration name="CrawlerTest.AssertThatReceivedStringUrlIsValid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
       <option name="METHOD_NAME" value="AssertThatReceivedStringUrlIsValid" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
+      <option name="METHOD_NAME" value="assertThatCrawlMethodAbleToParseUniqueLinks" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -636,19 +640,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Crawler" />
       <item itemvalue="JUnit.CrawlerTest.AssertThatReceivedStringUrlIsValid" />
       <item itemvalue="JUnit.CrawlerTest.assertThatUrlCameFromTheSameWebsite" />
       <item itemvalue="JUnit.CrawlerTest.checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl" />
       <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
+      <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrawlerTest.assertThatCrawlMethodAbleToParseUniqueLinks" />
         <item itemvalue="JUnit.CrawlerTest.assertThatCrawlerAbleToReceiveLinks" />
         <item itemvalue="JUnit.CrawlerTest.checkThatDFSCrawlFunctionOnlyAcceptCorrectBaseUrl" />
         <item itemvalue="JUnit.CrawlerTest.assertThatUrlCameFromTheSameWebsite" />
         <item itemvalue="JUnit.CrawlerTest.AssertThatReceivedStringUrlIsValid" />
-        <item itemvalue="Application.Crawler" />
       </list>
     </recent_temporary>
   </component>
@@ -678,14 +682,11 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="5693000" />
+      <workItem from="1547385286196" duration="6318000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_AssertThatReceivedStringUrlIsValid - 2019.01.12 at 14h 41m 42s.xml">
-      <configuration name="CrawlerTest.AssertThatReceivedStringUrlIsValid" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CrawlerTest_assertThatUrlCameFromTheSameWebsite - 2019.01.12 at 14h 47m 15s.xml">
       <configuration name="CrawlerTest.assertThatUrlCameFromTheSameWebsite" configurationId="JUnit" />
     </history-entry>
@@ -713,9 +714,12 @@
     <history-entry file="CrawlerTest_assertThatCrawlerAbleToReceiveLinks - 2019.01.13 at 17h 46m 52s.xml">
       <configuration name="CrawlerTest.assertThatCrawlerAbleToReceiveLinks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrawlerTest_assertThatCrawlerAbleToReceiveLinks - 2019.01.13 at 17h 57m 16s.xml">
+      <configuration name="CrawlerTest.assertThatCrawlerAbleToReceiveLinks" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56431000" />
+    <option name="totallyTimeSpent" value="57056000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="706" y="0" width="722" height="765" extended-state="0" />
@@ -731,14 +735,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32440946" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32440946" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32440946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32440946" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -895,8 +899,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="262">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -905,8 +909,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+        <state relative-caret-position="228">
+          <caret line="84" column="66" selection-start-line="84" selection-start-column="66" selection-end-line="84" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
