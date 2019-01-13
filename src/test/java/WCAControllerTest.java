@@ -127,6 +127,12 @@ public class WCAControllerTest {
         Assert.assertEquals(html, gethtml);
     }
 
+    /**
+     * This test verifies whether the getAllMethod called in the controller handles the indirect input and output correctly
+     * @throws IOException
+     * @throws musicParameterException
+     * @throws musicYearException
+     */
     @Test
     public void verifyThatExtractorParseAllMethodWorks() throws IOException, musicParameterException, musicYearException {
         //Arrange
