@@ -183,6 +183,11 @@ public class WCAControllerTest {
         //Assert
         verify(webCrawl).crawlWithDepth(url,starting_depth);
     }
+
+    /**
+     * Verifies that ParseSpecificMethod is called
+     * @throws IOException
+     */
     @Test
     public void verifyThatParseSpecificMethodRuns() throws IOException {
         //Arrange
@@ -190,11 +195,12 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
+        String query="Beethoven";
         //Act
-        controller.getSpecific(webCrawl,parser,url,"Beethoven",1);
-        when(parser.parseSpecific(url,"Beethoven")).thenReturn(true);
+        controller.getSpecific(webCrawl,parser,url,query,1);
+        when(parser.parseSpecific(url,query)).thenReturn(true);
         //Assert
-        verify(parser).parseSpecific(url,"Beethoven");
+        verify(parser).parseSpecific(url,query);
 
     }
 
