@@ -72,7 +72,7 @@ public class CrawlerTest {
         //Act
         Elements links=a.getLinks(url);
         //Assert
-        assertTrue("Links is not empty",links.size()>0);
+        assertTrue("Links is  empty",links.size()>0);
     }
     @Test
     public void assertThatCrawlMethodAbleToParseUniqueLinks() throws IOException {
@@ -82,7 +82,7 @@ public class CrawlerTest {
         //Act
         a.crawl(url);
         //Assert
-        assertTrue("Visited Pages is not empty",a.getVisitedPages().size());
+        assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
 
     }
 

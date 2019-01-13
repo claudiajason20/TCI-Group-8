@@ -7,10 +7,11 @@ import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
 import java.net.URL;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class Crawler {
+    private Set<String> visitedPages = new HashSet<String>();
+
     public boolean verifyUrl(String url) {
         try {
             new URL(url).toURI();
@@ -29,10 +30,28 @@ public class Crawler {
         if (verifyUrl(url) && verifyWebsiteOnly(url)) {
             pagesToVisit.add(url);
         }else throw new RuntimeException("BASE URL IS NOT VALID");
+        int i = 0;
+        while (pagesToVisit.size() > 0) {
+            String nextUrl = ((LinkedList<String>) pagesToVisit).pop();
+            visitedPages.add(nextUrl);
+//            Document html = Jsoup.connect(nextUrl).get();
+            Elements links = getLinks(nextUrl);
+            for (Element link : links) {
+                String pageLink = link.attr("abs:href").toLowerCase();
+                if (!visitedPages.contains(pageLink) && verifyWebsiteOnly(pageLink)) {
+                    System.out.println("Pages to be review : " + pageLink);
+                    System.out.println("Success");
+                    pagesToVisit.add(pageLink);
+                }
+            }
+        }
     }
     public Elements getLinks(String url) throws IOException {
         Document html = Jsoup.connect(url).get();
         return html.select("a[href]");
     }
 
+    public Set<String> getVisitedPages() {
+        return visitedPages;
+    }
 }
