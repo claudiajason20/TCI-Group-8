@@ -29,16 +29,19 @@ public class scrapperTest {
     }
 
     @Test
-    public void parseSpecificReturnTrue() throws IOException{
-        //arrange
+    public void getIdReturnId(){
+        //arangge
         Scrapper sc = new Scrapper();
-        Document doc = mock(Document.class);
-        Elements ele = mock(Elements.class);
+        String url = "x=100";
 
         //act
-        when(doc.getElementsByClass("media-details")).thenReturn(ele);
-        sc.parseSpecific("this.com","music");
+        Integer x = getId(url);
 
+        //assert
+        assertEquals(100,x);
+
+
+        //act
     }
 
 }

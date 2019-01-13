@@ -19,4 +19,6 @@ public class Scrapper {
         }
         System.out.println(pageLink + " :Parsing finished");
     }
+
+
 }
