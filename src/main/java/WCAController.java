@@ -69,4 +69,17 @@ public class WCAController {
         int timeElapsed = Duration.between(start, end).getNano();
         System.out.println(timeElapsed);
     }
+
+    public void crawlWithDepth(Crawler webCrawl,Scrapper extractor,String url,int max_depth) throws IOException {
+        Instant start = Instant.now();
+//        a.crawl(url);
+        webCrawl.setMax_depth(max_depth);
+        webCrawl.crawlWithDepth(url, 0);
+//        links.addAll(webCrawl.getVisitedPages());
+        for (int i = 0; i < webCrawl.getVisitedPages().size(); i++) {
+            extractor.parseAll(webCrawl.getUrl(i));
+        }
+        Instant end=Instant.now();
+        System.out.println(Duration.between(start,end));
+    }
 }

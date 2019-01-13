@@ -172,9 +172,9 @@ public class WCAControllerTest {
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.crawlWithDepth();
+        controller.crawlWithDepth(webCrawl,parser,url,5);
         //Assert
-        verify(webCrawl).crawlWithDepth(url,5);
+        verify(webCrawl).crawlWithDepth(url,0);
 
     }
 
