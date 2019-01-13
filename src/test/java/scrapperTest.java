@@ -35,7 +35,7 @@ public class scrapperTest {
         String url = "x=100";
 
         //act
-        Integer x = getId(url);
+        int x = sc.getId(url);
 
         //assert
         assertEquals(100,x);

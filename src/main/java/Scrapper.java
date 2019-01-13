@@ -21,4 +21,8 @@ public class Scrapper {
     }
 
 
+    public int getId(String url) {
+        String arr[] = url.split("=");
+        return Integer.parseInt(arr[1]);
+    }
 }
