@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -100,13 +99,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4228" />
+          <entry key="java" value="4428" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4228" />
+          <entry key="JAVA" value="4428" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -127,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
+            <state relative-caret-position="-255">
               <caret line="48" column="32" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,8 +156,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="174" column="53" selection-start-line="174" selection-start-column="53" selection-end-line="174" selection-end-column="53" />
+            <state relative-caret-position="262">
+              <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -603,7 +602,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547414010808" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547414321175" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -637,21 +636,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns">
+  <component name="RunManager" selected="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns">
     <configuration name="CrawlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
-      <option name="METHOD_NAME" value="assertThatCrawlWithDepthReachesSpecifiedDepth" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -695,20 +684,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
+      <option name="METHOD_NAME" value="verifyThatParseSpecificMethodRuns" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
       <item itemvalue="JUnit.CrawlerTest" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
+      <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
         <item itemvalue="JUnit.CrawlerTest" />
-        <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
       </list>
     </recent_temporary>
   </component>
@@ -738,26 +737,11 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="19282000" />
+      <workItem from="1547385286196" duration="19678000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 31m 53s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 32m 57s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 53m 08s.xml">
-      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 53m 30s.xml">
-      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 55m 04s.xml">
-      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 21h 56m 42s.xml">
       <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
@@ -773,9 +757,24 @@
     <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 58m 48s.xml">
       <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 10m 50s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 11m 23s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 12m 10s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 12m 29s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 12m 43s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70020000" />
+    <option name="totallyTimeSpent" value="70416000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-5" y="0" width="722" height="765" extended-state="0" />
@@ -946,22 +945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#3102#3103#0" expanded="true" />
-            <element signature="e#3137#3138#0" expanded="true" />
-            <element signature="e#3259#3260#0" expanded="true" />
-            <element signature="e#3322#3323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -979,10 +962,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1234#1235#0" expanded="true" />
+            <element signature="e#1268#1269#0" expanded="true" />
+            <element signature="e#3102#3103#0" expanded="true" />
+            <element signature="e#3137#3138#0" expanded="true" />
+            <element signature="e#3259#3260#0" expanded="true" />
+            <element signature="e#3322#3323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="174" column="53" selection-start-line="174" selection-start-column="53" selection-end-line="174" selection-end-column="53" />
+        <state relative-caret-position="262">
+          <caret line="193" column="20" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
         </state>
       </provider>
     </entry>

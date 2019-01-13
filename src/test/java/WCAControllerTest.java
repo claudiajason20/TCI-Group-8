@@ -182,6 +182,18 @@ public class WCAControllerTest {
         controller.crawlWithDepth(webCrawl,parser,url,max_depth);
         //Assert
         verify(webCrawl).crawlWithDepth(url,starting_depth);
+    }
+    @Test
+    public void verifyThatParseSpecificMethodRuns(){
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        //Act
+        controller.getSpecific(webCrawl,parser,url,"Beethoven",1);
+        //Assert
+        verify(parser).parseSpecific(url,"Beethoven");
 
     }
 
