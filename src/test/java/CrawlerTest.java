@@ -5,6 +5,7 @@ import java.io.IOException;
 
 import static org.junit.Assert.*;
 import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 
 public class CrawlerTest {
     /**
@@ -59,14 +60,14 @@ public class CrawlerTest {
         //Assert
     }
     @Test
-    public void assertThatCrawlerAbleToReceiveLinks(){
+    public void assertThatCrawlerAbleToReceiveLinks() throws IOException {
         //Arrange
         Crawler a=new Crawler();
         String url=mock(String.class);
         Elements elements=mock(Elements.class);
         //Act
-        Elements links=a.getLinks();
-        when(a.getLinks()).thenReturn(elements);
+        Elements links=a.getLinks(url);
+        when(a.getLinks(url)).thenReturn(elements);
         //Assert
         assertEquals(elements,links);
     }

@@ -1,3 +1,5 @@
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
@@ -27,5 +29,9 @@ public class Crawler {
         if (verifyUrl(url) && verifyWebsiteOnly(url)) {
             pagesToVisit.add(url);
         }else throw new RuntimeException("BASE URL IS NOT VALID");
+    }
+    public Elements getLinks(String url) throws IOException {
+        Document html = Jsoup.connect(url).get();
+        return html.select("a[href]");
     }
 }
