@@ -96,6 +96,11 @@ public class CrawlerTest {
         //Assert
         assertTrue("Visited Pages is empty",a.getVisitedPages().size()>0);
     }
+
+    /**
+     * If Max_depth is the same as the current depth, then the crawler succesfully reaches the specified level of depth
+     * @throws IOException
+     */
     @Test
     public void assertThatCrawlWithDepthReachesSpecifiedDepth() throws IOException {
         //Arrange
