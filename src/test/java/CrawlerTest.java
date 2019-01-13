@@ -63,13 +63,11 @@ public class CrawlerTest {
     public void assertThatCrawlerAbleToReceiveLinks() throws IOException {
         //Arrange
         Crawler a=new Crawler();
-        String url=mock(String.class);
-        Elements elements=mock(Elements.class);
+        String url = "http://localhost/sample_sit/";
         //Act
         Elements links=a.getLinks(url);
-        when(a.getLinks(url)).thenReturn(elements);
         //Assert
-        assertEquals(elements,links);
+        assertTrue("Links is not empty",links.size()>0);
     }
 
 
