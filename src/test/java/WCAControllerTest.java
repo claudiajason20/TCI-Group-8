@@ -136,14 +136,12 @@ public class WCAControllerTest {
     @Test
     public void verifyThatExtractorParseAllMethodWorks() throws IOException, musicParameterException, musicYearException {
         //Arrange
-        Set<String> visitedPages = mock(HashSet.class);
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         int size=4;
         String url = "http://localhost/sample_sit/";
         //Act
-        visitedPages.add(url);
         controller.getAll(webCrawl,parser,url);
         when(webCrawl.getVisitedPagesSize()).thenReturn(size);
         when(webCrawl.getUrl(0)).thenReturn(url);
@@ -151,7 +149,6 @@ public class WCAControllerTest {
         verify(webCrawl).recursiveCrawl(url);
         verify(parser).parseAll(webCrawl.getUrl(0));
     }
-    @Test
 
 
 }
