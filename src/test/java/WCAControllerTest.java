@@ -1,8 +1,10 @@
 import org.jsoup.nodes.Document;
 import org.junit.Assert;
 import org.junit.Test;
+import org.mockito.Mock;
 
 import java.io.IOException;
+import java.util.ArrayList;
 
 import static org.mockito.Mockito.*;
 
@@ -127,6 +129,7 @@ public class WCAControllerTest {
 
     /**
      * This test verifies whether the parse all method from the crawler works
+     *
      * @throws IOException
      * @throws musicParameterException
      * @throws musicYearException
@@ -139,15 +142,16 @@ public class WCAControllerTest {
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.getAll(webCrawl,parser,url, 1);
-
+        controller.getAll(webCrawl, parser, url, 1);
+        when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).recursiveCrawl(url);
-        verify(parser).parseAll(webCrawl.getUrl(0));
+        verify(parser).parseAll(url);//indirect output
     }
 
     /**
-     *      * This test verifies whether the BFSCrawl method from the crawler works
+     * * This test verifies whether the BFSCrawl method from the crawler works
+     *
      * @throws IOException
      * @throws musicParameterException
      * @throws musicYearException
@@ -160,13 +164,14 @@ public class WCAControllerTest {
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.getAll(webCrawl,parser,url,2);
+        controller.getAll(webCrawl, parser, url, 2);
         //Assert
         verify(webCrawl).crawl(url);
     }
 
     /**
      * This test verifies that crawlWithDepthMethod is running
+     *
      * @throws IOException
      */
     @Test
@@ -175,17 +180,18 @@ public class WCAControllerTest {
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
-        int starting_depth=0;
-        int max_depth=0;
+        int starting_depth = 0;
+        int max_depth = 0;
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.crawlWithDepth(webCrawl,parser,url,max_depth);
+        controller.crawlWithDepth(webCrawl, parser, url, max_depth);
         //Assert
-        verify(webCrawl).crawlWithDepth(url,starting_depth);
+        verify(webCrawl).crawlWithDepth(url, starting_depth);
     }
 
     /**
      * Verifies that ParseSpecificMethod is called
+     *
      * @throws IOException
      */
     @Test
@@ -195,15 +201,35 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
-        String query="Beethoven";
+        String query = "Beethoven";
         //Act
-        controller.getSpecific(webCrawl,parser,url,query,1);
-        when(parser.parseSpecific(url,query)).thenReturn(true);
+        when(parser.parseSpecific(url, query)).thenReturn(true);
+        when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
+        controller.getSpecific(webCrawl, parser, url, query, 1);
+
         //Assert
-        verify(parser).parseSpecific(url,query);
-
+        verify(parser).parseSpecific(url, query);//indirect output
     }
+    @Test
+    public void verifyThatSerializeToJsonWorks() throws musicParameterException, IOException, musicYearException {
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        ArrayList<Music> musicList= mock(ArrayList.class);
+        ArrayList<Books> bookList= mock(ArrayList.class);
+        ArrayList<Movies> movieList= mock(ArrayList.class);
+        Search newSearch=new Search();
+        //Act
+        when(parser.getMusicList()).thenReturn(musicList);
+        when(parser.getBooksList()).thenReturn(bookList);
+        when(parser.getMoviesList()).thenReturn(movieList);
 
+        controller.getAll(webCrawl,parser,url,1);
+        //Assert
+        verify(newSearch).addList(musicList,bookList,movieList);
+    }
 
 
 }
