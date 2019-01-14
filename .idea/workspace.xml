@@ -2,8 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.css/coverage.css" beforeDir="false" afterPath="$PROJECT_DIR$/.css/coverage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/.classes/Books.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/.classes/Books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.empty/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/.empty/index_SORT_BY_NAME_DESC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_BLOCK.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_BLOCK.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_BLOCK_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_BLOCK_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_CLASS.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_CLASS.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_CLASS_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_CLASS_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_LINE.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_LINE.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_LINE_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_LINE_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_METHOD.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_METHOD.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_METHOD_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_METHOD_DESC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index_SORT_BY_NAME_DESC.html" beforeDir="false" afterPath="$PROJECT_DIR$/index_SORT_BY_NAME_DESC.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CrawlerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -19,9 +42,12 @@
     <SUITE FILE_PATH="coverage/project$TCI_Group_8__build_.ic" NAME="TCI-Group-8 [build] Coverage Results" MODIFIED="1544437978910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest_BookIsEmpty.ic" NAME="BookTest.BookIsEmpty Coverage Results" MODIFIED="1544434528943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$CrawlerTest.ic" NAME="CrawlerTest Coverage Results" MODIFIED="1547409792851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$WCAControllerTest.ic" NAME="WCAControllerTest Coverage Results" MODIFIED="1547430754321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$WCAControllerTest_verifyThatExtractorParseAllMethodWorks.ic" NAME="WCAControllerTest.verifyThatExtractorParseAllMethodWorks Coverage Results" MODIFIED="1547409195546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJson.ic" NAME="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson Coverage Results" MODIFIED="1547428294369" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$WCAControllerTest_verifyThatBFSCrawlMethodRuns.ic" NAME="WCAControllerTest.verifyThatBFSCrawlMethodRuns Coverage Results" MODIFIED="1547413115402" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest.ic" NAME="BookTest Coverage Results" MODIFIED="1544436436847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/project$WCAControllerTest_verifyThatCrawlWithDepthMethodRuns.ic" NAME="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns Coverage Results" MODIFIED="1547430135050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/project$BookTest_checkString.ic" NAME="BookTest.checkString Coverage Results" MODIFIED="1544435736818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageOptionsProvider">
@@ -30,7 +56,7 @@
   <component name="CoverageViewManager">
     <option name="myFlattenPackages" value="true" />
     <option name="myAutoScrollToSource" value="true" />
-    <option name="myElementSize" value="191" />
+    <option name="myElementSize" value="182" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -102,14 +128,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6199" />
+          <entry key="java" value="6725" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6199" />
+          <entry key="JAVA" value="6725" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -132,8 +158,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="767">
-              <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+            <state relative-caret-position="750">
+              <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -141,20 +167,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-884">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="216" column="62" selection-start-line="216" selection-start-column="62" selection-end-line="216" selection-end-column="62" />
+            <state relative-caret-position="257">
+              <caret line="292" column="16" lean-forward="true" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -162,8 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="119" column="1" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
+            <state relative-caret-position="337">
+              <caret line="116" selection-start-line="116" selection-end-line="116" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,10 +191,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1258">
-              <caret line="103" selection-start-line="103" selection-end-line="103" />
+            <state relative-caret-position="370">
+              <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#3340#3341#0" expanded="true" />
                 <element signature="e#3403#3404#0" expanded="true" />
               </folding>
             </state>
@@ -218,6 +236,7 @@
       <find>a</find>
       <find>assert</find>
       <find>getspecifi</find>
+      <find>getall</find>
       <find>insert</find>
     </findStrings>
     <replaceStrings>
@@ -543,11 +562,11 @@
         <option value="$PROJECT_DIR$/src/main/java/Books.java" />
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/crawlerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
         <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Search.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
       </list>
@@ -626,7 +645,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547427774331" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547430753636" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -660,7 +679,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns">
+  <component name="RunManager" selected="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific">
+    <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
+      <option name="METHOD_NAME" value="assertThatCrawlWithDepthReachesSpecifiedDepth" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WCAControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -674,52 +715,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatBFSCrawlMethodRuns" />
+      <option name="METHOD_NAME" value="assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatExtractorParseAllMethodWorks" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatParseSpecificMethodRuns" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="WCAControllerTest.verifyThatSerializeToJsonWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatSerializeToJsonWorks" />
+      <option name="METHOD_NAME" value="verifyThatCrawlWithDepthMethodRuns" />
       <option name="TEST_OBJECT" value="method" />
       <option name="PARAMETERS" value="" />
       <method v="2">
@@ -727,19 +739,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
-      <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
-      <item itemvalue="JUnit.WCAControllerTest.verifyThatSerializeToJsonWorks" />
       <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson" />
-      <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
+      <item itemvalue="JUnit.WCAControllerTest" />
+      <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
+      <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
+      <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
-        <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
-        <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
+        <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" />
+        <item itemvalue="JUnit.WCAControllerTest" />
+        <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
+        <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
         <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson" />
-        <item itemvalue="JUnit.WCAControllerTest.verifyThatSerializeToJsonWorks" />
       </list>
     </recent_temporary>
   </component>
@@ -774,39 +786,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCAControllerTest_verifyThatParseSpecificMethodRuns - 2019.01.13 at 22h 24m 07s.xml">
-      <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.14 at 02h 42m 39s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatParseSpecificMethodRuns - 2019.01.13 at 22h 24m 25s.xml">
-      <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.14 at 02h 43m 50s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatParseSpecificMethodRuns - 2019.01.13 at 22h 25m 33s.xml">
-      <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" configurationId="JUnit" />
+    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.14 at 02h 44m 52s.xml">
+      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 22h 42m 42s.xml">
-      <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
+    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.14 at 02h 48m 45s.xml">
+      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatSerializeToJsonWorks - 2019.01.14 at 00h 56m 37s.xml">
-      <configuration name="WCAControllerTest.verifyThatSerializeToJsonWorks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.14 at 02h 49m 02s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatSerializeToJsonWorks - 2019.01.14 at 01h 03m 56s.xml">
-      <configuration name="WCAControllerTest.verifyThatSerializeToJsonWorks" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.14 at 02h 49m 21s.xml">
+      <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJson - 2019.01.14 at 01h 17m 38s.xml">
-      <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest - 2019.01.14 at 02h 49m 54s.xml">
+      <configuration name="WCAControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJson - 2019.01.14 at 01h 17m 54s.xml">
-      <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJson" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest - 2019.01.14 at 02h 51m 36s.xml">
+      <configuration name="WCAControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatParseSpecificMethodRuns - 2019.01.14 at 01h 51m 22s.xml">
-      <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest - 2019.01.14 at 02h 52m 10s.xml">
+      <configuration name="WCAControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WCAControllerTest_verifyThatParseSpecificMethodRuns - 2019.01.14 at 01h 54m 12s.xml">
-      <configuration name="WCAControllerTest.verifyThatParseSpecificMethodRuns" configurationId="JUnit" />
+    <history-entry file="WCAControllerTest - 2019.01.14 at 02h 52m 51s.xml">
+      <configuration name="WCAControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79504000" />
+    <option name="totallyTimeSpent" value="82773000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
@@ -822,7 +834,7 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3224299" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3224299" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -843,7 +855,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32882884" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" visible="true" weight="0.32777375" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32882884" />
       <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout>
@@ -977,23 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="119" column="1" selection-start-line="119" selection-start-column="1" selection-end-line="119" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-884">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-395">
@@ -1010,21 +1005,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="75" column="46" selection-start-line="75" selection-start-column="46" selection-end-line="75" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
+        <state relative-caret-position="370">
+          <caret line="74" column="44" lean-forward="true" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
             <element signature="e#3403#3404#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="767">
-          <caret line="91" column="31" selection-start-line="91" selection-start-column="31" selection-end-line="91" selection-end-column="31" />
+        <state relative-caret-position="750">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1033,8 +1046,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="216" column="62" selection-start-line="216" selection-start-column="62" selection-end-line="216" selection-end-column="62" />
+        <state relative-caret-position="257">
+          <caret line="292" column="16" lean-forward="true" selection-start-line="292" selection-start-column="16" selection-end-line="292" selection-end-column="16" />
         </state>
       </provider>
     </entry>

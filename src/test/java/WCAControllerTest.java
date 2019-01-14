@@ -188,14 +188,16 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         int starting_depth = 0;
-        int max_depth = 0;
+        int max_depth = 5;
         String url = "http://localhost/sample_sit/";
         Search newSearch = mock(Search.class);
 
         //Act
-        controller.crawlWithDepth(webCrawl, parser, url, max_depth);
+        controller.crawlDepth(webCrawl, parser, url, max_depth);
+        when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).crawlWithDepth(url, starting_depth);
+        verify(parser).parseAll(url);
     }
 
     /**
@@ -215,8 +217,6 @@ public class WCAControllerTest {
         controller.getSpecific(webCrawl, parser, url, query, 2);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         when(parser.parseSpecific(url, query)).thenReturn(true);
-
-
         //Assert
         verify(parser).parseSpecific(url, query);//indirect output
     }
@@ -250,6 +250,13 @@ public class WCAControllerTest {
         verify(newSearch).addList(musicList, bookList, movieList);//indirect output
     }
 
+    /**
+     * This test asserts whether the searchClass is able to return expected json
+     *
+     * @throws IOException
+     * @throws musicParameterException
+     * @throws musicYearException
+     */
     @Test
     public void assertThatSearchClassIsAbleToReturnCorrectJson() throws IOException, musicParameterException, musicYearException {
         //Arrange
@@ -262,8 +269,27 @@ public class WCAControllerTest {
         String result;
         int type = 1;
         //Act
-        when(newSearch.getJson()).thenReturn(json);
+        when(newSearch.getJson()).thenReturn(json);//indirect input
         result = controller.getAll(webCrawl, parser, url, type, newSearch);
+        //Assert
+        assertEquals(json, result);
+    }
+
+    @Test
+    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific() throws IOException, musicParameterException, musicYearException {
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        Search newSearch = mock(Search.class);
+        String json = "sample";
+        String query="Beethoven";
+        String result;
+        int type = 1;
+        //Act
+        when(newSearch.getJson()).thenReturn(json);//indirect input
+        result = controller.getSpecific(webCrawl, parser, url, query, 2, newSearch);
         //Assert
         assertEquals(json, result);
     }
