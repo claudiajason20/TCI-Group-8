@@ -7,6 +7,7 @@ import org.mockito.Mock;
 import java.io.IOException;
 import java.util.ArrayList;
 
+import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.*;
 
 public class WCAControllerTest {
@@ -250,7 +251,21 @@ public class WCAControllerTest {
         verify(newSearch).addList(musicList,bookList,movieList);//indirect output
     }
     @Test
-    public void ver
+    public void assertThatSearchClassIsAbleToReturnCorrectJson(){
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        Search newSearch=mock(Search.class);
+        String json="sample";
+        int type=1;
+        //Act
+        when(newSearch.getJson()).thenReturn(json);
+        controller.getAll(webCrawl,parser,url,type,newSearch);
+        //Assert
+        assertEquals(json,controller.getAll());
+    }
 
 
 }
