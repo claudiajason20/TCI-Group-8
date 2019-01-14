@@ -7,11 +7,11 @@ import java.util.Calendar;
  */
 public class Movies {
     private int id;
-    private final String name;
-    private final String genre;
-    private final String format;
-    private final String year;
-    private final String director;
+    private String name;
+    private String genre;
+    private String format;
+    private String year;
+    private String director;
     private ArrayList<String>writers = new ArrayList<String>();
     private ArrayList<String>stars = new ArrayList<String>();
 
@@ -101,5 +101,13 @@ public class Movies {
 
     public void setid(int i) {
         this.id=id;
+    }
+
+    public void setgenre(String genre) {
+        this.genre=genre;
+    }
+
+    public void setformat(String format) {
+        this.format=format;
     }
 }
