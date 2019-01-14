@@ -298,6 +298,24 @@ public class WCAControllerTest {
         //Assert
         assertEquals(json, result);
     }
+    @Test
+    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth(){
+        //Arrange
+        Crawler webCrawl = spy(Crawler.class);
+        Scrapper parser = mock(Scrapper.class);
+        WCAController controller = new WCAController();
+        String url = "http://localhost/sample_sit/";
+        Search newSearch = mock(Search.class);
+        String json = "sample";
+        String result;
+        int max_depth = 5;
+
+        //Act
+        when(newSearch.getJson()).thenReturn(json);//indirect input
+        result=controller.crawlDepth(webCrawl,parser,url,max_depth,newSearch);
+        //Assert
+        assertEquals(json, result);
+    }
 
 
 }

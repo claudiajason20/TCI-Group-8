@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -104,14 +103,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6773" />
+          <entry key="java" value="6963" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6773" />
+          <entry key="JAVA" value="6963" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
@@ -134,7 +133,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="612">
               <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -146,8 +145,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1086">
-              <caret line="213" column="43" selection-start-line="213" selection-start-column="43" selection-end-line="213" selection-end-column="43" />
+            <state relative-caret-position="316">
+              <caret line="307" selection-start-line="307" selection-end-line="307" />
             </state>
           </provider>
         </entry>
@@ -155,8 +154,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="116" selection-start-line="116" selection-end-line="116" />
+            <state relative-caret-position="1904">
+              <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -543,8 +542,8 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/Search.java" />
         <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
       </list>
     </option>
   </component>
@@ -560,8 +559,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1588" />
     <option name="width" value="1625" />
     <option name="height" value="1722" />
   </component>
@@ -621,7 +620,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547431311050" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547431629715" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -655,17 +654,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific">
-    <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CrawlerTest" />
-      <option name="METHOD_NAME" value="assertThatCrawlWithDepthReachesSpecifiedDepth" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth">
     <configuration name="WCAControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -674,6 +663,16 @@
       <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
+      <option name="METHOD_NAME" value="assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -717,17 +716,17 @@
     <list>
       <item itemvalue="JUnit.WCAControllerTest" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
-      <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
       <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" />
       <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific" />
+      <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth" />
         <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific" />
         <item itemvalue="JUnit.WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" />
         <item itemvalue="JUnit.WCAControllerTest" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
-        <item itemvalue="JUnit.CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" />
       </list>
     </recent_temporary>
   </component>
@@ -762,12 +761,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.14 at 02h 44m 52s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrawlerTest_assertThatCrawlWithDepthReachesSpecifiedDepth - 2019.01.14 at 02h 48m 45s.xml">
-      <configuration name="CrawlerTest.assertThatCrawlWithDepthReachesSpecifiedDepth" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.14 at 02h 49m 02s.xml">
       <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
@@ -792,12 +785,18 @@
     <history-entry file="WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific - 2019.01.14 at 03h 01m 20s.xml">
       <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific - 2019.01.14 at 03h 01m 55s.xml">
+      <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WCAControllerTest_assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific - 2019.01.14 at 03h 03m 07s.xml">
+      <configuration name="WCAControllerTest.assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83019000" />
+    <option name="totallyTimeSpent" value="83337000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
+    <frame x="706" y="0" width="722" height="765" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.6359681" />
@@ -810,14 +809,14 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32866043" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3224299" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3224299" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32087228" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32440946" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
@@ -831,7 +830,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" visible="true" weight="0.32777375" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32777375" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32882884" />
       <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout>
@@ -1002,8 +1001,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CrawlerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        <state relative-caret-position="1904">
+          <caret line="112" column="36" lean-forward="true" selection-start-line="112" selection-start-column="36" selection-end-line="112" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1012,7 +1011,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="612">
           <caret line="108" column="35" selection-start-line="108" selection-start-column="35" selection-end-line="108" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1022,8 +1021,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1086">
-          <caret line="213" column="43" selection-start-line="213" selection-start-column="43" selection-end-line="213" selection-end-column="43" />
+        <state relative-caret-position="316">
+          <caret line="307" selection-start-line="307" selection-end-line="307" />
         </state>
       </provider>
     </entry>
