@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Scanner;
 
 /**
  * WCA REST class
@@ -25,6 +26,13 @@ this.wcaController=wcaController;
 this.scrapper=scrapper;
 this.crawler=crawler;
 this.search=search;
+    }
+
+    public WCAREST(WCAController wcaController) {
+        this.wcaController=wcaController;
+        Scrapper scrapper=new Scrapper();
+        Crawler crawler=new Crawler();
+        Search search=new Search();
     }
 
     /**
