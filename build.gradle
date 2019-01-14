@@ -18,7 +18,9 @@ dependencies {
     compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
 // https://mvnrepository.com/artifact/pl.pragmatists/JUnitParams
     testCompile group: 'pl.pragmatists', name: 'JUnitParams', version: '1.1.1'
-    
+
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+
 }
 
 jacoco {
