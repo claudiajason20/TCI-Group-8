@@ -90,10 +90,8 @@ public class WCAController {
      */
     public String crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth, Search newSearch) throws IOException {
         Instant start = Instant.now();
-//        a.crawl(url);
         webCrawl.setMax_depth(max_depth);
         webCrawl.crawlWithDepth(url, 0);
-//        links.addAll(webCrawl.getVisitedPages());
         int size = webCrawl.getVisitedPagesSize();
         for (int i = 0; i < size; i++) {
             extractor.parseAll(webCrawl.getUrl(i));
