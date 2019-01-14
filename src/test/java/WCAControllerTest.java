@@ -229,7 +229,7 @@ public class WCAControllerTest {
      * @throws musicYearException
      */
     @Test
-    public void verifyThatSerializeToJsonWorks() throws musicParameterException, IOException, musicYearException {
+    public void verifyThatSearchIsAbleToAddArrayListObjectFromTheParser() throws musicParameterException, IOException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
@@ -249,6 +249,8 @@ public class WCAControllerTest {
         //Assert
         verify(newSearch).addList(musicList,bookList,movieList);//indirect output
     }
+    @Test
+    public void ver
 
 
 }
