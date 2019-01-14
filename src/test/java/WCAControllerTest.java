@@ -301,6 +301,7 @@ public class WCAControllerTest {
 
     /**
      * This test checks whether the returned value of CrawlDepth function is as expected
+     * this function also uses an extended search class that has additional pagesExplored and depth as it's attributes
      *
      * @throws IOException
      */
