@@ -78,6 +78,16 @@ public class WCAController {
         return newSearch.getJson();
     }
 
+    /**
+     * This function calls the crawlWithDepth function which recursively crawls until a specified Depth is reached, then it will parse all the information from the links given
+     * @param webCrawl
+     * @param extractor
+     * @param url
+     * @param max_depth
+     * @param newSearch
+     * @return
+     * @throws IOException
+     */
     public String crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth, Search newSearch) throws IOException {
         Instant start = Instant.now();
 //        a.crawl(url);
@@ -94,6 +104,17 @@ public class WCAController {
         return newSearch.getJson();
     }
 
+    /**
+     * This test crawl all of the website, and then give it to the parser to find the specific query given, it will stop when the given query is found
+     * @param webCrawl
+     * @param extractor
+     * @param url
+     * @param query
+     * @param type
+     * @param newSearch
+     * @return
+     * @throws IOException
+     */
     public String getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type, Search newSearch) throws IOException {
         Instant start = Instant.now();
         if (type == 1) webCrawl.recursiveCrawl(url);

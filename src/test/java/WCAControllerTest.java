@@ -311,7 +311,7 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
-        Search newSearch = mock(Search.class);
+        SearchWithDepth newSearch = mock(SearchWithDepth.class);
         String json = "sample";
         String result;
         int max_depth = 5;
