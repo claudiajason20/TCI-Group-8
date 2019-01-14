@@ -145,7 +145,7 @@ public class WCAControllerTest {
         Search newSearch = mock(Search.class);
 
         //Act
-        controller.getAll(webCrawl, parser, url, 1, newSearch);
+        controller.getAll(webCrawl, parser, url, 1, newSearch);//dummy testing
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).recursiveCrawl(url);
@@ -211,7 +211,7 @@ public class WCAControllerTest {
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
         String query = "Beethoven";
-        Search newSearch=mock(Search.class);
+        Search newSearch = mock(Search.class);
         //Act
         controller.getSpecific(webCrawl, parser, url, query, 2, newSearch);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
@@ -276,6 +276,7 @@ public class WCAControllerTest {
 
     /**
      * This test checks whether the return value from parseSpecific is correct
+     *
      * @throws IOException
      * @throws musicParameterException
      * @throws musicYearException
@@ -289,7 +290,7 @@ public class WCAControllerTest {
         String url = "http://localhost/sample_sit/";
         Search newSearch = mock(Search.class);
         String json = "sample";
-        String query="Beethoven";
+        String query = "Beethoven";
         String result;
         int type = 1;
         //Act
@@ -319,7 +320,7 @@ public class WCAControllerTest {
 
         //Act
         when(newSearch.getJson()).thenReturn(json);//indirect input
-        result=controller.crawlDepth(webCrawl,parser,url,max_depth,newSearch);
+        result = controller.crawlDepth(webCrawl, parser, url, max_depth, newSearch);
         //Assert
         assertEquals(json, result);
     }
