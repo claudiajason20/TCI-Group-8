@@ -47,7 +47,7 @@ public class WCARESTTest {
     }
 
     @Test
-    public void canDoGetSpecificFunction() throws IOException {
+    public void canDoGetSpecificFunction() throws IOException, musicParameterException, musicYearException {
 //      Test whether the WCAController can do getspecific request
 //      Arrange
         WCAController wcaController=mock(WCAController.class);
@@ -77,7 +77,7 @@ public class WCARESTTest {
     }
 
     @Test
-    public void canDoGetCrawlDepthFunction() throws IOException {
+    public void canDoGetCrawlDepthFunction() throws IOException, musicParameterException, musicYearException {
 //        Test whether the WCACOntroller can do getcrawlData request
 
 //        Arrange

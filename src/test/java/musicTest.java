@@ -28,7 +28,7 @@ public class musicTest {
         String Artist="Harry Bieber";
 
         //act
-        Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
+        Music musicTest=new Music(id,Title,Category,Genre,Format,String.valueOf(Year),Artist);
         //assert is handled by the exception
     }
 
@@ -50,7 +50,7 @@ public class musicTest {
         String Artist="Harry Bieber";
 
         //act
-        Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
+        Music musicTest=new Music(id,Title,Category,Genre,Format,String.valueOf(Year),Artist);
         //assert is handled by the exception
     }
 
@@ -73,7 +73,7 @@ public class musicTest {
         String Artist=null;
 
         //act
-        Music musicTest=new Music(id,Title,Category,Genre,Format,Year,Artist);
+        Music musicTest=new Music(id,Title,Category,Genre,Format,String.valueOf(Year),Artist);
         //assert is handled by the exception
     }
 

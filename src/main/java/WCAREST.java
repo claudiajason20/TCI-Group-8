@@ -63,6 +63,10 @@ this.search=search;
                 return wcaController.getSpecific(crawler,scrapper,base.getBase(),base.getParam(),1,search);
             } catch (IOException e) {
                 e.printStackTrace();
+            } catch (musicParameterException e) {
+                e.printStackTrace();
+            } catch (musicYearException e) {
+                e.printStackTrace();
             }
         }
         else if(choice==3) {
@@ -70,6 +74,10 @@ this.search=search;
             try {
                 return wcaController.crawlDepth(crawler,scrapper,base.getBase(),Integer.parseInt(base.getParam()),search);
             } catch (IOException e) {
+                e.printStackTrace();
+            } catch (musicParameterException e) {
+                e.printStackTrace();
+            } catch (musicYearException e) {
                 e.printStackTrace();
             }
         }

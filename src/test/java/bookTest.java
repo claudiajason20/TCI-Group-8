@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 import static org.junit.Assert.*;
 
-public class BookTest {
+public class bookTest {
     @Test
     public void BookIsEmpty() {
         Books book = new Books();

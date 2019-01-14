@@ -83,7 +83,7 @@ CombinedLink combinedLink=new CombinedLink();
      * @return
      * @throws IOException
      */
-    public String crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth, Search newSearch) throws IOException {
+    public String crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth, Search newSearch) throws IOException, musicParameterException, musicYearException {
         Instant start = Instant.now();
         webCrawl.setMax_depth(max_depth);
         webCrawl.crawlWithDepth(url, 0);
@@ -108,7 +108,7 @@ CombinedLink combinedLink=new CombinedLink();
      * @return
      * @throws IOException
      */
-    public String getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type, Search newSearch) throws IOException {
+    public String getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type, Search newSearch) throws IOException, musicParameterException, musicYearException {
         Instant start = Instant.now();
         if (type == 1) webCrawl.recursiveCrawl(url);
         else webCrawl.crawl(url);

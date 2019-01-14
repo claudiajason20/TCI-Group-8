@@ -6,14 +6,14 @@ import java.util.Calendar;
  * Movies class
  */
 public class Movies {
-    private int id;
-    private String name;
-    private String genre;
-    private String format;
-    private String year;
-    private String director;
-    private ArrayList<String>writers = new ArrayList<String>();
-    private ArrayList<String>stars = new ArrayList<String>();
+    public int id;
+    public final String name;
+    public final String genre;
+    public final String format;
+    public final String year;
+    public final String director;
+    public ArrayList<String>writers = new ArrayList<String>();
+    public ArrayList<String>stars = new ArrayList<String>();
 
 
     /**
@@ -101,13 +101,5 @@ public class Movies {
 
     public void setid(int i) {
         this.id=id;
-    }
-
-    public void setgenre(String genre) {
-        this.genre=genre;
-    }
-
-    public void setformat(String format) {
-        this.format=format;
     }
 }
