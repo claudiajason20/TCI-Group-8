@@ -298,6 +298,12 @@ public class WCAControllerTest {
         //Assert
         assertEquals(json, result);
     }
+
+    /**
+     * This test checks whether the returned value of CrawlDepth function is as expected
+     *
+     * @throws IOException
+     */
     @Test
     public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth() throws IOException {
         //Arrange
