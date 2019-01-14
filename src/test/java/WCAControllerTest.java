@@ -221,6 +221,13 @@ public class WCAControllerTest {
         //Assert
         verify(parser).parseSpecific(url, query);//indirect output
     }
+
+    /**
+     * This test verifies that arrayList is able to be added to the class
+     * @throws musicParameterException
+     * @throws IOException
+     * @throws musicYearException
+     */
     @Test
     public void verifyThatSerializeToJsonWorks() throws musicParameterException, IOException, musicYearException {
         //Arrange
@@ -232,12 +239,13 @@ public class WCAControllerTest {
         ArrayList<Books> bookList= mock(ArrayList.class);
         ArrayList<Movies> movieList= mock(ArrayList.class);
         Search newSearch=mock(Search.class);
+        int type=1;
         //Act
         when(parser.getMusicList()).thenReturn(musicList);//indirect input
         when(parser.getBookList()).thenReturn(bookList);
         when(parser.getMovieList()).thenReturn(movieList);
 
-        controller.getAll(webCrawl,parser,url,1,newSearch);
+        controller.getAll(webCrawl,parser,url,type,newSearch);
         //Assert
         verify(newSearch).addList(musicList,bookList,movieList);//indirect output
     }
