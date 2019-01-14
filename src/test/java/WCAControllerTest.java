@@ -1,5 +1,6 @@
 import org.jsoup.nodes.Document;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;
 
@@ -134,6 +135,10 @@ public class WCAControllerTest {
      * @throws musicParameterException
      * @throws musicYearException
      */
+    @Before
+    public void setUp(){
+
+    }
     @Test
     public void verifyThatExtractorParseAllMethodWorks() throws IOException, musicParameterException, musicYearException {
         //Arrange
@@ -141,8 +146,10 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
+        Search newSearch=mock(Search.class);
+
         //Act
-        controller.getAll(webCrawl, parser, url, 1);
+        controller.getAll(webCrawl, parser, url, 1,newSearch);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).recursiveCrawl(url);
@@ -162,9 +169,11 @@ public class WCAControllerTest {
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
+        Search newSearch=mock(Search.class);
+
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.getAll(webCrawl, parser, url, 2);
+        controller.getAll(webCrawl, parser, url, 2,newSearch);
         //Assert
         verify(webCrawl).crawl(url);
     }
@@ -183,6 +192,8 @@ public class WCAControllerTest {
         int starting_depth = 0;
         int max_depth = 0;
         String url = "http://localhost/sample_sit/";
+        Search newSearch=mock(Search.class);
+
         //Act
         controller.crawlWithDepth(webCrawl, parser, url, max_depth);
         //Assert
@@ -220,15 +231,15 @@ public class WCAControllerTest {
         ArrayList<Music> musicList= mock(ArrayList.class);
         ArrayList<Books> bookList= mock(ArrayList.class);
         ArrayList<Movies> movieList= mock(ArrayList.class);
-        Search newSearch=new Search();
+        Search newSearch=mock(Search.class);
         //Act
-        when(parser.getMusicList()).thenReturn(musicList);
-        when(parser.getBooksList()).thenReturn(bookList);
-        when(parser.getMoviesList()).thenReturn(movieList);
+        when(parser.getMusicList()).thenReturn(musicList);//indirect input
+        when(parser.getBookList()).thenReturn(bookList);
+        when(parser.getMovieList()).thenReturn(movieList);
 
-        controller.getAll(webCrawl,parser,url,1);
+        controller.getAll(webCrawl,parser,url,1,newSearch);
         //Assert
-        verify(newSearch).addList(musicList,bookList,movieList);
+        verify(newSearch).addList(musicList,bookList,movieList);//indirect output
     }
 
 

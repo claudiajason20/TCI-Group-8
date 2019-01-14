@@ -6,7 +6,7 @@ import java.time.Instant;
 import java.util.ArrayList;
 
 public class WCAController {
-
+    static int id=1;
     public void insertmovies(Movies movies) {
 
     }
@@ -52,10 +52,7 @@ public class WCAController {
     }
 
 
-    public static void getAll(Crawler webCrawl, Scrapper extractor, String url, int type) throws IOException, musicParameterException, musicYearException {
-        ArrayList<Music> musicList = new ArrayList<>();
-        ArrayList<Movies> movieList = new ArrayList<>();
-        ArrayList<Books> bookList = new ArrayList<>();
+    public static void getAll(Crawler webCrawl, Scrapper extractor, String url, int type,Search newSearch) throws IOException, musicParameterException, musicYearException {
         Instant start = Instant.now();
         if (type == 1) webCrawl.recursiveCrawl(url);
         else webCrawl.crawl(url);
@@ -67,10 +64,11 @@ public class WCAController {
         }
         Instant end = Instant.now();
         int timeElapsed = Duration.between(start, end).getNano();
+        newSearch.addList(extractor.getMusicList(), extractor.getBookList(), extractor.getMovieList());
         System.out.println(timeElapsed);
     }
 
-    public void crawlWithDepth(Crawler webCrawl,Scrapper extractor,String url,int max_depth) throws IOException {
+    public void crawlWithDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth) throws IOException {
         Instant start = Instant.now();
 //        a.crawl(url);
         webCrawl.setMax_depth(max_depth);
@@ -79,8 +77,8 @@ public class WCAController {
         for (int i = 0; i < webCrawl.getVisitedPages().size(); i++) {
             extractor.parseAll(webCrawl.getUrl(i));
         }
-        Instant end=Instant.now();
-        System.out.println(Duration.between(start,end));
+        Instant end = Instant.now();
+        System.out.println(Duration.between(start, end));
     }
 
     public void getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type) throws IOException {

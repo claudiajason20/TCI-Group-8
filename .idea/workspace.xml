@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f398e001-5ef7-4c40-93cf-798752a7912f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Scrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Scrapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/WCAController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WCAController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" afterDir="false" />
     </list>
@@ -101,24 +103,24 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5244" />
+          <entry key="java" value="5533" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5244" />
+          <entry key="JAVA" value="5533" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="7" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="7" />
+          <entry key="JAVA" value="12" />
         </counts>
       </usages-collector>
     </session>
@@ -126,31 +128,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+            <state relative-caret-position="187">
+              <caret line="54" column="105" selection-start-line="54" selection-start-column="105" selection-end-line="54" selection-end-column="105" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
-                <element signature="e#1268#1269#0" expanded="true" />
-                <element signature="e#3102#3103#0" expanded="true" />
-                <element signature="e#3137#3138#0" expanded="true" />
-                <element signature="e#3259#3260#0" expanded="true" />
-                <element signature="e#3322#3323#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -158,8 +151,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="230" column="26" lean-forward="true" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
+            <state relative-caret-position="322">
+              <caret line="222" column="44" selection-start-line="222" selection-start-column="44" selection-end-line="222" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Search.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="118">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -167,9 +169,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+            <state relative-caret-position="-153">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
               <folding>
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#464#465#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#572#573#0" expanded="true" />
                 <element signature="e#780#781#0" expanded="true" />
                 <element signature="e#807#808#0" expanded="true" />
               </folding>
@@ -189,13 +196,43 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1458">
+              <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-304">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -529,8 +566,9 @@
         <option value="$PROJECT_DIR$/src/test/java/BookTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/crawlerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/CrawlerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/Crawler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Scrapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Search.java" />
         <option value="$PROJECT_DIR$/src/main/java/WCAController.java" />
         <option value="$PROJECT_DIR$/src/test/java/WCAControllerTest.java" />
       </list>
@@ -609,7 +647,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547423156861" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547424165068" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -644,19 +682,6 @@
     </option>
   </component>
   <component name="RunManager" selected="JUnit.WCAControllerTest.verifyThatSerializeToJsonWorks">
-    <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="project.test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
-      <option name="METHOD_NAME" value="verifyThatBFSCrawlMethodRuns" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -698,28 +723,39 @@
     </configuration>
     <configuration name="WCAControllerTest.verifyThatSerializeToJsonWorks" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="project.test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="WCAControllerTest" />
       <option name="METHOD_NAME" value="verifyThatSerializeToJsonWorks" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="musicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="project.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="musicTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
-      <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
       <item itemvalue="JUnit.WCAControllerTest.verifyThatSerializeToJsonWorks" />
+      <item itemvalue="JUnit.musicTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.WCAControllerTest.verifyThatSerializeToJsonWorks" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatExtractorParseAllMethodWorks" />
+        <item itemvalue="JUnit.musicTest" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatParseSpecificMethodRuns" />
         <item itemvalue="JUnit.WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" />
-        <item itemvalue="JUnit.WCAControllerTest.verifyThatBFSCrawlMethodRuns" />
       </list>
     </recent_temporary>
   </component>
@@ -749,14 +785,11 @@
       <workItem from="1547110301135" duration="29000" />
       <workItem from="1547110746154" duration="1235000" />
       <workItem from="1547298311019" duration="13553000" />
-      <workItem from="1547385286196" duration="24923000" />
+      <workItem from="1547385286196" duration="25819000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WCAControllerTest_verifyThatBFSCrawlMethodRuns - 2019.01.13 at 21h 58m 48s.xml">
-      <configuration name="WCAControllerTest.verifyThatBFSCrawlMethodRuns" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WCAControllerTest_verifyThatCrawlWithDepthMethodRuns - 2019.01.13 at 22h 10m 50s.xml">
       <configuration name="WCAControllerTest.verifyThatCrawlWithDepthMethodRuns" configurationId="JUnit" />
     </history-entry>
@@ -784,15 +817,18 @@
     <history-entry file="WCAControllerTest_verifyThatExtractorParseAllMethodWorks - 2019.01.13 at 22h 42m 42s.xml">
       <configuration name="WCAControllerTest.verifyThatExtractorParseAllMethodWorks" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WCAControllerTest_verifyThatSerializeToJsonWorks - 2019.01.14 at 00h 56m 37s.xml">
+      <configuration name="WCAControllerTest.verifyThatSerializeToJsonWorks" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75661000" />
+    <option name="totallyTimeSpent" value="76557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1435" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.6381381" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975728" weight="0.63741845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -809,11 +845,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32087228" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32087228" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32283464" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3224299" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -838,18 +874,18 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32087228" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32398754" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32554516" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" weight="0.32440946" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49924356" visible="true" weight="0.32087228" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.32569557" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32733223" />
       <window_info anchor="bottom" id="Docker" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32398754" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3224299" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -859,7 +895,7 @@
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
       <window_info anchor="right" id="Maven" order="8" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32994923" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.5011601" side_tool="true" weight="0.32882884" />
       <window_info anchor="right" id="Maven Projects" order="10" weight="0.32882884" />
       <window_info anchor="right" id="Gradle" order="11" sideWeight="0.4988399" weight="0.32980332" />
     </layout-to-restore>
@@ -919,20 +955,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -957,37 +979,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1234#1235#0" expanded="true" />
-            <element signature="e#1268#1269#0" expanded="true" />
-            <element signature="e#3102#3103#0" expanded="true" />
-            <element signature="e#3137#3138#0" expanded="true" />
-            <element signature="e#3259#3260#0" expanded="true" />
-            <element signature="e#3322#3323#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Scrapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        <state relative-caret-position="-153">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
           <folding>
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
             <element signature="e#780#781#0" expanded="true" />
             <element signature="e#807#808#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Books.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-304">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/BookTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Crawler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1458">
+          <caret line="99" column="5" lean-forward="true" selection-start-line="99" selection-start-column="5" selection-end-line="99" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Search.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/musicTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/WCAController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="97" column="8" selection-start-line="97" selection-start-column="8" selection-end-line="97" selection-end-column="8" />
+        <state relative-caret-position="187">
+          <caret line="54" column="105" selection-start-line="54" selection-start-column="105" selection-end-line="54" selection-end-column="105" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -996,8 +1045,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/WCAControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="230" column="26" lean-forward="true" selection-start-line="230" selection-start-column="26" selection-end-line="230" selection-end-column="26" />
+        <state relative-caret-position="322">
+          <caret line="222" column="44" selection-start-line="222" selection-start-column="44" selection-end-line="222" selection-end-column="44" />
         </state>
       </provider>
     </entry>

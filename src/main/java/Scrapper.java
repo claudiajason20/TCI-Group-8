@@ -2,8 +2,26 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Node;
 import org.jsoup.select.Elements;
 
+import java.util.ArrayList;
+
 public class Scrapper {
     private static Document docu;
+
+    ArrayList<Music> musicList = new ArrayList<>();
+    ArrayList<Movies> movieList = new ArrayList<>();
+    ArrayList<Books> bookList = new ArrayList<>();
+
+    public ArrayList<Music> getMusicList() {
+        return musicList;
+    }
+
+    public ArrayList<Movies> getMovieList() {
+        return movieList;
+    }
+
+    public ArrayList<Books> getBookList() {
+        return bookList;
+    }
 
     public static void setDoc(Document doc) {
         docu = doc;
