@@ -1,8 +1,6 @@
 import org.jsoup.nodes.Document;
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
-import org.mockito.Mock;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -213,8 +211,9 @@ public class WCAControllerTest {
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
         String query = "Beethoven";
+        Search newSearch=mock(Search.class);
         //Act
-        controller.getSpecific(webCrawl, parser, url, query, 2);
+        controller.getSpecific(webCrawl, parser, url, query, 2, newSearch);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         when(parser.parseSpecific(url, query)).thenReturn(true);
         //Assert

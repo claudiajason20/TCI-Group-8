@@ -3,37 +3,45 @@ import org.jsoup.nodes.Document;
 import java.io.IOException;
 import java.time.Duration;
 import java.time.Instant;
-import java.util.ArrayList;
 
 public class WCAController {
     static int id = 1;
 
     public void insertmovies(Movies movies) {
     }
+
     public Movies getmovies() {
         return null;
     }
+
     public Books getbooks() {
         return null;
     }
+
     public void insertbooks(Books books) {
     }
+
     public Music getmusics() {
         return null;
     }
+
     public void insertmusic(Music music) {
     }
+
     /**
      * @return Jsoup Document
      */
     public Document getDocument() {
         return null;
     }
+
     public void setDocument(Document doc) {
     }
+
     public String getHtml() {
         return null;
     }
+
     /**
      * @param html html is the code, not the link. It will be used for scrapping with jsoup.
      */
@@ -43,6 +51,7 @@ public class WCAController {
     /**
      * THis function runs the function crawl all, with the option of running the dfs/bfs crawl, then
      * it runs the function parse all to get all the data from the links
+     *
      * @param webCrawl
      * @param extractor
      * @param url
@@ -83,7 +92,7 @@ public class WCAController {
 
     }
 
-    public void getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type) throws IOException {
+    public String getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type, Search newSearch) throws IOException {
         Instant start = Instant.now();
         if (type == 1) webCrawl.recursiveCrawl(url);
         else webCrawl.crawl(url);
@@ -96,8 +105,7 @@ public class WCAController {
         }
         Instant end = Instant.now();
         int timeElapsed = Duration.between(start, end).getNano();
-
-
-//
+        newSearch.addList(extractor.getMusicList(), extractor.getBookList(), extractor.getMovieList());
+        return newSearch.getJson();
     }
 }
