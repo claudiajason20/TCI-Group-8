@@ -8,8 +8,8 @@ import java.util.Calendar;
 public class Movies {
     public int id;
     public final String name;
-    public final String genre;
-    public final String format;
+    public String genre;
+    public String format;
     public final String year;
     public final String director;
     public ArrayList<String>writers = new ArrayList<String>();
@@ -101,5 +101,13 @@ public class Movies {
 
     public void setid(int i) {
         this.id=id;
+    }
+
+    public void setformat(String cd) {
+        this.format=cd;
+    }
+
+    public void setgenre(String action) {
+        this.genre=action;
     }
 }

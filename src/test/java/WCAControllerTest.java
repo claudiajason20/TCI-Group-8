@@ -88,7 +88,7 @@ public class WCAControllerTest {
      * @throws IOException
      */
     @Test
-    public void verifyThatCrawlWithDepthMethodRuns() throws IOException {
+    public void verifyThatCrawlWithDepthMethodRuns() throws IOException, musicParameterException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
@@ -112,7 +112,7 @@ public class WCAControllerTest {
      * @throws IOException
      */
     @Test
-    public void verifyThatParseSpecificMethodRuns() throws IOException {
+    public void verifyThatParseSpecificMethodRuns() throws IOException, musicParameterException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
@@ -215,7 +215,7 @@ public class WCAControllerTest {
      * @throws IOException
      */
     @Test
-    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth() throws IOException {
+    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth() throws IOException, musicParameterException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
