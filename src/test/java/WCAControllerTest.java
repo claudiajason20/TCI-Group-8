@@ -191,7 +191,7 @@ public class WCAControllerTest {
         Search newSearch = mock(Search.class);
 
         //Act
-        controller.crawlDepth(webCrawl, parser, url, max_depth);
+        controller.crawlDepth(webCrawl, parser, url, max_depth, newSearch);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).crawlWithDepth(url, starting_depth);
@@ -299,7 +299,7 @@ public class WCAControllerTest {
         assertEquals(json, result);
     }
     @Test
-    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth(){
+    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromCrawlDepth() throws IOException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);

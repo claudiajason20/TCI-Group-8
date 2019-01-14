@@ -78,7 +78,7 @@ public class WCAController {
         return newSearch.getJson();
     }
 
-    public void crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth) throws IOException {
+    public String crawlDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth, Search newSearch) throws IOException {
         Instant start = Instant.now();
 //        a.crawl(url);
         webCrawl.setMax_depth(max_depth);
@@ -90,6 +90,8 @@ public class WCAController {
         }
         Instant end = Instant.now();
 
+        newSearch.addList(extractor.getMusicList(), extractor.getBookList(), extractor.getMovieList());
+        return newSearch.getJson();
     }
 
     public String getSpecific(Crawler webCrawl, Scrapper extractor, String url, String query, int type, Search newSearch) throws IOException {
