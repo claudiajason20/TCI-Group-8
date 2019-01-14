@@ -136,10 +136,6 @@ public class WCAControllerTest {
      * @throws musicParameterException
      * @throws musicYearException
      */
-    @Before
-    public void setUp() {
-
-    }
 
     @Test
     public void verifyThatExtractorParseAllMethodWorks() throws IOException, musicParameterException, musicYearException {
@@ -216,9 +212,10 @@ public class WCAControllerTest {
         String url = "http://localhost/sample_sit/";
         String query = "Beethoven";
         //Act
-        when(parser.parseSpecific(url, query)).thenReturn(true);
+        controller.getSpecific(webCrawl, parser, url, query, 2);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
-        controller.getSpecific(webCrawl, parser, url, query, 1);
+        when(parser.parseSpecific(url, query)).thenReturn(true);
+
 
         //Assert
         verify(parser).parseSpecific(url, query);//indirect output

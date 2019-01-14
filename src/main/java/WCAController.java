@@ -87,7 +87,9 @@ public class WCAController {
 //        a.crawl(url);
         if (type == 1) webCrawl.recursiveCrawl(url);
         else webCrawl.crawl(url);
-        for (int i = 0; i < webCrawl.getVisitedPages().size(); i++) {
+        int size = webCrawl.getVisitedPagesSize();
+
+        for (int i = 0; i <size; i++) {
             boolean out = false;
             out = extractor.parseSpecific(webCrawl.getUrl(i), query);//indirect input and output
             if (out) break;
