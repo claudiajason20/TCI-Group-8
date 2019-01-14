@@ -274,8 +274,14 @@ public class WCAControllerTest {
         assertEquals(json, result);
     }
 
+    /**
+     * This test checks whether the return value from parseSpecific is correct
+     * @throws IOException
+     * @throws musicParameterException
+     * @throws musicYearException
+     */
     @Test
-    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpesific() throws IOException, musicParameterException, musicYearException {
+    public void assertThatSearchClassIsAbleToReturnCorrectJsonFromParseSpecific() throws IOException, musicParameterException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
