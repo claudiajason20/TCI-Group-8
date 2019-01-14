@@ -137,9 +137,10 @@ public class WCAControllerTest {
      * @throws musicYearException
      */
     @Before
-    public void setUp(){
+    public void setUp() {
 
     }
+
     @Test
     public void verifyThatExtractorParseAllMethodWorks() throws IOException, musicParameterException, musicYearException {
         //Arrange
@@ -147,10 +148,10 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
-        Search newSearch=mock(Search.class);
+        Search newSearch = mock(Search.class);
 
         //Act
-        controller.getAll(webCrawl, parser, url, 1,newSearch);
+        controller.getAll(webCrawl, parser, url, 1, newSearch);
         when(webCrawl.getUrl(0)).thenReturn(url);//indirect input
         //Assert
         verify(webCrawl).recursiveCrawl(url);
@@ -170,11 +171,11 @@ public class WCAControllerTest {
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
-        Search newSearch=mock(Search.class);
+        Search newSearch = mock(Search.class);
 
         String url = "http://localhost/sample_sit/";
         //Act
-        controller.getAll(webCrawl, parser, url, 2,newSearch);
+        controller.getAll(webCrawl, parser, url, 2, newSearch);
         //Assert
         verify(webCrawl).crawl(url);
     }
@@ -193,7 +194,7 @@ public class WCAControllerTest {
         int starting_depth = 0;
         int max_depth = 0;
         String url = "http://localhost/sample_sit/";
-        Search newSearch=mock(Search.class);
+        Search newSearch = mock(Search.class);
 
         //Act
         controller.crawlWithDepth(webCrawl, parser, url, max_depth);
@@ -225,6 +226,7 @@ public class WCAControllerTest {
 
     /**
      * This test verifies that arrayList is able to be added to the class
+     *
      * @throws musicParameterException
      * @throws IOException
      * @throws musicYearException
@@ -236,35 +238,37 @@ public class WCAControllerTest {
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
-        ArrayList<Music> musicList= mock(ArrayList.class);
-        ArrayList<Books> bookList= mock(ArrayList.class);
-        ArrayList<Movies> movieList= mock(ArrayList.class);
-        Search newSearch=mock(Search.class);
-        int type=1;
+        ArrayList<Music> musicList = mock(ArrayList.class);
+        ArrayList<Books> bookList = mock(ArrayList.class);
+        ArrayList<Movies> movieList = mock(ArrayList.class);
+        Search newSearch = mock(Search.class);
+        int type = 1;
         //Act
         when(parser.getMusicList()).thenReturn(musicList);//indirect input
         when(parser.getBookList()).thenReturn(bookList);
         when(parser.getMovieList()).thenReturn(movieList);
 
-        controller.getAll(webCrawl,parser,url,type,newSearch);
+        controller.getAll(webCrawl, parser, url, type, newSearch);
         //Assert
-        verify(newSearch).addList(musicList,bookList,movieList);//indirect output
+        verify(newSearch).addList(musicList, bookList, movieList);//indirect output
     }
+
     @Test
-    public void assertThatSearchClassIsAbleToReturnCorrectJson(){
+    public void assertThatSearchClassIsAbleToReturnCorrectJson() throws IOException, musicParameterException, musicYearException {
         //Arrange
         Crawler webCrawl = spy(Crawler.class);
         Scrapper parser = mock(Scrapper.class);
         WCAController controller = new WCAController();
         String url = "http://localhost/sample_sit/";
-        Search newSearch=mock(Search.class);
-        String json="sample";
-        int type=1;
+        Search newSearch = mock(Search.class);
+        String json = "sample";
+        String result;
+        int type = 1;
         //Act
         when(newSearch.getJson()).thenReturn(json);
-        controller.getAll(webCrawl,parser,url,type,newSearch);
+        result = controller.getAll(webCrawl, parser, url, type, newSearch);
         //Assert
-        assertEquals(json,controller.getAll());
+        assertEquals(json, result);
     }
 
 

@@ -16,7 +16,8 @@ dependencies {
     testImplementation 'org.mockito:mockito-core:2.7.22'
 // https://mvnrepository.com/artifact/org.jsoup/jsoup
     compile group: 'org.jsoup', name: 'jsoup', version: '1.11.3'
-    
+    compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.0.1'
+
 }
 
 jacoco {

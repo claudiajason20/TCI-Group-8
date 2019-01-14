@@ -1,3 +1,6 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Search {
@@ -48,5 +51,11 @@ public class Search {
         this.movieList = movieList;
     }
 
+    public String getJson() throws IOException {
+        ObjectMapper objectMapper = new ObjectMapper();
+        return objectMapper.writeValueAsString(this);
+
+
+    }
 }
 

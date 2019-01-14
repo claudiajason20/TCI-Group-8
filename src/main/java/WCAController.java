@@ -52,7 +52,7 @@ public class WCAController {
     }
 
 
-    public static void getAll(Crawler webCrawl, Scrapper extractor, String url, int type,Search newSearch) throws IOException, musicParameterException, musicYearException {
+    public static String getAll(Crawler webCrawl, Scrapper extractor, String url, int type,Search newSearch) throws IOException, musicParameterException, musicYearException {
         Instant start = Instant.now();
         if (type == 1) webCrawl.recursiveCrawl(url);
         else webCrawl.crawl(url);
@@ -66,6 +66,7 @@ public class WCAController {
         int timeElapsed = Duration.between(start, end).getNano();
         newSearch.addList(extractor.getMusicList(), extractor.getBookList(), extractor.getMovieList());
         System.out.println(timeElapsed);
+        return newSearch.getJson();
     }
 
     public void crawlWithDepth(Crawler webCrawl, Scrapper extractor, String url, int max_depth) throws IOException {
